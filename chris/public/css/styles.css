@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
+
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+p{
+    font-size: 12pt;
+}
+.mw{
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', serif;
+    font-weight: 600 !important;
+}
+.nav-link{
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+}
+.bitter{
+    font-family: 'Bitter', serif;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+}
+.navbar-toggler:focus{
+    color: transparent;
+}
+.navbar-brand > img {
+    height: 36px;
+}
+.time table, .number{
+    font-family: 'Bitter', serif;
+}
+footer{
+    font-family: Arial, sans-serif;
+}
+
+.navbar-dark {
+    background-color: #090B0B;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+footer {
+    /*background-color: #090B0B;*/
+    margin-top: 100px;
+}
+footer .text-black-50{
+    font-size: 8pt;
+}
+footer a.btn, a.btn{
+    font-weight: 700;
+    height: 45px;
+}
+footer a.e_mail, a.e_mail{
+    height: 45px;
+    display: inline-block;
+    font-weight: 700;
+}
+.fb-like {
+    /*margin-right: 20px;*/
+    margin-bottom: 50px;
+}
+
+.fb-like iframe {
+    width: 100% !important;
+}
+
+.fb-like span {
+    width: 300px !important;
+}
+.arial{
+    font-family: Arial, sans-serif;
+}
+.pricing {
+    margin-top: 50px;
+}
+
+.pricing .card {
+    border: 0;
+    padding-top: 5px;
+    font-family: 'Arial', sans-serif;
+}
+.call{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.desc>p{
+    font-weight: 400 !important;
+}
+.pricing .card-header {
+    border: 0;
+    background-color: white;
+    padding-bottom: 0;
+}
+.pricing .card-title{
+    text-decoration: underline;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+.pricing .card-body h3{
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.time table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.books .card > a {
+    font-size: 14px;
+    color: #555555 !important;
+
+}
+
+.container.contact .card {
+    height: 300px;
+    border: 0;
+}
+
+.btn-success {
+    background-color: #32CD32;
+    border-color: #32CD32;
+}
+
+.btn-success:hover, .btn-success:focus {
+    outline-color: #79ef79;
+    background-color: #79ef79;
+    border-color: #79ef79;
+}
+
+.btn-primary {
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+.btn-primary:hover, .btn-success:focus {
+    outline-color: #6bcdef;
+    background-color: #6bcdef;
+    border-color: #6bcdef;
+}
+.footer-links>div{
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer-links{
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+}
+.books .card a{
+    font-family: Arial, sans-serif;
+}
+.mont{
+    font-family: 'Montserrat', serif;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing .card-header{
+    background: transparent;
+}
+.pricing .card:hover{
+    background: #00000010;
+    box-shadow: 0 0 10px #00000015;
+}
+
+@media only screen and (max-width: 400px){
+    .purchasable{
+        font-size: 16px;
+    }
+}
