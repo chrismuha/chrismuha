@@ -187,6 +187,9 @@ nav.navbar{
     left: 0;
     z-index: 1030;
 }
+main.container{
+    margin-top: 92px;
+}
 @media only screen and (max-width: 400px){
     .purchasable{
         font-size: 16px;
