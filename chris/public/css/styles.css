@@ -180,7 +180,13 @@ footer a.e_mail, a.e_mail{
     background: #00000010;
     box-shadow: 0 0 10px #00000015;
 }
-
+nav.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 @media only screen and (max-width: 400px){
     .purchasable{
         font-size: 16px;
