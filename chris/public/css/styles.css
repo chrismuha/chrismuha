@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link{
     font-family: 'Bitter', serif;
     text-transform: uppercase;
+    font-size: 11px
 }
 .bitter{
     font-family: 'Bitter', serif;
