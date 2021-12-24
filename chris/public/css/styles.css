@@ -140,9 +140,9 @@ footer a.e_mail, a.e_mail{
 }
 
 .btn-success:hover, .btn-success:focus {
-    outline-color: #79ef79;
-    background-color: #79ef79;
-    border-color: #79ef79;
+    outline-color: #79EF79;
+    background-color: #79EF79;
+    border-color: #79EF79;
 }
 
 .btn-primary {
@@ -151,9 +151,9 @@ footer a.e_mail, a.e_mail{
 }
 
 .btn-primary:hover, .btn-success:focus {
-    outline-color: #6bcdef;
-    background-color: #6bcdef;
-    border-color: #6bcdef;
+    outline-color: #6BCDEF;
+    background-color: #6BCDEF;
+    border-color: #6BCDEF;
 }
 .footer-links>div{
     width: 300px;
