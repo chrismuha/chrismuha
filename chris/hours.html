@@ -97,7 +97,7 @@
     </div>
 </main>
 
-    
+
 <footer>
     <div class="container">
         <div class="banner text-center"><img src="public/img/black-banner.png" alt="MUHA" class="img-fluid"></div>
@@ -153,7 +153,7 @@
                             opacity: 0.8;
                         }
                     </style>
-                    <a class="e_mail" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope-o"></i> 
+                    <a class="e_mail" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope-o"></i>
                         CLICK/TAP TO E-MAIL NOW</a>
                 </div>
             </div>
@@ -203,14 +203,43 @@
         </div>
     </div>
 </footer>
-    
+
 <!--Scripts-->
 <script src="public/js/bootstrap.bundle.min.js"></script>
 
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
-    
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "335874717706589");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 </body>
 </html>

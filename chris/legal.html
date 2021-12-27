@@ -75,15 +75,15 @@
                         </li>
                         <br>
                         <li> PLEASE BE AWARE THAT ANY INFORMATION ON OUR ONLINE STORE FOR APPAREL/MERCHANDISE IS <br> SUBJECT TO CHANGE.
-                        <br> ALSO, WE DO NOT DEVELOP THE WEBSITE, MAKE, OR EMBROIDER THE APPAREL. 
+                        <br> ALSO, WE DO NOT DEVELOP THE WEBSITE, MAKE, OR EMBROIDER THE APPAREL.
                         <br> WE CANNOT CONTROL THINGS ON THE DEVELOPMENT END OF THAT WEBSITE.
                         </li>
                         <br>
                         <li> PLEASE BE AWARE THAT ANY INFORMATION ON THIS WEBSITE IS <br> SUBJECT TO CHANGE.
-                        <br> PRICING IS ALSO SUBJECT TO CHANGE FOR OUR SERVICES AND OR APPAREL.    
+                        <br> PRICING IS ALSO SUBJECT TO CHANGE FOR OUR SERVICES AND OR APPAREL.
                         </li>
                         <br>
-                        <li> WE CANNOT CONTROL THINGS ON THE DEVELOPMENT END OF OTHER WEBSITES. 
+                        <li> WE CANNOT CONTROL THINGS ON THE DEVELOPMENT END OF OTHER WEBSITES.
                         </li>
                         <br>
                         <li> WE ARE INSURED FOR SLIP AND FALL ON THE PREMISES. WE ALSO HAVE FIRE INSURANCE.
@@ -101,9 +101,9 @@
                         </li>
                         <br>
                         <li> ALL TIMES FOR ALL SERVICES RENDERED VARY.
-                        <br> 
+                        <br>
                         </li>
-                        <br> 
+                        <br>
                         <br>
                         <br>
                         <br>
@@ -172,7 +172,7 @@
                             opacity: 0.8;
                         }
                     </style>
-                    <a class="e_mail" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope-o"></i> 
+                    <a class="e_mail" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope-o"></i>
                         CLICK/TAP TO E-MAIL NOW</a>
                 </div>
             </div>
@@ -222,14 +222,43 @@
         </div>
     </div>
 </footer>
-    
+
 <!--Scripts-->
 <script src="public/js/bootstrap.bundle.min.js"></script>
 
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
-    
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "335874717706589");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 </body>
 </html>
