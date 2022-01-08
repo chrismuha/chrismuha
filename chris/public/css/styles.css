@@ -7,7 +7,7 @@ input[type=checkbox] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: "Segoe UI Emoji";
     display: flex;
     justify-content: center;
@@ -23,12 +23,12 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:after {
-    content: "☀";
+    content: "☀️";
     padding-bottom: 5px;
 }
 
 input[type=checkbox]:checked::after {
-    content: "🌑";
+    content: "🌖";
     padding-bottom: 5px;
 }
 
@@ -37,43 +37,25 @@ body.dark-theme {
     color: #fff !important;
 }
 
-.dark-theme .text-black-50{
+.dark-theme .text-black-50 {
     color: #5c5c5c !important
 }
 
-.dark-theme .card{
+.dark-theme .card {
     background-color: black;
 }
-.dark-theme .bg-light{
+
+.dark-theme .bg-light {
     background-color: #161616 !important;
 }
-.dark-theme table{
+
+.dark-theme table {
     color: white !important;
 }
-.dark-theme .pricing .card:hover{
+
+.dark-theme .pricing .card:hover {
     background-color: #090909;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
