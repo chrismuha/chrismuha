@@ -34,11 +34,11 @@ input[type=checkbox]:checked::after {
 
 body.dark-theme {
     background-color: black;
-    color: #fff !important;
+    color: #FFFFFF !important;
 }
 
 .dark-theme .text-black-50 {
-    color: #5c5c5c !important
+    color: #5C5C5C !important
 }
 
 .dark-theme .card {
