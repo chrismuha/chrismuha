@@ -57,7 +57,12 @@ body.dark-theme {
     background-color: #090909;
 }
 
-
+.dark-theme .light_logo{
+    display: none;
+}
+body:not(.dark-theme) .dark_logo{
+    display: none;
+}
 
 body {
     font-family: 'Playfair Display', serif;
@@ -201,12 +206,12 @@ footer a.e_mail, a.e_mail {
 
 .books .card > a {
     font-size: 14px;
-    color: #555555 !important;
+    color: #4198d0 !important;
 
 }
 
 .container.contact .card {
-    height: 300px;
+    height: 200px;
     border: 0;
 }
 
@@ -289,4 +294,10 @@ main.container {
     .nav-link {
         font-size: 18px
     }
+
+    .header h1{
+        font-size: 20px;
+    }
 }
+
+
