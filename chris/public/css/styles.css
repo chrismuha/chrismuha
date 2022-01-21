@@ -46,7 +46,7 @@ body.dark-theme {
 }
 
 .dark-theme .bg-light {
-    background-color: #161616 !important;
+    background-color: rgba(22, 22, 22, 0.11) !important;
 }
 
 .dark-theme table {
