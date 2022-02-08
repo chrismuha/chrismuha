@@ -60,7 +60,7 @@
     </div>
 
     <div class="time pt-5 d-flex justify-content-center align-items-center">
-        <table class="table table-responsive table-hover text-center" style="width: 300px">
+        <table class="table table-responsive table-hover text-center" style="width: 360px">
             <tr>
                 <td class="fw-bold">MONDAY</td>
                 <td>9:00 AM - 5:00 PM</td>
@@ -90,9 +90,11 @@
                 <td>10:00 AM - 6:00 PM</td>
             </tr>
             <tr>
-                <td class="fw-bold text-danger">EXIGENCIES AVAILABLE ON <br> WEEKENDS AND WEEKDAYS</td>
-                <td style="color:green;">24/7 <br> <br> services that do not take over one hour <br> are not charged the urgent service price.</td>
-                </tr>
+                <td class="fw-bold text-danger">EXIGENCIES <br><br> AVAILABLE ON <br> WEEKENDS AND WEEKDAYS</td>
+                <td style="color:green;">24/7 <br> <br> services that do not take over one hour <br> are not charged the
+                    urgent service price.
+                </td>
+            </tr>
         </table>
     </div>
 </main>
@@ -237,17 +239,18 @@
 
 <!-- Your SDK code -->
 <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
         FB.init({
-            xfbml            : true,
-            version          : 'v12.0'
+            xfbml: true,
+            version: 'v12.0'
         });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
