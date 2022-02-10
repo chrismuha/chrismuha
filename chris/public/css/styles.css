@@ -258,7 +258,7 @@ footer a.e_mail, a.e_mail {
 
 .header {
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .pricing .card-header {
