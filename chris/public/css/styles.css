@@ -308,17 +308,10 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
 	        user-select: none;
 	width: 3.6rem;
 margin-top: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px #ddd;
 }
 
-.icon-button.facebook
-{
-background-color: #3c5998;
-}
-
-.icon-button.twitter
-{
-background-color: #4199ff;
-}
 
 
 /* Circle */
@@ -369,10 +362,10 @@ background-color: #4199ff;
 	z-index: 10;
 }
 .icon-button .fa-twitter {
-	color: #fff;
+	color: #4199ff;
 }
 .icon-button .fa-facebook {
-	color: #fff;
+	color: #3c5998;
 }
 .icon-button .icon-google-plus {
 	color: #db5a3c;
