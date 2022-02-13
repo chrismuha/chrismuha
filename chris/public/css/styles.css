@@ -370,8 +370,8 @@ margin-top: 25px;
 .icon-button .icon-google-plus {
 	color: #db5a3c;
 }
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-facebook,
 .icon-button:hover .icon-google-plus {
 	color: white;
 }
