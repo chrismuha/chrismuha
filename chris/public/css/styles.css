@@ -378,8 +378,13 @@ margin-top: 50px;
 
 .navbar-dark .navbar-toggler {
     color: rgb(255 255 255);
-    border-color: #fff;
-    margin-right: 25px;
+    border-color: #fff !important;
+    margin-right: 25px !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(https://github.com/ahmed-alii/chrismuha/tree/master/chris/public/img) center no-repeat !important;
+    background-size: 30px !important;
 }
 
 @media only screen and (max-width: 400px) {
