@@ -356,10 +356,10 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
 	width: 3.6rem;
 	z-index: 10;
 }
-.icon-button .icon-twitter {
+.icon-button .fa-twitter {
 	color: #4099ff;
 }
-.icon-button .icon-facebook {
+.icon-button .fa-facebook {
 	color: #3B5998;
 }
 .icon-button .icon-google-plus {
