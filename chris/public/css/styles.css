@@ -380,6 +380,7 @@ margin-top: 50px;
     color: rgb(255 255 255);
     border-color: #fff !important;
     margin-right: 25px !important;
+box-shadow: none !important;
 }
 
 .navbar-dark .navbar-toggler-icon {
