@@ -115,7 +115,7 @@ footer {
 }
 
 .navbar-dark {
-    background-color: #090B0B;
+    background-color: #000;
 }
 
 .bg-black {
@@ -307,7 +307,7 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
 	    -ms-user-select: none;
 	        user-select: none;
 	width: 3.6rem;
-margin-top: 25px;
+margin-top: 50px;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
 }
@@ -374,6 +374,12 @@ margin-top: 25px;
 .icon-button:hover .fa-facebook,
 .icon-button:hover .icon-google-plus {
 	color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: #fff;
+    margin-right: 25px;
 }
 
 @media only screen and (max-width: 400px) {
