@@ -388,6 +388,12 @@ box-shadow: none !important;
     background-size: 30px !important;
 }
 
+.centered-content
+{
+    max-width: 580px;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 400px) {
     .purchasable {
         font-size: 16px;
