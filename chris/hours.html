@@ -15,16 +15,22 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <button class="navbar-toggler d-block me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <a class="navbar-brand" href="index.html">
             <img src="public/img/black-banner.png" alt="MUHA">
         </a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+        <div class="offcanvas offcanvas-start" id="navbarNav">
+            <ul class="navbar-nav d-flex flex-column ms-3">
+                <li class="nav-item py-5 px-3">
+                    <div class="" data-bs-toggle="offcanvas" style="cursor: pointer">
+                        <span>╳</span>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>

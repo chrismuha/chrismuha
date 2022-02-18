@@ -64,6 +64,14 @@ body:not(.dark-theme) .dark_logo{
     display: none;
 }
 
+body .offcanvas{
+    background-color: black !important;
+    box-shadow: 0 0 10px rgba(33, 33, 33, 0.54);
+}
+.offcanvas p{
+    color: white;
+}
+
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
@@ -86,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-family: 'Bitter', serif;
     text-transform: uppercase;
-    font-size: 14px
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .bitter {
