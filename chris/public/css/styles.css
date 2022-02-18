@@ -68,7 +68,7 @@ body .offcanvas{
     background-color: black !important;
     box-shadow: 0 0 10px rgba(33, 33, 33, 0.54);
 }
-.offcanvas p{
+.offcanvas *{
     color: white;
 }
 
