@@ -73,6 +73,7 @@ body .offcanvas{
 }
 .offcanvas{
     transition: transform .1s ease-in-out !important;
+    max-width: 250px !important;
 }
 
 body {
