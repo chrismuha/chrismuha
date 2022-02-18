@@ -12,7 +12,7 @@ input[type=checkbox] {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
     right: 10px;
     top: 70px;
     border-radius: 20px;
