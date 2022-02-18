@@ -71,6 +71,9 @@ body .offcanvas{
 .offcanvas *{
     color: white;
 }
+.offcanvas{
+    transition: transform .1s ease-in-out !important;
+}
 
 body {
     font-family: 'Playfair Display', serif;
