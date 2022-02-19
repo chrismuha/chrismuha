@@ -26,7 +26,10 @@ input[type=checkbox]:after {
     content: "☀️";
     padding-bottom: 5px;
 }
-
+#navbarNav .nav-item:first-child{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
 input[type=checkbox]:checked::after {
     content: "🌖";
     padding-bottom: 5px;
@@ -99,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     text-transform: uppercase;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 .bitter {
