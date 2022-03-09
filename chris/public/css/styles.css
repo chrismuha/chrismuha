@@ -27,6 +27,11 @@ input[type=checkbox]:after {
     padding-bottom: 5px;
 }
 
+#navbarNav .nav-item:first-child{
+     font-size: 22px;
+     margin-bottom: 50px;
+ }
+
 input[type=checkbox]:checked::after {
     content: "🌖";
     padding-bottom: 5px;
