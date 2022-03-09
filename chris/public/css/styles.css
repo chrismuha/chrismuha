@@ -394,6 +394,10 @@ box-shadow: none !important;
     margin: 0 auto;
 }
 
+.table-hover>tbody>tr:hover {
+    --bs-table-accent-bg: rgb(255 192 8 / 28%);
+    color: inherit;
+}
 @media only screen and (max-width: 400px) {
     .purchasable {
         font-size: 16px;
