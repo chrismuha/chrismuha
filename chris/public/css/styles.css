@@ -12,7 +12,7 @@ input[type=checkbox] {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
     right: 10px;
     top: 70px;
     border-radius: 20px;
@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-family: 'Bitter', serif;
     text-transform: uppercase;
-    font-size: 14px
-}
+    font-size: 14px;
+    margin-top: 14px;}
 
 .bitter {
     font-family: 'Bitter', serif;
@@ -410,6 +410,11 @@ box-shadow: none !important;
     max-width: 580px;
     margin: 0 auto;
 }
+
+.table-hover>tbody>tr:hover {
+     --bs-table-accent-bg: rgb(255 192 8 / 28%);
+     color: inherit;
+ }
 
 @media only screen and (max-width: 400px) {
     .purchasable {
