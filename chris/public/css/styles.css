@@ -69,6 +69,18 @@ body:not(.dark-theme) .dark_logo{
     display: none;
 }
 
+body .offcanvas{
+     background-color: black !important;
+     box-shadow: 0 0 10px rgba(33, 33, 33, 0.54);
+ }
+ .offcanvas *{
+     color: white;
+ }
+ .offcanvas{
+     transition: transform .1s ease-in-out !important;
+     max-width: 250px !important;
+ }
+
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
