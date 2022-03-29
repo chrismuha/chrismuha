@@ -428,6 +428,14 @@ body :not(.dark) .text-grn
     padding: 7px 15px;	
 }
 
+.title-bg-black
+{
+    display: inline-block;
+    background: #000;
+    padding: 7px 15px;	
+}
+
+
 @media only screen and (max-width: 400px) {
     .purchasable {
         font-size: 16px;
