@@ -416,16 +416,9 @@ box-shadow: none !important;
      color: inherit;
  }
 
-body :not(.dark) .text-grn
+body :not(.dark-theme) .text-grn
 {
     color: #198754!important;	
-}
-
-.title-bg-black
-{
-    display: inline-block;
-    background: #000;
-    padding: 7px 15px;	
 }
 
 .title-bg-black
