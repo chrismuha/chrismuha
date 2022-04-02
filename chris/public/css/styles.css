@@ -749,6 +749,7 @@ body :not(.dark-theme) .text-grn
 .menu-main > ul > li a
 {
     position: relative;
+    display: inline;    
 }
 
 .menu-main > ul > li a:after
@@ -781,9 +782,27 @@ header
 padding-top: 30px;
 }
 
+@media(max-width: 767px)
+{
+.menu {
+    padding: 5.25rem 0.375rem 4.1875rem;
+}
+
+.menu
+{
+width: 275px;    
+}
+
+.menu-main > ul > li
+{
+    margin: 0;
+}
+
+}
+
 @media only screen and (max-width: 400px) {
     .purchasable {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     button.navbar-toggler {
