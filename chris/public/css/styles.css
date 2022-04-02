@@ -514,19 +514,19 @@ body :not(.dark-theme) .text-grn
 }
 
 .body-menu-opened .nav-toggle .stick-1 {
-    animation: ease .5s top forwards;
+    animation: ease .3s top forwards;
 }
 
 .nav-toggle .stick-1 {
-    animation: ease .5s top-2 forwards;
+    animation: ease .3s top-2 forwards;
 }
 
 .body-menu-opened .nav-toggle .stick-2 {
-    animation: ease .5s bottom forwards;
+    animation: ease .3s bottom forwards;
 }
 
 .nav-toggle .stick-2 {
-    animation: ease .5s bottom-2 forwards;
+    animation: ease .3s bottom-2 forwards;
 }
 
 @keyframes top {
