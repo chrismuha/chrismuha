@@ -483,6 +483,7 @@ body :not(.dark-theme) .text-grn
     font-weight: bold;
     text-transform: uppercase;
     color: inherit;
+    margin-right: 20px;    
 }
 
 .nav-toggle-btn:hover {
@@ -601,7 +602,7 @@ body :not(.dark-theme) .text-grn
     padding: 5.25rem 2.375rem 4.1875rem;
     display: flex;
     flex-direction: column;
-    transition: transform .4s ease-in-out;
+    transition: transform .1s ease-in-out;
     -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
 }
@@ -639,8 +640,8 @@ body :not(.dark-theme) .text-grn
 .menu .menu-main,
 .menu .social,
 .menu .menu-footer {
-    opacity: 0;
-    transform: translateY(3rem);
+    /*opacity: 0;
+    transform: translateY(3rem);*/
     transition: all .5s ease-in-out;
 }
 
@@ -710,7 +711,7 @@ body :not(.dark-theme) .text-grn
 }
 
 .menu-main > ul > li {
-    margin-bottom: 1.1875rem;
+    margin-bottom: 0;
     padding-left: 2px;
     font-size: 31px;    
 }
