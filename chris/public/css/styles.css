@@ -727,6 +727,8 @@ body :not(.dark-theme) .text-grn
 .menu-main a:hover {
     color: #fff;
     text-decoration: none;
+    padding-right: 0rem;
+    padding-left: 0;    
 }
 
 .menu-main .active > a,
@@ -738,7 +740,7 @@ body :not(.dark-theme) .text-grn
     content: ".";
     opacity: 0;
     display: inline-block;
-    transform: translate(2rem,0);
+    transform: translate(0rem,0);
     transition: all .3s ease-in-out;
 }
 
@@ -774,7 +776,7 @@ body :not(.dark-theme) .text-grn
 {
     width: 100%;
     left: inherit;
-    right: 30px;    
+    left: 0px;    
 }
 
 
