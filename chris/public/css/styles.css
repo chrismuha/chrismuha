@@ -91,6 +91,10 @@ p {
     font-size: 12pt;
 }
 
+a {
+    text-transform: capitalize;
+}
+
 .mw {
     font-family: 'Merriweather', serif;
     font-weight: 100;
