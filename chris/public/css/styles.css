@@ -92,7 +92,7 @@ p {
 }
 
 a {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .mw {
