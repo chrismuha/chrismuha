@@ -193,7 +193,8 @@ footer a.e_mail, a.e_mail {
 .pricing .card {
     border: 0;
     padding-top: 5px;
-    font-family: 'Arial', sans-serif;
+    /*font-family: 'Arial', sans-serif;*/
+font-family: 'Poppins', sans-serif;    
 }
 
 .call {
