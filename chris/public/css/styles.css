@@ -848,7 +848,7 @@ width: 275px;
 i {
     font-style: normal;
     text-transform: uppercase !important;
-    font-weight: normal !important;
+    font-weight: 500 !important;
 }
 
 .end-credits {
