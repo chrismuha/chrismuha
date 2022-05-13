@@ -841,3 +841,24 @@ width: 275px;
     }
 
 }
+
+
+/*italicized texts changes here*/
+
+i {
+    font-style: normal;
+    text-transform: uppercase !important;
+    font-weight: normal !important;
+}
+
+.end-credits {
+    color: black;
+}
+
+.end-credits p {
+    font-size: 0.67rem;
+}
+
+.dark-theme .end-credits {
+    color: white;
+}
