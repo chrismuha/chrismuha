@@ -31,20 +31,25 @@
             margin: auto;
         }
 
-        .aboutBusiness {
-            width: 24rem;
+        .aboutBusiness > div {
+            width: 23rem;
             margin: auto;
         }
 
         @media(max-width: 550px) {
+
+            .aboutBusiness {
+                overflow: hidden;
+            }
+
             .location {
                 width: fit-content;
                 margin: auto 2rem;
             }
             
-            .aboutBusiness {
-                width: 18rem;
-                margin: auto 2rem;
+            .aboutBusiness > div {
+                width: fit-content;
+                margin: auto 4rem;
             }
         }
     </style>
@@ -212,9 +217,10 @@
 
 	<div class="header col-12 my-5 text-center aboutBusiness" style="margin: -10rem auto;">
 	<h2 class="fw-bold text-decoration-underline title-bg-black" style="color:#4FB94A;">ABOUT THE BUSINESS</h2>
+    <div>
 	<p class="text-decoration-none" style="font-family:bitter; font-size:13px; font-weight:600;">Our top priority is customer satisfaction, 
 	We are here to help you when you need it the most, day or night!
-	<br> Urgent matters are resolved as soon as possible <br> <i> (*subject to availability.) </i>
+	<br> Urgent matters are resolved <br> as soon as possible <br> <i> (*subject to availability.) </i>
 	<p class="text-decoration-none" style="font-family:bitter; font-size:13px; font-weight:600;">We have a high percentage repair ratio!
 	<p class="text-decoration-none" style="font-family:bitter; font-size:13px; font-weight:600;">We are committed to quality work!
 	<p class="text-decoration-none" style="font-family:bitter; font-size:13px; font-weight:600;">We ensure safe & smooth computer operations!
@@ -243,7 +249,6 @@
 	<br> <a href="shop.html">Shop page</a> of this website. </p>
 	<p class="text-decoration-none" style="font-family:arial; font-size:14.5px; font-weight:700; text-transform:uppercase;">To learn more about Chris, <br> please visit the
 	<br> <a href="about.html">About the Owner page</a> <br> of this website. </p>
-
 </div>
 </div>
 </main>
@@ -321,12 +326,17 @@
                 </div>
 
     <div style="text-align: center; justify-content: center;">
-    <a href=" https://facebook.com/muhachris " class="icon-button facebook" target=”_blank”><i class="fa fa-facebook"></i><span></span></a>
-<a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
+        <a href=" https://facebook.com/muhachris " class="icon-button facebook" target=”_blank”><i class="fa fa-facebook"></i><span></span></a>
+        <a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
     </div>
 
-            </div>
-        </div>
+    <div class="my-4 text-uppercase">
+        Please review us on Google here <br>
+        Check out <a href="">Muha Computer Repair on Google!</a>
+    </div>
+    
+    </div>
+    </div>
 
         <div class="end-credits text-center">
             <br>
