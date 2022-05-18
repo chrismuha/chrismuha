@@ -35,7 +35,7 @@ input[type=checkbox]:after {
  }
 
 input[type=checkbox]:checked::after {
-    content: "🌕";
+    content: "🌖";
     padding-bottom: 5px;
 }
 
@@ -862,3 +862,14 @@ i {
 .dark-theme .end-credits {
     color: white;
 }
+
+/*padding/margin corrector for vCard*/
+
+.e_mail {
+    margin-bottom: 50px;
+}
+
+.review {
+    padding-top: 50px;
+}
+
