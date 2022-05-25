@@ -102,13 +102,13 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     /* font-family: 'Bitter', serif; */
     font-weight: 600 !important;
 }
 
 .nav-link {
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     /* font-family: 'Bitter', serif; */
     text-transform: uppercase;
     font-size: 16px;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bitter {
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     /* font-family: 'Bitter', serif; */
 }
 
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .time table, .number {
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     /* font-family: 'Bitter', serif; */
 }
 
@@ -273,7 +273,7 @@ font-weight:500 !important;
 }
 
 .footer-links {
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     /* font-family: 'Bitter', serif; */
     font-weight: bold;
 }
@@ -877,4 +877,3 @@ i {
 .review {
     padding-top: 50px;
 }
-
