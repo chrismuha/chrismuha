@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 input[type=checkbox] {
     -webkit-appearance: none;
@@ -881,5 +882,6 @@ i {
 /*bolder headers*/
 
 .header h1 {
-    font-weight: 900 !important;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600 !important;
 }
