@@ -102,19 +102,22 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bitter', serif;
+    font-family: 'poppins', serif;
+    /* font-family: 'Bitter', serif; */
     font-weight: 600 !important;
 }
 
 .nav-link {
-    font-family: 'Bitter', serif;
+    font-family: 'poppins', serif;
+    /* font-family: 'Bitter', serif; */
     text-transform: uppercase;
     font-size: 16px;
 /*    margin-top: 14px;*/
 }
 
 .bitter {
-    font-family: 'Bitter', serif;
+    font-family: 'poppins', serif;
+    /* font-family: 'Bitter', serif; */
 }
 
 .navbar-brand {
@@ -131,7 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .time table, .number {
-    font-family: 'Bitter', serif;
+    font-family: 'poppins', serif;
+    /* font-family: 'Bitter', serif; */
 }
 
 footer {
@@ -269,7 +273,8 @@ font-weight:500 !important;
 }
 
 .footer-links {
-    font-family: 'Bitter', serif;
+    font-family: 'poppins', serif;
+    /* font-family: 'Bitter', serif; */
     font-weight: bold;
 }
 
