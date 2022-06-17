@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
     display: block;
     text-align: center;
-    width: 100%;    
+    width: calc(100% - 82px);    
 }
 
 .navbar-toggler:focus {
@@ -499,7 +499,7 @@ body :not(.dark-theme) .text-grn
     font-weight: bold;
     text-transform: uppercase;
     color: inherit;
-    margin-right: 20px;    
+    margin-right: 0px;    
 }
 
 .nav-toggle-btn:hover {
