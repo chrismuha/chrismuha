@@ -23,7 +23,18 @@
     <link rel="stylesheet" href="public/css/styles.css">
 
 <style>
-.img-fluid {
+@media(min-width: 1080px) {
+.img-fluid{
+        max-width: 580px;
+        margin-top: 50px;
+    }
+    div.banner .img-fluid{
+        max-width: 580px;
+    }
+
+}
+
+.book-cover {
     width: 250px;
 }
 </style>
@@ -93,10 +104,10 @@
         <h1 class="fw-bold text-primary title-bg-black" style="color: #37B3DA !important;">LITERARY WORK</h1>
         </div>
 	
-        <div class="text-center p-3 centered-content" style="padding-top: 8px !important;">
+        <div class="text-center p-3 centered-content" style="padding-top: 0px !important;">
             <div class="row">
                 <div class="col-md-12 col-12" style="text-align:center;">
-                    <img src="public/img/eBook-FRONT.jpg" alt="Chris Muha's Book front cover" class="img-fluid" style="margin-top:0 !important">
+                    <img src="public/img/eBook-FRONT.jpg" alt="Chris Muha's Book front cover" class="book-cover" style="margin-top:0 !important">
                 </div>
             </div>
             <br>
@@ -112,9 +123,9 @@
     <div class="container">
 
         <div class="banner text-center">
-            <img src="public/logo/MCRblueNwhite.png" alt=“MCR Logo”
+            <img src="public/logo/MCRwhiteNred.png" alt=“MCR Logo”
                  class="img-fluid dark_logo">
-            <img src="public/logo/MCRblueNblack.png" alt=“MCR Logo”
+            <img src="public/logo/MCRblackNred.png" alt=“MCR Logo”
                  class="img-fluid light_logo">
         </div>
 
