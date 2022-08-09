@@ -890,3 +890,8 @@ i {
     font-family: 'poppins', sans-serif;
     font-weight: 600 !important;
 }
+
+.navbar-brand {
+    padding: 0 0 0 0;
+    padding-left: 18px;
+}
