@@ -16,16 +16,31 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="public/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700;1,900&display=swap"
-          rel="stylesheet">
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/styles.css">
+
+<style>
+@media(min-width: 1080px) {
+.img-fluid{
+        max-width: 580px;
+        margin-top: 50px;
+    }
+    div.banner .img-fluid{
+        max-width: 580px;
+    }
+
+}
+
+.book-cover {
+    max-width: 330px;
+    width: 100%;
+}
+</style>
+
+
 </head>
 <body>
 
@@ -38,6 +53,7 @@
               <span class="stick stick-2"></span>
             </span>
         </button>
+
 
         <a class="navbar-brand" href="index.html" target="_self">
             <img src="public/img/black-banner.png" alt=“MCR Logo”>
@@ -59,7 +75,7 @@
                     <a class="nav-link" href="services.html" target="_self">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="billing.html" target="_self">BILLING/SCHEDULING</a>
+                    <a class="nav-link" href="billing.html" target="_self">BILLING/SCHEDULING</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="hours.html" target="_self">HOURS OF OPERATION</a>
@@ -68,92 +84,69 @@
                     <a class="nav-link" href="hiring.html" target="_self">HIRING INFORMATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="book.html" target="_self">BOOK</a>
+                    <a class="nav-link active" href="book.html" target="_self">BOOK</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html" target="_self">SHOP</a>
                 </li>
               </ul>
           </nav>
-
+    
         </div>
     </div>
 </nav>
 
 
 <main class="container">
-    <div class="header my-5">
-        <h1 class="fw-bold title-bg-black" style="color: #85BB65;">BILLING & SCHEDULING</h1>
-    </div>
-    <div class="text-center p-3 centered-content" style="text-align:center; position:relative; top:0rem; margin-bottom:0rem;">
-        <p class="font-monospace" style="font-size:14px; font-weight:700; text-align: center;">
-        This page is where you can request an appointment with <br> Chris Muha from <br> Muha Computer Repair.
-        <br> It will redirect you to our scheduling site on a trusted and well-known third-party platform, Square.
-        Please do not be alarmed if your browser asks you if it is okay to redirect you to that website.
-        <br>
-        <br> Once there, please select the service(s) that you are looking for, and leave us a brief 
-        description of the issue(s) you are having so we can best assist you.
-        <br>
-        <br>
-        <br> To get on our schedule, <br> click/tap SCHEDULE.<br> <a target="_blank" class="btn btn-primary px-5 mont" href="https://squareup.com/appointments/book/byaa79t35xejni/LCCM0QGA5ZWYB/start" rel="nofollow">
-        <span class="font-monospace" style="font-size: 18px; font-weight: 700; height: auto;">SCHEDULE</span>
-        </a>
-    </div>
+    <div class="header my-5 col-12 text-center">
+        <h1 class="fw-bold text-primary title-bg-black" style="color: #37B3DA !important;">Book</h1>
+        </div>
+	
+        <div class="text-center p-3 centered-content" style="padding-top: 0px !important;">
+            <div class="row">
+                <div class="col-md-12 col-12" style="text-align:center;">
+                    <img src="public/img/eBook-FRONT.jpg" alt="Chris Muha's Book front cover" 
+                    class="book-cover" style="margin-top:0 !important">
+                </div>
+            </div>
+            <br>
 
-    <div class="text-center p-3 centered-content">
-       <p style="font-family:bitter; font-size:14px; font-weight:500; text-align:center; margin-top: 78px;">We would be happy to assist you!
-       <br> We are currently offering a wide-range of computer services such as repairs and custom desktop builds.
-       <br> For a complete list, details, and pricing for our services, <br> please visit the <a href="services.html">Services page </a> of this website.
-       <br> Our business pages include anything else you may need, such as booking, billing, and more!
-       <br> We accept cash and checks. <br> We also accept debit cards and credit cards
-       <br> (via Square). We do not charge fees for using <br> our POS System at this time.
-       </p>
-       <p class="text-center p-3 centered-content" style="font-family:bitter; font-size:14px; font-weight:500; text-align:center;">You can reach us by using our contact information listed in the footer of each page of this website.
-       </p>	
+    <div class="fw-bold text-decoration-none text-center" 
+    style="font-family: 'Bitter'; font-size:14px; margin: 0 16px;">
+    TO PURCHASE THIS BOOK, PLEASE VISIT OUR
+	<a href="shop.html">SHOP PAGE </a>. </p>
     </div>
-
-
-    <div class="text-center mt-3 centered-content">
-        <p class="">
-        <span class="text-decoration-underline mw" style="font-weight:600; font-size: 14px;">
-        FOR SERVICES RENDERED,
-        <br> PLEASE REMIT PAYMENT TO:
-        </span>
-        <br>
-        <br>
-        <span class="mw" style="font-weight:600; font-size: 14px;">MUHA COMPUTER REPAIR
-        <br> ATTN: CHRIS MUHA
-        <br> PO BOX 311
-        <br> BOONVILLE NY, 13309
-        </span>
-        <br>
-        <br>
-        <span class="text-decoration-underline mw" style="font-weight:600; font-size: 14px;">CHECKS CAN BE MADE OUT TO:
-        <br>
-        </span>
-        <span class="mw" style="font-weight:600; font-size: 14px;">MUHA COMPUTER REPAIR
-        </span>
-        </p>
-        <br>
-        <p class="fw-bold text-center p-3 mont" style="font-size:13.5px; font-weight: lighter">
-        *Please be aware that we have been trying our best to get approved for offering leasing to our customers.
-        Unfortunately, leasing is only available to businesses that have store fronts.
-        In the event we do offer leasing, it is for electronic purchasing only. Therefore, service charges are not eligible for leasing at this time.
-        You may be billed more than what we charge <br> (*dependent on lease with lender).
-        </span>
-        </p>
+    <div class="col-md-12 col-12" style="margin-top: -20px;">
+		<p class="p-3 mw text-justify text-center text-uppercase" style="font-family:bitter; font-size:14px; font-weight: 600"><br><br> This book is affiliated with <br> Muha Computer Repair.
+				<br> It was written by Chris Muha, the Owner and Lead Technician.
+				<br> The copyright of this work is owned by Chris Muha at this time.
+				<br> Amazon has both physical and digital formats of the book.
+				<br> However, Amazon does not have all formats of the physical book.
+				<br> The College format is available exclusively on Amazon.
+				<br> Author copies are available.
+				<br> Please e-mail Chris at <a href="mailto:muhachris297@gmail.com">muhachris297@gmail.com</a>
+				<br> so he can assist you in placing your order. <br> Please include book order as the subject.
+				<br>
+				<br> We apologize for the high cost on Amazon,<br> but printing costs are high, <br> making royalties low.
+				<br> All book formats are printed using high quality materials.
+				<br> Please be aware that all formats consist of the same content.
+				<br> The links provided are short and secure. <br> They direct to official merchant links.
+		</p>
+	</div>
     </div>
 </main>
 
 
 <footer>
     <div class="container">
+
         <div class="banner text-center">
-            <img src="public/logo/MCRwhiteNred.png" alt=“MCR Logo”
+            <img src="public/logo/MCRblueNwhite.png" alt=“MCR Logo”
                  class="img-fluid dark_logo">
-            <img src="public/logo/MCRblackNred.png" alt=“MCR Logo”
+            <img src="public/logo/MCRblueNblack.png" alt=“MCR Logo”
                  class="img-fluid light_logo">
         </div>
+
         <br>
         <div class="d-flex justify-content-center align-items-center flex-wrap flex-column footer-links">
             <div>
@@ -232,10 +225,11 @@
     </div>
 
     <div style="text-align: center; justify-content: center;">
-        <a href=" https://facebook.com/muhachris " class="icon-button facebook" target=”_blank”><i class="fa fa-facebook"></i><span></span></a>
-        <a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
-    </div>	
-
+        <a href=" https://facebook.com/muhachris " class="icon-button facebook" target=”_blank”>
+        <i class="fa fa-facebook"></i><span></span></a>
+        <a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”>
+        <i class="fa fa-twitter"></i><span></span></a>
+    </div> 
 
     <div class="my-4 text-uppercase mx-5 review">
         PLEASE REVIEW US ON GOOGLE <a href="https://tinyurl.com/2zssctks" target="_blank">HERE</a>.
@@ -279,8 +273,8 @@
                 The Fundamentals of Computer IT <br> Knowledge to Enhance your IT Expertise ©
                 <br>
                 <br>
-                The Fundamentals of Computer Information Technology
-                <br> Knowledge to Enhance your IT Expertise ©
+                The Fundamentals of Computer Information Technology <br>
+                Knowledge to Enhance your IT Expertise ©
             </p>
             <br>
 
