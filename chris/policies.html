@@ -22,6 +22,22 @@
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/styles.css">
+
+    <style>
+        .p-5 {
+            margin: auto;
+            max-width: 30rem;
+        }
+
+        @media(max-width: 550px) {
+
+        .cls {
+            width: fit-content !important;
+            margin-left: 2rem !important;
+            margin-right: 2rem !important;
+        }
+        }
+    </style>
 </head>
 <body>
 
@@ -35,12 +51,11 @@
             </span>
         </button>
 
-
         <a class="navbar-brand" href="index.html" target="_self">
-            <img src="public/img/black-banner.png" “alt=MCR Logo”>
+            <img src="public/img/black-banner.png" alt="MCR Logo">
         </a>
 
-       <div class="hide-menu a-nav-toggle"></div>
+        <div class="hide-menu a-nav-toggle"></div>
 
         <div class="menu">
 
@@ -62,7 +77,7 @@
                     <a class="nav-link" href="hours.html" target="_self">HOURS OF OPERATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="hiring.html" target="_self">HIRING INFORMATION</a>
+                    <a class="nav-link" href="hiring.html" target="_self">HIRING INFORMATION</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="book.html" target="_self">BOOK</a>
@@ -74,26 +89,68 @@
                     <a class="nav-link" href="legal.html" target="_self">LEGAL DISCLAIMER</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="policies.html" target="_self">POLICIES</a>
+                    <a class="nav-link active" href="policies.html" target="_self">POLICIES</a>
                 </li>
               </ul>
           </nav>
-
-    
+        
         </div>
     </div>
 </nav>
 
 
 <main class="container">
-    <div class="header my-5">
-        <h1 class="fw-bold text-warning title-bg-black">HIRING INFORMATION</h1>
+    <div class="header">
+        <h1 class="fw-bold title-bg-black" style="color: red;">POLICIES</h1>
     </div>
-    <div class="hiring">
-        <div class="bg-light-0 rounded-3 p-3 text-center">
-            <p class="fw-bold mw" style="font-family: 'Poppins'; font-size:14px; font-weight: 600;">
-                WE APOLOGIZE BUT WE ARE NOT HIRING <br> AT THIS TIME. <br> PLEASE CHECK BACK LATER.</p>
-        </div>
+
+    <div class="header col-12 location my-5 cls" style="position: relative; text-align: justify; top: 5px; width: 28rem;
+    margin: auto;">
+        <li> <b><u>COMPONENT ORDERS POLICY:</u></b>  Due to the fact that several customers have not
+        rendered payment for parts up front when required, we will no longer be able to order them 
+        unless paid in full prior to ordering. When customer(s) payments are not rendered to us, that
+        is unacceptable. We are a business, so we are trying to make money to survive. We are here 
+        to serve the community but not to serve the community for free. We work for you and 
+        ultimately, we want you to have the best experience which is why we may offer to order in 
+        inexpensive computer components and/or accessories using our funding. Unfortunately, we are
+        no longer able to do so and will have to enforce this policy going forward due to unrendered 
+        payment(s) to our business when we most recently did so. We are sorry for the inconvenience
+        and thank you for your understanding.
+        </li>
+        <br>
+        <li><b><u>MOBILE DEVICE HARDWARE REPAIR POLICY:</u></b>  Multiple computer repair businesses
+        are replacing broken screens for customers mobile devices are well within their rights
+        but only if they were a consumer helping another consumer. Muha Computer Repair, does
+        not repair broken screens for mobile devices, including tablets and 2 in 1 tablet/
+        laptops because components are irreplaceable due to software locks. Those software
+        locks cannot be removed by anyone but the manufacturers. As a business, this is a
+        swindle to make money by providing a dishonest service. Muha Computer Repair is about
+        quality and honesty. The components may be replaceable but even using genuine, OEM
+        components is something my business advises to customers due to the software locks.
+        The software locks disable some of the components software functionalities that
+        are not able to be reenabled by the consumer because they become unavailable as
+        if they were never there. An example of this is Adaptive Brightness for
+        displays, also known as True Tone by Apple. That feature allows your Adaptive
+        Display (screen) to your screens color (appearance) based on the brightness
+        and lighting in your environment. The same goes for Apple Computers of all
+        kinds (desktops and laptops/MacBooks and iMacs and Mac minis) of which also
+        disables software functionalities for the hardware, such as Adaptive
+        Brightness. Governments all around the world are actively working to change
+        this from a legal perspective because manufacturers locking
+        functionalities for hardware through software is violating the consumers
+        right to repair their own devices and is costing businesses money due to
+        their customer base having to be limited with no choice for the
+        business to honestly operate by servicing hardware components in
+        mobile devices and computers by Apple. This is also forcing customers
+        to pay for repairs that have their prices illegally gouged by
+        companies such as Apple. Even if laws are changed, the quality of
+        devices being repaired is significantly lowered because only
+        factories that make the devices have the machines necessary to
+        ensure a perfect watertight seal for mobile devices with water
+        resistance. Therefore, mobile devices that have water
+        resistance that are repaired will never be the same again, and
+        Mua Computer Repair will not perform those services.
+        </li>
     </div>
 </main>
 
@@ -101,9 +158,9 @@
 <footer>
     <div class="container">
         <div class="banner text-center">
-            <img src="public/logo/MCRwhite.png" “alt=MCR Logo”
+            <img src="public/logo/MCRwhite.png" alt=“MCR Logo”
                  class="img-fluid dark_logo">
-            <img src="public/logo/MCRblack.png" “alt=MCR Logo”
+            <img src="public/logo/MCRblack.png" alt=“MCR Logo”
                  class="img-fluid light_logo">
         </div>
 
@@ -130,7 +187,7 @@
                         }
                     </style>
                     <!--<span class="text-warning small">
-                    DURING BUSINESS HOURS, PLEASE</span> <br>-->
+                        DURING BUSINESS HOURS, PLEASE</span> <br>-->
                     <a class="btn" href="tel:+1 (315)-338-1919"><i class="fa fa-phone"></i> 
                         CLICK/TAP TO CALL US</a>
                 </div>
@@ -138,13 +195,12 @@
             <!--
             <div>
                 <span>OWNER'S CELL <br> <span class="text-danger small">
-                URGENT MATTERS ONLY, PLEASE</span> <br>
+                    URGENT MATTERS ONLY, PLEASE</span> <br>
                     <a class="btn" href="tel:+1 (315)-338-1919"><i class="fa fa-phone"></i> 
                         CLICK/TAP TO CALL US</a>
             </div>
             -->
             
-
             <div>
                 <span>SEND US A TEXT MESSAGE <br>
                 <a class="btn" href="sms:+13153381919"><i class="fa fa-comment"></i> 
@@ -189,8 +245,7 @@
         <i class="fa fa-facebook"></i><span></span></a>
         <a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”>
         <i class="fa fa-twitter"></i><span></span></a>
-    </div>        
-
+    </div>  
 
     <div class="my-4 text-uppercase mx-5 review">
         PLEASE REVIEW US ON GOOGLE <a href="https://tinyurl.com/mcr-google-review" target="_blank">HERE</a>.
