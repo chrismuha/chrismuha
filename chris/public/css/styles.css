@@ -946,3 +946,16 @@ i {
     font-weight: 600;
     margin-bottom: -0.5rem;
 }
+
+.menu {
+    width: 100vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu * {
+    font-size: 1.5rem !important;
+    padding-top: 1rem;
+}
