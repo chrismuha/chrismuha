@@ -939,7 +939,15 @@ i {
     }
 
     .menu * {
-        margin-left: 8.5px !important;
+        width: 87vw !important;
+    }
+
+    .menu {
+        margin-left: 2vh;
+    }
+
+    .menu a {
+        margin-left: 0px;
     }
 }
 
@@ -980,7 +988,7 @@ i {
 .menu * {
     font-size: 1.5rem !important;
     padding-top: 1rem;
-    margin-left: -6.5px;
+    margin-left: -8px;
 }
 
 .menu li {
