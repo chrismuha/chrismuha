@@ -939,15 +939,15 @@ i {
     }
 
     .menu * {
-        width: 87vw !important;
+        width: 90vw !important;
     }
 
     .menu {
-        margin-left: 2vh;
+        padding-left: 2vh;
     }
 
     .menu a {
-        margin-left: 0px;
+        margin-left: -2px;
     }
 }
 
@@ -983,6 +983,8 @@ i {
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
+    height: 100vh;
+    position: fixed;
 }
 
 .menu * {
