@@ -46,6 +46,10 @@ body.dark-theme {
     color: #FFFFFF !important;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .dark-theme .text-black-50 {
     color: #5C5C5C !important
 }
@@ -939,11 +943,11 @@ i {
     }
 
     .menu * {
-        width: 90vw !important;
+        width: 95% !important;
     }
 
     .menu {
-        padding-left: 2vh;
+        padding-left: 8vh;
     }
 
     .menu a {
@@ -983,8 +987,8 @@ i {
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
-    height: 100vh;
-    position: fixed;
+    height: 150vh;
+    position: absolute;
 }
 
 .menu * {
@@ -997,3 +1001,18 @@ i {
     border-bottom: grey 1px solid;
     width: 270px;
 }
+
+@media screen and (max-width: 992px) {
+    .menu {
+        padding-left: 8vw;
+    }
+
+    .menu a {
+        margin-left: -2px;
+    }   
+}
+
+.menu {
+    overflow: hidden;
+}
+
