@@ -450,7 +450,7 @@ body :not(.dark-theme) .text-grn
 .title-bg-black
 {
     display: inline-block;
-    background: #000;
+    /* background: #000; */
     padding: 7px 15px;  
 }
 
