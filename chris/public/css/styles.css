@@ -48,6 +48,8 @@ body.dark-theme {
 
 body {
     overflow-x: hidden;
+    touch-action: pinch-zoom;
+    -ms-touch-action: pinch-zoom;
 }
 
 .dark-theme .text-black-50 {
