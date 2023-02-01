@@ -412,12 +412,15 @@ margin-top: 70px;
 .icon-button .icon-google-plus {
     color: #db5a3c;
 }
+.icon-button .fa-linkedin {
+    color: #3c5998;
+}
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
+.icon-button:hover .fa-linkedin,
 .icon-button:hover .icon-google-plus {
     color: white;
 }
-
 .navbar-dark .navbar-toggler {
     color: rgb(255 255 255);
     border-color: #000 !important;
