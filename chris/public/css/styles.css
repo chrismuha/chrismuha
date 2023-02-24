@@ -21,8 +21,6 @@ input[type=checkbox] {
     border-radius: 20px;
     height: 50px;
     width: 50px;
-
-
 }
 
 input[type=checkbox]:after {
@@ -1019,3 +1017,8 @@ i {
     overflow: hidden;
 }
 
+.bookmark-footer {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    font-size: 1rem;
+}
