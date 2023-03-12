@@ -45,7 +45,7 @@ body.dark-theme {
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden ;
 }
 
 .dark-theme .text-black-50 {
@@ -1028,4 +1028,82 @@ i {
 }
 .dark-theme .title-bg-black {
     border: 4px solid #fff;
+}
+
+/* Options Menu Table */
+.scrollclick {
+    scroll-margin-block-start: 110px;
+}
+
+.menu-table {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.menu-table-header {
+    width: 30rem !important;
+    border: black 1px solid;
+    border-radius: 0.6rem;
+    margin-bottom: 3rem;
+}
+.menu-table-header h4 {
+    background-color: #ff3c3c;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    text-align: center;
+}
+.menu-table p {
+    margin: 0.5rem;
+    font-size: 14px;
+}
+.menu-table .services {
+    display: flex;
+    flex-direction: column;
+}
+.menu-table .services a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1rem;
+    margin: 0.5rem;
+    transition: 0.2s;
+}
+.dark-theme .menu-table .services a {
+    color: white;
+}
+.menu-table .services a:hover {
+    opacity: 80%;
+}
+.menu-table .services p {
+    font-size: 14px;
+}
+.dark-theme .menu-table-header {
+    border: white 1px solid;
+}
+
+
+@media (hover: none) and (pointer: coarse) {
+    .menu-table {
+        position: relative;
+        margin-bottom: 3rem;
+        height: 162vh;
+        overflow-x: hidden;
+    }
+    .page-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2vw;
+        width: 90vw !important;
+        height: 160vh;
+    }
+    .page-2 {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: 2vw;
+        width: 90vw !important;
+        height: 160vh;
+    }
 }
