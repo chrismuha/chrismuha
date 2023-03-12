@@ -153,21 +153,88 @@
         <br> EXIGENCIES are 24/7! <br> Please leave a voicemail if the phone is not answered. <br> We will get back to you as soon as possible. 
         </p>
 
-        <img class="squad-table" src="./public/img/MCR-Geek Squad-Table.jpg" alt="MCR-Geek Squad-Table" style="width: 100%; margin: 3rem auto;">
+        <!-- <img class="squad-table" src="./public/img/MCR-Geek Squad-Table.jpg" alt="MCR-Geek Squad-Table" style="width: 100%; margin: 3rem auto;"> -->
         <!-- <p style="font-style: italic; font-family: 'Poppins'; font-size:14px; font-weight: 600; margin-bottom: 24pt;"> <br> *PLEASE READ OUR <a href="legal.html">LEGAL DISCLAIMER </a>. </p> -->
     </div>
 
-    <div class="pricing row centered-content ">
-        <div class="col-12 mb-3">
+    <div class="menu-table">
+        <div class="menu-table-header text-uppercase bitter page-1"
+        id="page1"
+        ontouchstart="p1handleTouchStart(event)"
+        ontouchmove="p1handleTouchMove(event)"
+        ontouchend="p1handleTouchEnd(event)">
+            <h4>MUHA COMPUTER REPAIR</h4>
+            <p><u><b>Remote pricing is the same as onsite/drop off software service pricing.</b></u>
+            <br><br>
+            <u><b>Hardware services are not able to be done remotely.</b></u>
+            <br><br>
+            <u><b>We have no subscription service.</b></u>
+            <br><br>
+            <u><b>We do not charge card fees.</b></u>
+            <br><br></p>
+            <div class="services">
+                <a href="#afterhour">AFTER HOURS SERVICES - $100 FEE ADDED TO SERVICE CHARGE(S).</a>
+                <a href="#softwareupdate">SOFTWARE UPDATE/INSTALLATION - $30/HR.</a>
+                <a href="#techassist">OTHER TECHNICAL ASSISTANCE - $20 (FIXED PRICE).</a>
+                <a href="#printing">PRINTING - $2/PAGE</a>
+                <a href="#tuneup">SOFTWARE TUNE-UP - $60 (FIXED PRICE).</a>
+                <a href="#softwarerepair">SOFTWARE REPAIR - $50/HR.</a>
+                <a href="#databackup">DATA BACKUP/RECOVERY - $40/HR.</a>
+                <a href="#comassembly">COMPUTER ASSEMBLY - $200-$250 (VARIABLE).</a>
+                <a href="#hardwarereplace">HARDWARE UPGRADE/REPLACEMENT - $30/HR.</a>
+                <a href="#hookup">SYSTEM HOOK UP - $20 (FIXED PRICE).</a>
+                <a href="#diagnostics">DIAGNOSTICS - FREE.</a>
+                <a href="#consultation">CONSULTATION - FREE.</a>
+            </div>
+        </div>
+        <div class="menu-table-header text-uppercase bitter page-2"
+        id="page2"
+        ontouchstart="p2handleTouchStart(event)"
+        ontouchmove="p2handleTouchMove(event)"
+        ontouchend="p2handleTouchEnd(event)">
+            <h4>GEEK SQUAD</h4>
+            <p><u><b>STORE/DROP OFF SERVICING</b></u>
+            <br></p> 
+            <div class="services">
+                <p>Add device to an existing network - $39.99 + TAX</p>
+                <p>Device diagnostics & repair - $149.99 + TAX</p>
+                <p>Email troubleshooting $99.99 + TAX</p>
+                <p>Modem setup - $99.99 + TAX</p>
+                <p>Network setup & support - $149.99 + TAX</p>
+                <p>Operating system repair & protect - $149.99 + TAX</p>
+                <p>Operating system tune up/upgrade - $39.99 + TAX</p>
+                <p>Printer setup or troubleshooting - $99.99 + TAX</p>
+            </div>
+            <br>
+            <p><u><b>Remote support monthly subscription - $24.99$ + TAX</b></u>
+            <br></p>
+            <div class="services">
+                <p>Printer setup or troubleshooting - $39.99 + TAX</p>
+                <p>Software setup & support - $39.99 + TAX</p>
+                <p>Software troubleshooting - $99.99 + TAX</p>
+                <p>Virus & spyware removal - $149.99 + TAX</p>
+                <p>Wi-Fi setup or troubleshooting - $99.99 + TAX</p>
+                <p>Windows 10 tutorial - $19.99 + TAX</p>
+                <p>Wired camera installation (two cameras) - $199.99 + TAX</p>
+                <p>Wireless camera installation (two cameras) - $99.99 + TAX</p>
+            </div>
+            <p><u><b>Remote support monthly subscription + hardware support - $49.99 + TAX</b></u></p>
+        </div>
+    </div>
+
+    
+
+    <div class="pricing row centered-content">
+        <div class="col-12 mb-3 scrollclick"  id="afterhour">
         <div class="card">
         <div class="card-header">
-        <h2 class="card-title " style="font-size: 15px !important;">
+        <h2 class="card-title" style="font-size: 15px !important;">
         AFTER HOURS SERVICES
         </h2>
         </div>
         <div class="card-body" style="font-family: 'Poppins'">
-        <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">*$100 <br> FEE ADDED TO SERVICE CHARGE(S). <br> </h3>
-        <p> This service is for after hours, <br> and is for urgent matters only.
+        <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">*$100 FEE ADDED TO BILL TOTAL. <br> </h3>
+        <p> This service is for after hours.
         <br>
         <br> <span class="fw-bold" style="font-size:11px; font-family: 'Poppins', sans-serif;">
             *IF WE ARE UNAVAILABLE, PLEASE LEAVE A VOICEMAIL, <br> TEXT MESSAGE, OR SEND AN E-MAIL. </span> </p>
@@ -175,7 +242,7 @@
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="softwareupdate">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -184,14 +251,14 @@
         </div>
         <div class="card-body" style="font-family: 'Poppins'">
         <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">$30/HR</h3>
-        <p> This service includes software installations, <br> re-installations, and/or updates.
+        <p> This service includes software installations, re-installations, updates. This service also includes system setup and settings/preferences changes as well as software/program/application settings/preferences changes.
         <br> <div class="break"></div> <span class="fst-italic" style="font-size:11px;">*OPERATING SYSTEM SOLD SEPARATELY. </span>
         <br> <div class="break"> </div> <span class="fst-italic" style="font-size:11px;">*OTHER PAID SOFTWARE IS SOLD SEPARATELY. </span> </p>
         </div>
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="techassist">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -200,12 +267,12 @@
         </div>
         <div class="card-body" style="font-family: 'Poppins'">
         <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">$20 (FIXED PRICE) <br></h3>
-        <p> This service is for quick services such as completing and uploading documentation online, email setup, and email troubleshooting. </p>
+        <p> This service is for quick services such as completing and uploading documentation online, email setup, email troubleshooting and computer tutorials to teach you what you need to know. </p>
         </div>
         </div>
     </div>
 
-    <div class="col-12 mb-3">
+    <div class="col-12 mb-3 scrollclick" id="printing">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -213,7 +280,7 @@
         </h2>
         </div>
         <div class="card-body" style="font-family: 'Poppins'">
-        <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">$1.25/PAGE </h3>
+        <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">$2/PAGE </h3>
         <!---<p class="fw-bold bitter" style="font-size: 12px;">*THIS IS A PER-PAGE SERVICE. </p>--->
         <p> We can edit and print PDF files.
         <br>
@@ -227,7 +294,7 @@
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="tuneup">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -249,7 +316,7 @@
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="softwarerepair">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -266,7 +333,7 @@
         </div>
     </div>
 
-    <div class="col-12 mb-3">
+    <div class="col-12 mb-3 scrollclick" id="databackup">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -275,14 +342,13 @@
         </div>
         <div class="card-body" style="font-family: 'Poppins';">
         <h3 style="font-size: 15px !important;margin: -4px 0 0 0;">$40/HR.</h3> <br>
-        <p>This service includes the recovery of data from a corrupted hard drive or other
-        Storage disk and/or backup of your data from corrupted hard drive or other storage disk.
+        <p> This service includes the recovery of data from a corrupted hard drive or other storage disk and/or backup of your data from a corrupted hard drive or other storage disk.
         </p>
         </div>
         </div>
     </div>
 
-    <div class="col-12 mb-3">
+    <div class="col-12 mb-3 scrollclick" id="comassembly">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -314,7 +380,7 @@
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="hardwarereplace">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -336,7 +402,7 @@
         </div>
     </div>
 
-    <div class="col-12 mb-3">
+    <div class="col-12 mb-3 scrollclick" id="hookup">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -345,7 +411,7 @@
         </div>
         <div class="card-body" style="font-family: 'Poppins'">
         <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">$20 (FIXED PRICE)</h3>
-        <p> This service is for plugging in computers, printers, routers, etcetera only. It does not include a computer purchase, software purchase, or any service other than plugging in the system.
+        <p> This service is for plugging in computers, printers, routers and etcetera only. It does not include a computer purchase, software purchase, or any service other than plugging in the system.
         <br> <div class="break"></div> <span class="fst-italic"
         style="font-size:11px;">*OTHER SERVICES ARE SOLD SEPARATELY. </span>
         </p>
@@ -353,7 +419,7 @@
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="diagnostics">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -364,14 +430,14 @@
         <h3 style="font-size: 15px !important; margin: -4px 0 21px 0;"> FREE <br>
         <!-- <i><b style="font-size: 12px;"> If we are successful in repairing your computer, device, or other electronic, this service is charged at a fixed price of $20.</b></i>   -->
         </h3>
-        <p> Extensive hardware and software diagnostics. <br> <div class="break"></div> <span style="font-size:11px; font-family: 'Poppins', sans-serif; text-transform: uppercase;"> <b><i>
+        <p> Extensive troubleshooting to come to a hardware and/or software diagnostics. <br> <div class="break"></div> <span style="font-size:11px; font-family: 'Poppins', sans-serif; text-transform: uppercase;"> <b><i>
         *A consultation is necessary.</b></i> </span>
         </p>
         </div>
         </div>
     </div>
 
-    <div class="col-12  mb-3">
+    <div class="col-12  mb-3 scrollclick" id="consultation">
         <div class="card">
         <div class="card-header">
         <h2 class="card-title " style="font-size: 15px !important;">
@@ -381,16 +447,82 @@
         <div class="card-body" style="font-family: 'Poppins'">
         <h3 style="font-size: 15px !important;margin: -4px 0 21px 0;">FREE</h3>
         <p> A conversation to discuss your problem(s) and/or need(s). <br>
-        We can provide you with a free quote over the phone via text, or via email.
+        We can provide you with a free quote over the phone, via text, or via email.
         <br> <span style="font-size:11px; font-family: 'Poppins', sans-serif;"> <i><b>*NECESSARY.</i></b> </span>
         </p>
         </div>
-        </div>
+    </div>
+    </div>
     </div>
 
-    <img class="squad-table" src="./public/img/MCR-Geek Squad-Table.jpg" alt="MCR-Geek Squad-Table" style="width: 100%; margin: 3rem auto;">
+    <!-- <img class="squad-table" src="./public/img/MCR-Geek Squad-Table.jpg" alt="MCR-Geek Squad-Table" style="width: 100%; margin: 3rem auto;"> -->
     <div class="call text-center">
         <!-- <p> PLEASE VISIT OUR <br> <a href="billing.html">BILLING PAGE</a> <br> WHERE YOU CAN SCHEDULE AN APPOINTMENT <br> OR PAY YOUR BILL. </p> -->
+    </div>
+
+    <div class="menu-table">
+        <div class="menu-table-header text-uppercase bitter page-1"
+        id="page1"
+        ontouchstart="p1handleTouchStart(event)"
+        ontouchmove="p1handleTouchMove(event)"
+        ontouchend="p1handleTouchEnd(event)">
+            <h4>MUHA COMPUTER REPAIR</h4>
+            <p><u><b>Remote pricing is the same as onsite/drop off software service pricing.</b></u>
+            <br><br>
+            <u><b>Hardware services are not able to be done remotely.</b></u>
+            <br><br>
+            <u><b>We have no subscription service.</b></u>
+            <br><br>
+            <u><b>We do not charge card fees.</b></u>
+            <br><br></p>
+            <div class="services">
+                <a href="#afterhour">AFTER HOURS SERVICES - $100 FEE ADDED TO SERVICE CHARGE(S).</a>
+                <a href="#softwareupdate">SOFTWARE UPDATE/INSTALLATION - $30/HR.</a>
+                <a href="#techassist">OTHER TECHNICAL ASSISTANCE - $20 (FIXED PRICE).</a>
+                <a href="#printing">PRINTING - $2/PAGE</a>
+                <a href="#tuneup">SOFTWARE TUNE-UP - $60 (FIXED PRICE).</a>
+                <a href="#softwarerepair">SOFTWARE REPAIR - $50/HR.</a>
+                <a href="#databackup">DATA BACKUP/RECOVERY - $40/HR.</a>
+                <a href="#comassembly">COMPUTER ASSEMBLY - $200-$250 (VARIABLE).</a>
+                <a href="#hardwarereplace">HARDWARE UPGRADE/REPLACEMENT - $30/HR.</a>
+                <a href="#hookup">SYSTEM HOOK UP - $20 (FIXED PRICE).</a>
+                <a href="#diagnostics">DIAGNOSTICS - FREE.</a>
+                <a href="#consultation">CONSULTATION - FREE.</a>
+            </div>
+        </div>
+        <div class="menu-table-header text-uppercase bitter page-2"
+        id="page2"
+        ontouchstart="p2handleTouchStart(event)"
+        ontouchmove="p2handleTouchMove(event)"
+        ontouchend="p2handleTouchEnd(event)">
+            <h4>GEEK SQUAD</h4>
+            <p><u><b>STORE/DROP OFF SERVICING</b></u>
+            <br></p> 
+            <div class="services">
+                <p>Add device to an existing network - $39.99 + TAX</p>
+                <p>Device diagnostics & repair - $149.99 + TAX</p>
+                <p>Email troubleshooting $99.99 + TAX</p>
+                <p>Modem setup - $99.99 + TAX</p>
+                <p>Network setup & support - $149.99 + TAX</p>
+                <p>Operating system repair & protect - $149.99 + TAX</p>
+                <p>Operating system tune up/upgrade - $39.99 + TAX</p>
+                <p>Printer setup or troubleshooting - $99.99 + TAX</p>
+            </div>
+            <br>
+            <p><u><b>Remote support monthly subscription - $24.99$ + TAX</b></u>
+            <br></p>
+            <div class="services">
+                <p>Printer setup or troubleshooting - $39.99 + TAX</p>
+                <p>Software setup & support - $39.99 + TAX</p>
+                <p>Software troubleshooting - $99.99 + TAX</p>
+                <p>Virus & spyware removal - $149.99 + TAX</p>
+                <p>Wi-Fi setup or troubleshooting - $99.99 + TAX</p>
+                <p>Windows 10 tutorial - $19.99 + TAX</p>
+                <p>Wired camera installation (two cameras) - $199.99 + TAX</p>
+                <p>Wireless camera installation (two cameras) - $99.99 + TAX</p>
+            </div>
+            <p><u><b>Remote support monthly subscription + hardware support - $49.99 + TAX</b></u></p>
+        </div>
     </div>
 </main>
 
@@ -625,21 +757,11 @@
 </footer>
 
 <!--Scripts-->
-<script src="public/js/preloader.js" async></script>
+<script src="public/js/main.js" async></script>
 <script src="public/js/bootstrap.bundle.min.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script type="text/javascript">
-$('.a-nav-toggle, .menu-main a').on('click', function(){
-        if ($('html').hasClass('body-menu-opened')) {
-            $('html').removeClass('body-menu-opened').addClass('body-menu-close');
-        } else {
-            $('html').addClass('body-menu-opened').removeClass('body-menu-close');
-        }
-    });
-
-</script>
 
 </body>
 </html>
