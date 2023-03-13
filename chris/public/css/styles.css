@@ -1096,7 +1096,7 @@ i {
         left: 0;
         margin-left: 2vw;
         width: 90vw !important;
-        height: 160vh;
+        height: 120vh;
     }
     .page-2 {
         position: absolute;
@@ -1106,4 +1106,17 @@ i {
         width: 90vw !important;
         height: 160vh;
     }
+}
+
+.movetop {
+    text-align: center;
+    margin: 1rem;
+}
+.movetop a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #5683ff;
+    border-radius: 0.2rem;
+    font-weight: bold;
 }
