@@ -1035,6 +1035,10 @@ i {
     scroll-margin-block-start: 110px;
 }
 
+.invertedscrollclick {
+    scroll-margin-block-start: 510px;
+}
+
 .menu-table {
     position: relative;
     display: flex;
