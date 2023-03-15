@@ -1038,16 +1038,9 @@ i {
 .invertedscrollclick {
     scroll-margin-block-start: 510px;
 }
-
-.menu-table {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
 .menu-table-header {
     width: 30rem !important;
+    margin: auto;
     border: black 1px solid;
     border-radius: 0.6rem;
     margin-bottom: 3rem;
@@ -1086,32 +1079,6 @@ i {
     border: white 1px solid;
 }
 
-
-@media (hover: none) and (pointer: coarse) {
-    .menu-table {
-        position: relative;
-        margin-bottom: 3rem;
-        height: 162vh;
-        overflow-x: hidden;
-    }
-    .page-1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-left: 2vw;
-        width: 90vw !important;
-        height: 160vh;
-    }
-    .page-2 {
-        position: absolute;
-        top: 0;
-        left: 100%;
-        margin-left: 2vw;
-        width: 90vw !important;
-        height: 160vh;
-    }
-}
-
 .movetop {
     text-align: center;
     margin: 1rem;
@@ -1123,4 +1090,12 @@ i {
     background-color: #5683ff;
     border-radius: 0.2rem;
     font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .menu-table {
+        display: flex;
+    }
+    .menu-table-header {
+        width: 100% !important;
+    }
 }
