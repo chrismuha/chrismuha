@@ -162,11 +162,10 @@
     </div>
 
     <div class="menu-table">
-        <div class="menu-table-header text-uppercase bitter page-1"
-        id="page1"
-        ontouchstart="p1handleTouchStart(event)"
-        ontouchmove="p1handleTouchMove(event)"
-        ontouchend="p1handleTouchEnd(event)">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <swiper-container>
+            <swiper-slide>
+        <div class="menu-table-header text-uppercase bitter">
             <h4>MUHA COMPUTER REPAIR</h4>
             <p><u><b>Remote pricing is the same as onsite/drop-off software service pricing.</b></u>
             <br><br>
@@ -191,11 +190,10 @@
                 <a href="#consultation">CONSULTATION - FREE.</a>
             </div>
         </div>
-        <div class="menu-table-header text-uppercase bitter page-2"
-        id="page2"
-        ontouchstart="p2handleTouchStart(event)"
-        ontouchmove="p2handleTouchMove(event)"
-        ontouchend="p2handleTouchEnd(event)">
+    </swiper-slide>
+
+<swiper-slide>
+        <div class="menu-table-header text-uppercase bitter">
             <h4>GEEK SQUAD</h4>
             <p><u><b>STORE/DROP-OFF SERVICING</b></u>
             <br></p> 
@@ -225,6 +223,8 @@
             <p><u><b>Remote Support Monthly Subscription + Hardware Support - $49.99 + Tax</b></u></p>
         </div>
     </div>
+</swiper-slide>
+</swiper-container>
 
     
 
@@ -764,6 +764,12 @@
 </footer>
 
 <!--Scripts-->
+<script>
+    var isTouchDevice = 'ontouchstart' in document.documentElement;
+    if (isTouchDevice) {
+        var swiper = new Swiper('.swiper-container');
+    }
+</script>
 <script src="public/js/main.js" async></script>
 <script src="public/js/bootstrap.bundle.min.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
