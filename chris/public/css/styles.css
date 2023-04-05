@@ -1099,3 +1099,117 @@ i {
         width: 100% !important;
     }
 }
+
+.mcr-ftc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'poppins';
+}
+.top-ftc-sec h5 {
+    margin: 0;
+    color: red;
+}
+.top-ftc-sec .ftc-bullets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.top-ftc-sec .ftc-bullets ul {
+    padding: 1rem;
+}
+.top-ftc-sec li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
+.top-ftc-sec i {
+    padding: 0 0.5rem;
+    color: red;
+}
+.single-ftc-pos {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.single-ftc-sec {
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin-bottom: 2rem;
+}
+.dark-theme .single-ftc-sec {
+    background-color: #ffffff0e;
+}
+.single-ftc-sec h5 {
+    background: red;
+    padding: 0.5rem;
+    color: white;
+}
+.single-ftc-sec li, .full-ftc-sec li {
+    list-style:square;
+    text-indent: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+.full-ftc-sec {
+    margin-bottom: 2rem;
+}
+.full-ftc-sec h5 {
+    background-color: red;
+    padding: 0.5rem;
+    margin: 0;
+    color: white;
+}
+.full-ftc-sec .full-ftc-bullets {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 0.5rem;
+}
+.full-ftc-bullets ul {
+    width: 30rem;
+}
+.dark-theme .full-ftc-sec {
+    background-color: #ffffff0e;
+}
+.mcr-ftc ul p {
+    margin-left: -2rem;
+}
+.ftc-ending {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    align-items: center;
+}
+.ftc-ending p {
+    width: 100%;
+    margin-top: 1rem;
+    color: white;
+}
+.ftc-ending p:nth-child(1) {
+    text-align: end;
+}
+.ftc-ending b {
+    font-size: 1rem;
+    color: white;
+}
+@media screen and (max-width: 992px) {
+    .mcr-ftc {
+        width: 95%;
+        overflow-x: hidden;
+    }
+    .single-ftc-pos, .full-ftc-sec {
+        flex-wrap: wrap;
+    }
+    .single-ftc-sec {
+        width: 100%;
+    }
+    .full-ftc-bullets {
+        flex-direction: column;
+    }
+    .full-ftc-sec ul p {
+        width: 60%;
+    }
+}
