@@ -1111,6 +1111,8 @@ i {
 .top-ftc-sec h5 {
     margin: 0;
     color: red;
+    text-align: center;
+    text-decoration: underline;
 }
 .top-ftc-sec .ftc-bullets {
     display: flex;
@@ -1174,6 +1176,7 @@ i {
 }
 .mcr-ftc ul p {
     margin-left: -2rem;
+    font-size: 0.85rem;
 }
 .ftc-ending {
     background-color: red;
@@ -1209,7 +1212,12 @@ i {
     .full-ftc-bullets {
         flex-direction: column;
     }
-    .full-ftc-sec ul p {
-        width: 60%;
+}
+@media screen and (max-width: 767px) {
+    .ftc-ending {
+        text-align: center;
+    }
+    .ftc-ending p:nth-child(1) {
+        text-align: center;
     }
 }
