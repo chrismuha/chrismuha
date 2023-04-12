@@ -1046,7 +1046,7 @@ i {
     margin-bottom: 3rem;
 }
 .menu-table-header h4 {
-    background-color: #ff3c3c;
+    background-color: red;
     padding: 0.5rem;
     border-radius: 0.5rem 0.5rem 0 0;
     text-align: center;
@@ -1065,6 +1065,13 @@ i {
     margin-bottom: 1rem;
     margin: 0.5rem;
     transition: 0.2s;
+}
+.menu-table .services p,
+.menu-table .services a {
+    margin-top: 2rem;
+}
+.menu-table .last-child p:last-child {
+    margin-bottom: 2rem;
 }
 .dark-theme .menu-table .services a {
     color: white;
@@ -1111,13 +1118,11 @@ i {
 .top-ftc-sec h5 {
     margin: 0;
     color: red;
-    text-align: center;
-    text-decoration: underline;
 }
 .top-ftc-sec .ftc-bullets {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .top-ftc-sec .ftc-bullets ul {
     padding: 1rem;
@@ -1176,7 +1181,6 @@ i {
 }
 .mcr-ftc ul p {
     margin-left: -2rem;
-    font-size: 0.85rem;
 }
 .ftc-ending {
     background-color: red;
@@ -1212,12 +1216,12 @@ i {
     .full-ftc-bullets {
         flex-direction: column;
     }
-}
-@media screen and (max-width: 767px) {
-    .ftc-ending {
-        text-align: center;
+    .full-ftc-sec ul p {
+        width: 60%;
     }
-    .ftc-ending p:nth-child(1) {
-        text-align: center;
+    .top-ftc-sec .ftc-bullets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
