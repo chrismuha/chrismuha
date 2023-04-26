@@ -1050,8 +1050,13 @@ i {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 55%;
     margin-top: 2rem;
+}
+@media screen and (max-width: 302px) {
+    .menu-table-header .img {
+        width: 35%;
+    }
 }
 .menu-table-header h4 {
     background-color: red;
