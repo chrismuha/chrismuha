@@ -1045,6 +1045,7 @@ i {
     border: black 1px solid;
     border-radius: 0.6rem;
     margin-bottom: 3rem;
+    overflow-y: hidden;
 }
 .menu-table-header .img {
     display: block;
@@ -1052,6 +1053,8 @@ i {
     margin-right: auto;
     width: 55%;
     margin-top: 2rem;
+    max-width: 280px;
+    width: 100%;
 }
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
@@ -1137,7 +1140,7 @@ i {
 .top-ftc-sec .ftc-bullets {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .top-ftc-sec .ftc-bullets ul {
     padding: 1rem;
@@ -1239,4 +1242,11 @@ i {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+}
+
+.buttons-ver-hor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
