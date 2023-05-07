@@ -1047,18 +1047,14 @@ i {
     margin-bottom: 3rem;
     overflow-y: hidden;
 }
-.menu-table-header .img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    margin-top: 2rem;
-    max-width: 280px;
+.mcr-virus-pic {
+    width: 70%;
+    margin: 0rem auto 2rem auto;
     width: 100%;
 }
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
-        width: 35%;
+        width: 90%;
     }
 }
 .menu-table-header h4 {
