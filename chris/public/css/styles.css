@@ -1268,6 +1268,16 @@ display: none;
     padding: 0 12px;
 }
 
+.navbar>.container-fluid
+{
+    justify-content: space-evenly;    
+}
+
+.swiper, swiper-container
+{
+     max-width: 30rem;   
+}
+
 @media(max-width:1100px)
 {
 .nav-deskt
