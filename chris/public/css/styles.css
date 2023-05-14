@@ -1113,6 +1113,7 @@ i {
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 2rem;
+    font-size: 14px;    
 }
 .menu-table .last-child p:last-child {
     margin-bottom: 2rem;
