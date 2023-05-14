@@ -23,6 +23,8 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/styles.css">
@@ -182,73 +184,81 @@
 
     
     <div class="menu-table">
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-        <swiper-container>
-        <swiper-slide>
-            <div class="menu-table-header text-uppercase bitter">
-                <h4>MUHA COMPUTER REPAIR</h4>
-                <p><u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
-                <br><br>
-                <u><b>Hardware cannot be serviced remotely. <br> <br> We offer services via shipping.</b></u>
-                <br><br>
-                <u><b>We have no subscription service.</b></u>
-                <br><br>
-                <u><b>We do not charge card fees.</b></u>
-                <br><br></p>
-                <div class="services">
-                    <a href="#afterhours">AFTER HOURS SERVICES <br> $100 FEE ADDED TO SERVICE CHARGE(S).</a>
-                    <a href="#softwareupdate">SOFTWARE UPDATE/INSTALLATION <br> $30/HR.</a>
-                    <a href="#techassist">OTHER TECHNICAL ASSISTANCE <br> $20 (FIXED PRICE)</a>
-                    <a href="#printing">PRINTING <br> $1.25/PAGE</a>
-                    <a href="#tuneup">SOFTWARE TUNE-UP <br> $60 (FIXED PRICE)</a>
-                    <a href="#softwarerepair">SOFTWARE REPAIR <br> $50/HR.</a>
-                    <a href="#databackup">DATA BACKUP/RECOVERY <br> $40/HR.</a>
-                    <a href="#comassembly">COMPUTER ASSEMBLY <br> $200-$250 (VARIABLE)</a>
-                    <a href="#hardwarereplace">HARDWARE UPGRADE/REPLACEMENT <br> $30/HR.</a>
-                    <a href="#hookup">SYSTEM HOOK-UP <br> $20 (FIXED PRICE)</a>
-                    <a href="#diagnostics">DIAGNOSTICS <br> FREE</a>
-                    <a href="#consultation">CONSULTATION <br> FREE</a>
-                </div>
-                <p class="h5 number" style="color: white; font-size:20px; margin: 80px 1rem 0px 1rem; 
-                background-color: #222; padding: 1rem 0.5rem; border-radius: 1rem; text-align: center;"> <u><b>SHIPPING ADDRESS:</b></u>
-                <br> 140 Woodgate Dr. <br> Boonville, NY 13309 <br><br> <u><b>BILLING ADDRESS:</b></u>
-                <br> PO Box 311 <br> Boonville, NY 13309 </p>
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+
+        <div class="menu-table-header text-uppercase bitter">
+            <h4>MUHA COMPUTER REPAIR</h4>
+            <p><u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
+            <br><br>
+            <u><b>Hardware cannot be serviced remotely. <br> <br> We offer services via shipping.</b></u>
+            <br><br>
+            <u><b>We have no subscription service.</b></u>
+            <br><br>
+            <u><b>We do not charge card fees.</b></u>
+            <br><br></p>
+            <div class="services">
+                <a href="#afterhours">AFTER HOURS SERVICES <br> $100 FEE ADDED TO SERVICE CHARGE(S).</a>
+                <a href="#softwareupdate">SOFTWARE UPDATE/INSTALLATION <br> $30/HR.</a>
+                <a href="#techassist">OTHER TECHNICAL ASSISTANCE <br> $20 (FIXED PRICE)</a>
+                <a href="#printing">PRINTING <br> $1.25/PAGE</a>
+                <a href="#tuneup">SOFTWARE TUNE-UP <br> $60 (FIXED PRICE)</a>
+                <a href="#softwarerepair">SOFTWARE REPAIR <br> $50/HR.</a>
+                <a href="#databackup">DATA BACKUP/RECOVERY <br> $40/HR.</a>
+                <a href="#comassembly">COMPUTER ASSEMBLY <br> $200-$250 (VARIABLE)</a>
+                <a href="#hardwarereplace">HARDWARE UPGRADE/REPLACEMENT <br> $30/HR.</a>
+                <a href="#hookup">SYSTEM HOOK-UP <br> $20 (FIXED PRICE)</a>
+                <a href="#diagnostics">DIAGNOSTICS <br> FREE</a>
+                <a href="#consultation">CONSULTATION <br> FREE</a>
             </div>
-        </swiper-slide>
-        
-        <swiper-slide>
-            <div class="menu-table-header text-uppercase bitter">
-                <h4>GEEK SQUAD</h4>
-                <p><u><b>STORE/DROP-OFF SERVICING</b></u>
-                <br></p> 
-                <div class="services">
-                    <p>Add Device to an Existing Network <br> $39.99 + Tax</p>
-                    <p>Device Diagnostics & Repair <br> $149.99 + Tax</p>
-                    <p>Email Troubleshooting <br> $99.99 + Tax</p>
-                    <p>Modem Setup <br> $99.99 + Tax</p>
-                    <p>Network Setup & Support <br> $149.99 + Tax</p>
-                    <p>Operating System Repair & Protect <br> $149.99 + Tax</p>
-                    <p>Operating System Tune-Up/Upgrade <br> $39.99 + Tax</p>
-                    <p>Printer Setup or Troubleshooting <br> $99.99 + Tax</p>
-                </div>
-                <br>
-                <p><u><b>Remote Support Monthly Subscription <br> $24.99 + Tax</b></u>
-                <br></p>
-                <div class="services last-child">
-                    <p>Printer Setup or Troubleshooting <br> $39.99 + Tax</p>
-                    <p>Software Setup & Support <br> $39.99 + Tax</p>
-                    <p>Software Troubleshooting <br> $99.99 + Tax</p>
-                    <p>Virus & Spyware Removal <br> $149.99 + Tax</p>
-                    <p>Wi-Fi Setup or Troubleshooting <br> $99.99 + Tax</p>
-                    <p>Windows 10 Tutorial <br> $19.99 + Tax</p>
-                    <p>Wired Camera Installation (two cameras) <br> $199.99 + Tax</p>
-                    <p>Wireless Camera Installation (two cameras) <br> $99.99 + Tax</p>
-                </div>
-                <p><u><b>Remote Support Monthly Subscription + Hardware Support <br> $49.99 + Tax</b></u></p>
-            </div>
+            <p class="h5 number" style="color: white; font-size:20px; margin: 80px 1rem 0px 1rem; 
+            background-color: #222; padding: 1rem 0.5rem; border-radius: 1rem; text-align: center;"> <u><b>SHIPPING ADDRESS:</b></u>
+            <br> 140 Woodgate Dr. <br> Boonville, NY 13309 <br><br> <u><b>BILLING ADDRESS:</b></u>
+            <br> PO Box 311 <br> Boonville, NY 13309 </p>
         </div>
-        </swiper-slide>
-        </swiper-container>
+
+      </div>
+
+      <div class="swiper-slide">
+
+        <div class="menu-table-header text-uppercase bitter">
+            <h4>GEEK SQUAD</h4>
+            <p><u><b>STORE/DROP-OFF SERVICING</b></u>
+            <br></p> 
+            <div class="services">
+                <p>Add Device to an Existing Network <br> $39.99 + Tax</p>
+                <p>Device Diagnostics & Repair <br> $149.99 + Tax</p>
+                <p>Email Troubleshooting <br> $99.99 + Tax</p>
+                <p>Modem Setup <br> $99.99 + Tax</p>
+                <p>Network Setup & Support <br> $149.99 + Tax</p>
+                <p>Operating System Repair & Protect <br> $149.99 + Tax</p>
+                <p>Operating System Tune-Up/Upgrade <br> $39.99 + Tax</p>
+                <p>Printer Setup or Troubleshooting <br> $99.99 + Tax</p>
+            </div>
+            <br>
+            <p><u><b>Remote Support Monthly Subscription <br> $24.99 + Tax</b></u>
+            <br></p>
+            <div class="services last-child">
+                <p>Printer Setup or Troubleshooting <br> $39.99 + Tax</p>
+                <p>Software Setup & Support <br> $39.99 + Tax</p>
+                <p>Software Troubleshooting <br> $99.99 + Tax</p>
+                <p>Virus & Spyware Removal <br> $149.99 + Tax</p>
+                <p>Wi-Fi Setup or Troubleshooting <br> $99.99 + Tax</p>
+                <p>Windows 10 Tutorial <br> $19.99 + Tax</p>
+                <p>Wired Camera Installation (two cameras) <br> $199.99 + Tax</p>
+                <p>Wireless Camera Installation (two cameras) <br> $99.99 + Tax</p>
+            </div>
+            <p><u><b>Remote Support Monthly Subscription + Hardware Support <br> $49.99 + Tax</b></u></p>
+        </div>
+
+      </div>
+      
+    </div>
+     <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
 
     
 
@@ -794,6 +804,17 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
 </body>
 </html>
