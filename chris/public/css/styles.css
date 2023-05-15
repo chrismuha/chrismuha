@@ -1067,7 +1067,7 @@ i {
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #fff;
+/*      background: #fff;*/
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1082,6 +1082,10 @@ i {
 
 .swiper-button-prev, .swiper-button-next {
     color: #111;
+}
+
+.dark-theme .swiper-button-prev, .dark-theme .swiper-button-next {
+    color: #fff;
 }
 
 @media screen and (max-width: 302px) {
