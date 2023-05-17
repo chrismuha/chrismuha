@@ -1045,49 +1045,13 @@ i {
     border: black 1px solid;
     border-radius: 0.6rem;
     margin-bottom: 3rem;
-/*    overflow-y: hidden;*/
+    overflow-y: hidden;
 }
 .mcr-virus-pic {
     width: 70%;
     margin: 0rem auto 2rem auto;
     width: 100%;
 }
-
-.menu-table
-{
-    max-width: 40rem;
-    margin: 0 auto;
-}
-
-.swiper {
-      width: 100%;
-      height: 100%;
-    }
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-/*      background: #fff;*/
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-.swiper-button-prev, .swiper-button-next {
-    color: #111;
-}
-
-.dark-theme .swiper-button-prev, .dark-theme .swiper-button-next {
-    color: #fff;
-}
-
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
         width: 90%;
@@ -1117,7 +1081,6 @@ i {
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 2rem;
-    font-size: 14px;    
 }
 .menu-table .last-child p:last-child {
     margin-bottom: 2rem;
@@ -1289,80 +1252,67 @@ i {
     margin: auto;
 }
 
-.nav-mob
-{
+.nav-mob {
 /*display: none;*/
 }
 
-.menu-deskt .navbar-nav
-{
+.menu-deskt .navbar-nav {
     display: block;
 }
 
-.menu-deskt .navbar-nav li
-{
+.menu-deskt .navbar-nav li {
     display: inline-block;
     padding: 0 12px;
 }
 
-.navbar>.container-fluid
-{
+.navbar>.container-fluid {
     justify-content: space-evenly;    
 }
 
-.swiper-wrapper
-{/*
-     max-width: 30rem;   */
+.swiper, swiper-container {
+     max-width: 30rem;   
 }
 
-.brand-desk
-{
+.brand-desk {
     display: none;
 }
 
-@media(min-width:1100px)
-{
-.menu
-{
-position: relative;
-    height: auto;
-    display: block;
-    width: auto !important;
-    transform: none;
-    padding: 0;    
-}   
+@media(min-width:1100px) {
+    .menu {
+        position: relative;
+        height: auto;
+        display: block;
+        width: auto !important;
+        transform: none;
+        padding: 0;    
+    }   
 
-.menu-main
-{
-    overflow: hidden;   
-    padding-top: 0; 
-} 
+    .menu-main {
+        overflow: hidden;   
+        padding-top: 0; 
+    } 
 
-.menu-main > ul
-{
-    display: block !important;
-}
+    .menu-main > ul {
+        display: block !important;
+    }
 
-.menu-main > ul > li {
-    display: inline-block;
-    width: auto;
-    padding: 0 16px;
-    border: none;
-}
+    .menu-main > ul > li {
+        display: inline-block;
+        width: auto;
+        padding: 0 16px;
+        border: none;
+    }
 
-.nav-toggle-btn
-{
-    display: none;
-}
+    .nav-toggle-btn {
+        display: none;
+    }
 
-.brand-desk
-{
-    display: block;
-}
+    .brand-desk {
+        display: block;
+    }
 
-.brand-mob
-{
-    display: none;
-}
+    .brand-mob {
+        display: none;
+    }
 }
 
