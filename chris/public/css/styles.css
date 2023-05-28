@@ -1318,16 +1318,39 @@ i {
 
 .title-header {
     margin-top: -72px !important;
-    height: 500px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .title-bg-black {
-    margin-top: -8px;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
 }
 .page-banner {
     width: 100vw;
+    height: fit-content;
+    position: relative;
+}
+.page-banner::before {
+    content: '';
+    color: #ffffff;
+    font-size: 2rem;
     position: absolute;
-    z-index: -1;
+    z-index: 2;
+    bottom: 0;
+    padding: 1rem;
+    font-family: 'poppins';
+    text-transform: uppercase;
+}
+@media screen and (max-width: 475px) {
+    .page-banner::before {
+        font-size: 160%;
+    }
+}
+@media screen and (min-width: 750px) {
+    .page-banner::before {
+        font-size: 3rem;
+    }
 }
