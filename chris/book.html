@@ -27,21 +27,25 @@
     <link rel="stylesheet" href="public/css/styles.css">
 
 <style>
-@media(min-width: 1080px) {
-.img-fluid{
-        max-width: 580px;
-        margin-top: 50px;
-    }
-    div.banner .img-fluid{
-        max-width: 580px;
+    @media(min-width: 1080px) {
+    .img-fluid{
+            max-width: 580px;
+            margin-top: 50px;
+        }
+        div.banner .img-fluid{
+            max-width: 580px;
+        }
+
     }
 
-}
-
-.book-cover {
-    max-width: 330px;
-    width: 100%;
-}
+    .book-cover {
+        max-width: 330px;
+        width: 100%;
+    }
+    .page-banner::before {
+        content: 'Chris Muha Book';
+        color: #37B3DA;
+    }
 </style>
 
 
@@ -114,12 +118,11 @@
         </div>
     </div>
 </nav>
+<div class="page-banner">
+    <img src="public/banners/book-banner.jpg" class="page-banner" alt="page banner">
+</div>
 
-<img src="public/banners/book-banner.jpg" class="page-banner" alt="page banner">
 <main class="container">
-    <div class="title-header my-5 col-12 text-center">
-        <h1 class="fw-bold text-primary title-bg-black" style="color: #37B3DA !important;">CHRIS MUHA BOOK</h1>
-        </div>
 	
         <div class="text-center p-3 centered-content" style="padding-top: 0px !important;">
             <div class="row">

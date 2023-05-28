@@ -29,19 +29,23 @@
 
 <style>
 @media(min-width: 1080px) {
-.img-fluid{
-        max-width: 580px;
-        margin-top: 50px;
-    }
-    div.banner .img-fluid{
-        max-width: 580px;
+    .img-fluid{
+            max-width: 580px;
+            margin-top: 50px;
+        }
+        div.banner .img-fluid{
+            max-width: 580px;
+        }
+
     }
 
-}
-
-.books a p {
-    font-family: Arial, sans-serif;
-}
+    .books a p {
+        font-family: Arial, sans-serif;
+    }
+    .page-banner::before {
+        content: 'SHOP MUHA COMPUTER REPAIR';
+        color: red;
+    }
 </style>
 
 </head>
@@ -113,12 +117,11 @@
         </div>
     </div>
 </nav>
+<div class="page-banner">
+    <img src="public/banners/shop-banner.jpg" class="page-banner" alt="page banner">
+</div>
 
-<img src="public/banners/shop-banner.jpg" class="page-banner" alt="page banner">
 <main class="container">
-    <div class="title-header my-5">
-        <h1 class="fw-bold title-bg-black" style="color: red;">SHOP <br> MUHA COMPUTER REPAIR</h1>
-    </div>
 	
     <div class="text-center centered-content">
         <div class="row">
@@ -136,7 +139,7 @@
             </div>
 		<br>
 	<div class="books">
-        <h2 class="fw-bold text-uppercase text-center text-decoration-underline title-bg-black " style="font-size:20px;color:#00C301; margin-bottom:20px">PURCHASE CHRIS' BOOK:</h2>
+        <h2 class="fw-bold text-uppercase text-center text-decoration-underline" style="font-size:20px;color:#00C301; margin-bottom:20px">PURCHASE CHRIS' BOOK:</h2>
 	</div>
         <!-- <div class="card p-3 mb-4 text-center">
 			<h4 class="fw-bold text-center h6">AMAZON (Standard Edition)</h4>
