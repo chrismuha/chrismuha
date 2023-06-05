@@ -1334,8 +1334,10 @@ i {
     position: relative;
 }
 .page-banner img {
-    height: fit-content;
+    height: auto;
     width: 100vw;
+    align-self: flex-start;
+    object-fit: cover;
 }
 
 .page-banner::before {
