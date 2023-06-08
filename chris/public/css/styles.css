@@ -1351,11 +1351,12 @@ i {
     font-family: 'poppins' !important;
     font-weight: 500 !important;
     text-transform: uppercase;
+    margin-left: -0.8rem;
 }
 
 @media screen and (max-width: 475px) {
     .page-banner::before {
-        font-size: 160%;
+        font-size: 1.6rem;
     }
 }
 
