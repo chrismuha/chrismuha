@@ -282,7 +282,7 @@ font-weight:500 !important;
     text-align: center;
 }
 
-.footer-links {
+.footer-links, .review {
     font-family: 'poppins', serif;
     /* font-family: 'Bitter', serif; */
     font-weight: bold;
@@ -889,6 +889,7 @@ i {
 
 .review {
     padding-top: 50px;
+    text-align: center;
 }
 
 /*bolder headers*/
@@ -1371,4 +1372,8 @@ i {
     .page-banner::before {
         bottom: -1.2rem;
     }
+}
+
+.buttons-section-index {
+    margin-top: 1rem;
 }
