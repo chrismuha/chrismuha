@@ -1042,7 +1042,7 @@ i {
 }
 .menu-table-header {
     width: 30rem !important;
-    height: 100rem;
+    height: 110rem;
     margin: auto;
     border: black 1px solid;
     border-radius: 0.6rem;
@@ -1272,7 +1272,7 @@ i {
 }
 
 .swiper, swiper-container {
-     max-width: 30rem;   
+/*     max-width: 30rem;   */
 }
 
 .brand-desk {
@@ -1376,4 +1376,44 @@ i {
 
 .buttons-section-index {
     margin-top: 1rem;
+}
+
+
+.menu-table
+{
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*      background: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #111;
+}
+
+.dark-theme .swiper-button-prev, .dark-theme .swiper-button-next {
+    color: #fff;
+}
+
+.swiper, swiper-container {
+/*    max-width: 30rem;*/
 }
