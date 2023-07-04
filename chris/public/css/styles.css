@@ -1042,7 +1042,7 @@ i {
 }
 .menu-table-header {
     width: 30rem !important;
-    height: 110rem;
+    height: 105rem;
     margin: auto;
     border: black 1px solid;
     border-radius: 0.6rem;
@@ -1074,6 +1074,7 @@ i {
     flex-direction: column;
 }
 .menu-table .services a {
+    font-size: 16px;
     text-decoration: none;
     color: black;
     margin-bottom: 1rem;
