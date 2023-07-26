@@ -1428,3 +1428,12 @@ i {
 {
     background-color: rgb(255 255 255 / 5%);
 }
+
+.swiper-slide img
+{
+    max-height: 800px;
+}
+
+.rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
+    color: #f0b654;
+}
