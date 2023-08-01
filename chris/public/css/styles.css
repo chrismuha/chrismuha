@@ -1255,9 +1255,9 @@ i {
     margin: auto;
 }
 
-.nav-mob {
-/*display: none;*/
-}
+/* .nav-mob {
+    display: none; 
+} */
 
 .menu-deskt .navbar-nav {
     display: block;
@@ -1271,10 +1271,10 @@ i {
 .navbar>.container-fluid {
     justify-content: space-evenly;    
 }
-
+/* 
 .swiper, swiper-container {
-/*     max-width: 30rem;   */
-}
+    max-width: 30rem;   
+} */
 
 .brand-desk {
     display: none;
@@ -1387,24 +1387,24 @@ i {
 }
 
 .swiper {
-      width: 100%;
-      height: 100%;
-    }
+    width: 100%;
+    height: 100%;
+}
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    /*      background: #fff;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  /*      background: #fff;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -1415,25 +1415,33 @@ i {
     color: #fff;
 }
 
-.swiper, swiper-container {
-/*    max-width: 30rem;*/
-}
+/* .swiper, .swiper-container {
+    max-width: 30rem;
+} */
 
-.dark-theme .dBDXpf, .dark-theme .kdDwXd, .dark-theme .huflDf, .dark-theme .hlUNdy, .dark-theme .fdSgyg, .dark-theme .jgvdLy, .dark-theme .kEsJBd, .dark-theme .gARbBw, .dark-theme .gBUraK
-{
+.dark-theme .dBDXpf, .dark-theme .kdDwXd, .dark-theme .huflDf, .dark-theme .hlUNdy, .dark-theme .fdSgyg, .dark-theme .jgvdLy, .dark-theme .kEsJBd, .dark-theme .gARbBw, .dark-theme .gBUraK {
     color: #fff !important; 
 }
 
-.dark-theme .iuBYbv
-{
+.dark-theme .iuBYbv {
     background-color: rgb(255 255 255 / 5%);
 }
 
-.swiper-slide img
-{
+.swiper-slide img {
     max-height: 800px;
 }
 
 .rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
     color: #f0b654;
+}
+
+
+.menu-table {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 665px) {
+    .menu-table {
+        margin: 0 1rem;
+    }
 }
