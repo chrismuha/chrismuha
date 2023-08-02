@@ -1445,3 +1445,8 @@ i {
         margin: 0 1rem;
     }
 }
+
+.button-header {
+    margin: 2rem 0;
+    font-size: 18px;
+}
