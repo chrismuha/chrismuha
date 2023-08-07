@@ -1448,5 +1448,6 @@ i {
 
 .button-header {
     margin: 2rem 0;
+    font-weight: bold;
     font-size: 18px;
 }
