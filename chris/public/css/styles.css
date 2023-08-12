@@ -1451,3 +1451,7 @@ i {
     font-weight: bold;
     font-size: 18px;
 }
+
+.menu-table-header h4 {
+    color: white;
+}
