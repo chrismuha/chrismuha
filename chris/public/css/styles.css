@@ -46,7 +46,7 @@ body.dark-theme {
 }
 
 body {
-    overflow-x: hidden ;
+    overflow-x: hidden !important;
 }
 
 .dark-theme .text-black-50 {
@@ -1394,17 +1394,6 @@ i {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /*      background: #fff;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -1425,10 +1414,6 @@ i {
 
 .dark-theme .iuBYbv {
     background-color: rgb(255 255 255 / 5%);
-}
-
-.swiper-slide img {
-    max-height: 800px;
 }
 
 .rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
@@ -1454,4 +1439,87 @@ i {
 
 .menu-table-header h4 {
     color: white;
+}
+
+.review-slider {
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.review-slider .swiper-slide {
+    padding: 0 5rem;
+} 
+.review-slider img {
+    width: 90%;
+}
+.review-slider > p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.review-slider i {
+    color: orange;
+}
+.button-google-review {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+.button-google-review img {
+    width: 50%;
+}
+.button-google-review a {
+    background-color: #ff6153;
+    margin: 1rem 0;
+}
+.button-google-review a:hover {
+    background-color: #ff5344 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .review-slider {
+        width: 100%;
+    }
+    .review-slider img {
+        width: 100%;
+    }
+    .review-slider .review-slider {
+        padding: 0 4rem;
+    }
+}
+
+.circle-top {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10rem;
+    background-color: #0074df;
+    border: white 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    bottom: 2rem;
+    right: 2rem;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.circle-top:hover , .circle-top:active {
+    background-color: #1b91ff;
+    border: white 2px solid;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+.circle-top i {
+    color: white;
+    font-size: 22px;
 }
