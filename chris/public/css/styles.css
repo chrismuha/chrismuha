@@ -1109,7 +1109,7 @@ i {
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
-    background-color: #5683ff;
+    background-color: #1b91ff;
     border-radius: 0.2rem;
     font-weight: bold;
 }
@@ -1449,6 +1449,7 @@ i {
 
 .review-slider .swiper-slide {
     padding: 0 5rem;
+    text-align: left;
 } 
 .review-slider img {
     width: 90%;
