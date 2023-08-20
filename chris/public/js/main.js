@@ -12,3 +12,10 @@ $('.a-nav-toggle, .menu-main a').on('click', function(){
         $('html').addClass('body-menu-opened').removeClass('body-menu-close');
     }
 });
+
+window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+  
