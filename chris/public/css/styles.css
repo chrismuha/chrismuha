@@ -1113,7 +1113,7 @@ i {
     border-radius: 0.2rem;
     font-weight: bold;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 530px) {
     .menu-table {
         display: flex;
     }
@@ -1445,6 +1445,11 @@ i {
     width: 40rem;
     margin: 0 auto;
     margin-top: 3rem;
+}
+
+.google .swiper-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .review-slider .swiper-slide {
