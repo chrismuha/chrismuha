@@ -1113,7 +1113,7 @@ i {
     border-radius: 0.2rem;
     font-weight: bold;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 530px) {
     .menu-table {
         display: flex;
     }
@@ -1447,6 +1447,11 @@ i {
     margin-top: 3rem;
 }
 
+.google .swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .review-slider .swiper-slide {
     padding: 0 5rem;
     text-align: left;
@@ -1523,4 +1528,7 @@ html {
 .circle-top i {
     color: white;
     font-size: 22px;
+}
+.review-slider {
+    margin-bottom: 2rem;
 }
