@@ -1100,6 +1100,9 @@ i {
 .dark-theme .menu-table-header {
     border: white 1px solid;
 }
+a.nav-link {
+    color: white !important;
+}
 
 .movetop {
     text-align: center;
@@ -1532,3 +1535,4 @@ html {
 .review-slider {
     margin-bottom: 2rem;
 }
+
