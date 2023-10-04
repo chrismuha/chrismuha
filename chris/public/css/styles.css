@@ -1112,7 +1112,7 @@ a.nav-link {
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
-    background-color: #1b91ff;
+    background-color: #024cad;
     border-radius: 0.2rem;
     font-weight: bold;
 }
@@ -1521,7 +1521,7 @@ a.nav-link {
 }
 
 .circle-top:hover , .circle-top:active {
-    background-color: #1b91ff;
+    background-color: #024cad;
     border: white 2px solid;
 }
 
