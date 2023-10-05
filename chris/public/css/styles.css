@@ -1112,9 +1112,13 @@ a.nav-link {
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
-    background-color: #024cad;
+    background-color: #1b91ff;
     border-radius: 0.2rem;
     font-weight: bold;
+    transition: 0.2s;
+}
+.movetop a:hover {
+    background-color: #0057a8;
 }
 @media only screen and (max-width: 530px) {
     .menu-table {
@@ -1521,7 +1525,7 @@ a.nav-link {
 }
 
 .circle-top:hover , .circle-top:active {
-    background-color: #024cad;
+    background-color: #1b91ff;
     border: white 2px solid;
 }
 
