@@ -100,6 +100,7 @@ p {
 
 a {
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .mw {
@@ -1540,3 +1541,7 @@ html {
     margin-bottom: 2rem;
 }
 
+a:hover {
+    color: #2f81f7;
+    text-decoration: underline;
+}
