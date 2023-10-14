@@ -100,7 +100,7 @@ p {
 
 a {
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .mw {
