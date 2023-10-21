@@ -12,3 +12,11 @@ $('.a-nav-toggle, .menu-main a').on('click', function(){
         $('html').addClass('body-menu-opened').removeClass('body-menu-close');
     }
 });
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    loop: true,
+});

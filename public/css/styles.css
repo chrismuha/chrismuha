@@ -1545,3 +1545,7 @@ a:hover {
     color: #2f81f7;
     text-decoration: underline;
 }
+
+.review-slider .swiper-message {
+    text-align: center;
+}
