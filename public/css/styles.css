@@ -1043,7 +1043,7 @@ i {
 }
 .menu-table-header {
     width: 30rem !important;
-    height: 105rem;
+    height: 107rem;
     margin: auto;
     border: black 1px solid;
     border-radius: 0.6rem;
@@ -1081,10 +1081,19 @@ i {
     margin-bottom: 1rem;
     margin: 0.5rem;
     transition: 0.2s;
+    margin-top: 0;
 }
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 1.8rem;
+}
+.menu-table .services a:first-child,
+.menu-table .services p:first-child  {
+    margin-top: 0rem;
+}
+.menu-table .services a:last-child,
+.menu-table .services p:last-child  {
+    margin-bottom: 0rem;
 }
 .menu-table .last-child p:last-child {
     margin-bottom: 2rem;
@@ -1097,6 +1106,9 @@ i {
 }
 .menu-table .services p {
     font-size: 14px;
+}
+.menu-table .table-underlined-text {
+    margin-bottom: 1.8rem;
 }
 .dark-theme .menu-table-header {
     border: white 1px solid;
