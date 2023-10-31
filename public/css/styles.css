@@ -1043,7 +1043,7 @@ i {
 }
 .menu-table-header {
     width: 30rem !important;
-    height: 107rem;
+    height: 105rem;
     margin: auto;
     border: black 1px solid;
     border-radius: 0.6rem;
@@ -1085,7 +1085,7 @@ i {
 }
 .menu-table .services p,
 .menu-table .services a {
-    margin-top: 1.8rem;
+    margin-top: 1.5rem;
 }
 .menu-table .services a:first-child,
 .menu-table .services p:first-child  {
@@ -1108,7 +1108,7 @@ i {
     font-size: 14px;
 }
 .menu-table .table-underlined-text {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
 }
 .dark-theme .menu-table-header {
     border: white 1px solid;
