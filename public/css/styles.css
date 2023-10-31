@@ -1086,6 +1086,7 @@ i {
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 .menu-table .services a:first-child,
 .menu-table .services p:first-child  {
