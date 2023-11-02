@@ -1038,7 +1038,7 @@ i {
     scroll-margin-block-start: 110px;
 }
 .scrollclick-larger {
-    scroll-margin-block-start: 800px;
+    scroll-margin-block-start: 200px;
 }
 .invertedscrollclick {
     scroll-margin-block-start: 510px;
