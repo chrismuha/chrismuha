@@ -1246,6 +1246,7 @@ a.nav-link {
     width: 100%;
     margin-top: 1rem;
     color: white;
+    font-weight: 800;
 }
 .ftc-ending p:nth-child(1) {
     text-align: end;
@@ -1400,7 +1401,14 @@ a.nav-link {
     text-transform: uppercase;
     margin-left: -0.8rem;
 }
-
+@media screen and (min-width:1100px) {
+    .page-banner img {
+        height: 70vh
+    }
+    .page-banner::before {
+        padding-bottom: 0;
+    }
+}
 @media screen and (max-width: 475px) {
     .page-banner::before {
         font-size: 1.6rem;
