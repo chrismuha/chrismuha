@@ -86,7 +86,7 @@ body .offcanvas{
  }
 
 body {
-    font-family: 'PT Sans Narrow';
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: 14px;
 }
@@ -106,22 +106,22 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans Narrow', serif;
-    /* font-family: 'PT Sans Narrow', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     font-weight: 600 !important;
 }
 
 .nav-link {
-    font-family: 'PT Sans Narrow', serif;
-    /* font-family: 'PT Sans Narrow', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     text-transform: uppercase;
     font-size: 16px;
 /*    margin-top: 14px;*/
 }
 
 .bitter {
-    font-family: 'PT Sans Narrow', serif;
-    /* font-family: 'PT Sans Narrow', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
 }
 
 .navbar-brand {
@@ -142,8 +142,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .time table, .number {
-    font-family: 'PT Sans Narrow', serif;
-    /* font-family: 'PT Sans Narrow', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
 }
 
 footer {
@@ -206,7 +206,7 @@ footer a.e_mail, a.e_mail {
     border: 0;
     padding-top: 5px;
     /*font-family: 'Arial', sans-serif;*/
-font-family: 'PT Sans Narrow', sans-serif;    
+font-family: 'Poppins', sans-serif;    
 }
 
 .call {
@@ -281,8 +281,8 @@ font-weight:500 !important;
 }
 
 .footer-links, .review {
-    font-family: 'PT Sans Narrow', serif;
-    /* font-family: 'PT Sans Narrow', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     font-weight: bold;
 }
 
@@ -892,7 +892,7 @@ i {
 /*bolder headers*/
 
 .header h1 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600 !important;
 }
 
@@ -1148,7 +1148,7 @@ a.nav-link {
     justify-content: center;
     width: 80%;
     margin: 2rem auto;
-    font-family: 'PT Sans Narrow';
+    font-family: 'Poppins';
 }
 .top-ftc-sec h5 {
     margin: 0;
@@ -1393,7 +1393,7 @@ a.nav-link {
     bottom: 0;
     z-index: 1;
     padding: 1rem;
-    font-family: 'PT Sans Narrow' !important;
+    font-family: 'Poppins' !important;
     font-weight: 600 !important;
     text-transform: uppercase;
     margin-left: -0.8rem;
@@ -1618,5 +1618,5 @@ a:hover {
     margin-bottom: 0 !important;
 }
 .menu-table p, .menu-table a {
-    font-family: 'PT Sans' !important;
+    font-family: 'Poppins' !important;
 }
