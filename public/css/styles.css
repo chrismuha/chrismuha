@@ -1,10 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 input[type=checkbox] {
     -webkit-appearance: none;
@@ -88,7 +86,7 @@ body .offcanvas{
  }
 
 body {
-    font-family: 'poppins';
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: 14px;
 }
@@ -108,22 +106,22 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'poppins', serif;
-    /* font-family: 'Bitter', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     font-weight: 600 !important;
 }
 
 .nav-link {
-    font-family: 'poppins', serif;
-    /* font-family: 'Bitter', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     text-transform: uppercase;
     font-size: 16px;
 /*    margin-top: 14px;*/
 }
 
 .bitter {
-    font-family: 'poppins', serif;
-    /* font-family: 'Bitter', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
 }
 
 .navbar-brand {
@@ -144,8 +142,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .time table, .number {
-    font-family: 'poppins', serif;
-    /* font-family: 'Bitter', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
 }
 
 footer {
@@ -283,8 +281,8 @@ font-weight:500 !important;
 }
 
 .footer-links, .review {
-    font-family: 'poppins', serif;
-    /* font-family: 'Bitter', serif; */
+    font-family: 'Poppins', serif;
+    /* font-family: 'Poppins', serif; */
     font-weight: bold;
 }
 
@@ -319,7 +317,7 @@ nav.navbar {
 }
 
 main.container {
-    margin-top: 92px;
+    margin-top: 37px;
 }
 
 .e_mail:hover {
@@ -348,7 +346,6 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
         -ms-user-select: none;
             user-select: none;
     width: 3.6rem;
-margin-top: 70px;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
 }
@@ -895,7 +892,7 @@ i {
 /*bolder headers*/
 
 .header h1 {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600 !important;
 }
 
@@ -1023,6 +1020,7 @@ i {
     margin-left: 1rem !important;
     margin-right: 1rem !important;
     font-size: 1rem;
+    padding: 0;
 }
 /* 
 .title-bg-black {
@@ -1150,7 +1148,7 @@ a.nav-link {
     justify-content: center;
     width: 80%;
     margin: 2rem auto;
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }
 .top-ftc-sec h5 {
     margin: 0;
@@ -1395,7 +1393,7 @@ a.nav-link {
     bottom: 0;
     z-index: 1;
     padding: 1rem;
-    font-family: 'poppins' !important;
+    font-family: 'Poppins' !important;
     font-weight: 600 !important;
     text-transform: uppercase;
     margin-left: -0.8rem;
@@ -1420,7 +1418,7 @@ a.nav-link {
 }
 
 .buttons-section-index {
-    margin-top: 1rem;
+    margin-top: 37px;
 }
 
 
@@ -1488,7 +1486,7 @@ a.nav-link {
 .review-slider {
     width: 40rem;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 37px;
 }
 
 .google .swiper-wrapper {
@@ -1584,4 +1582,41 @@ a:hover {
 
 .review-slider .swiper-message {
     text-align: center;
+}
+
+/*spacing correction top layer codes*/
+.footer-links {
+    margin-bottom: 37px !important;
+}
+.bookmark-footer, .review {
+    margin: 37px 1rem !important;
+    padding: 0;
+}
+.menu-table-header {
+    margin-bottom: 0 !important;
+}
+.mcr-ftc {
+    margin-bottom: 37px;
+    margin-top: 37px;
+}
+.mcr-virus-pic {
+    margin-top: 37px;
+    margin-bottom: 0;
+}
+.button-header {
+    margin: 37px 0;
+}
+.review-slider {
+    margin-bottom: 0;
+    margin-top: 37px;
+}
+.spacing {
+    height: 37px;
+    width: 100%;
+}
+#consultation {
+    margin-bottom: 0 !important;
+}
+.menu-table p, .menu-table a {
+    font-family: 'Poppins' !important;
 }
