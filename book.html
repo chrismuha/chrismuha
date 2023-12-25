@@ -21,7 +21,9 @@
     <meta name="theme-color" content="#ffffff">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -173,7 +175,7 @@
     Please use the links on our
 	<a href="shop.html">SHOP PAGE </a>. </p>
     </div>
-    <p class="p-3 mw" style="font-family:bitter; display: flex; justify-content: center; font-size:14px; font-weight: 900;  text-align: left; border: #ADD8E6 solid 2px; border-radius: 0.5rem; padding: 0.5rem; margin-bottom: 37px;">This book is affiliated with
+    <p class="p-3 mw" style="font-family: 'Poppins'; display: flex; justify-content: center; font-size:14px; font-weight: 900;  text-align: left; border: #ADD8E6 solid 2px; border-radius: 0.5rem; padding: 0.5rem; margin-bottom: 37px;">This book is affiliated with
     Muha Computer Repair.
     Chris Muha, the Owner and Lead Technician wrote it.
     Chris Muha solely owns the copyright of this literary work.
@@ -184,7 +186,7 @@
     </p>
     </div>
     <div>
-    <p class="p-3 mw" style="font-family:bitter; font-size:14px; font-weight: 600; text-align: left; border: #00008B solid 2px; border-radius: 0.5rem; padding: 0.5rem;">
+    <p class="p-3 mw" style="font-family: 'Poppins'; font-size:14px; font-weight: 600; text-align: left; border: #00008B solid 2px; border-radius: 0.5rem; padding: 0.5rem;">
     <u style="font-weight: 900; font-size: 15px; margin-bottom: 0;">If you have any concerns about plagiarism/copying and pasting articles 
     from the internet, any other literary works, and/or etcetera, please read the following disclosure from 
     Chris Muha:</u> 
@@ -612,7 +614,7 @@
 
         <div class="review-slider">
             <p>REVIEWS RESPONSES</p>
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper review-responses">
                 <div class="swiper-wrapper">
         
                     <div class="swiper-slide">
@@ -725,6 +727,20 @@
                 
               </div>
         </div>
+
+        <script>
+            var swiper = new Swiper('.review-responses', {
+                loop: true,
+    
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+                autoHeight: true          
+            });
+    
+        </script>
 
 <footer>
     <div class="container">

@@ -21,8 +21,11 @@
     <meta name="theme-color" content="#ffffff">
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -157,7 +160,7 @@
             </div>
 	    </div>
         <div class="col-md-12 col-12" style="display: flex; justify-content: center; width: 100%; margin: 37px 0;">
-            <p style="font-family:bitter; font-size:14px; font-weight: 900; text-align: left; margin-bottom: 0;">
+            <p style="font-family: 'Poppins'; font-size:14px; font-weight: 900; text-align: left; margin-bottom: 0;">
                 All book formats are printed using high-quality materials.
                 <br> Please be aware that all formats consist of the same content.
                 <br> The links below direct to official merchant links.
@@ -613,7 +616,7 @@
 
         <div class="review-slider">
             <p>REVIEWS RESPONSES</p>
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper review-responses">
                 <div class="swiper-wrapper">
         
                     <div class="swiper-slide">
@@ -726,6 +729,20 @@
                 
               </div>
         </div>
+
+        <script>
+            var swiper = new Swiper('.review-responses', {
+                loop: true,
+    
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+                autoHeight: true          
+            });
+    
+        </script>
 
 
 	
