@@ -59,7 +59,7 @@ body {
 }
 
 .dark-theme .bg-light {
-    background-color: rgba(22, 22, 22, 0.11) !important;
+    background-color: #1616161c !important;
 }
 
 .dark-theme table {
@@ -79,7 +79,7 @@ body:not(.dark-theme) .dark_logo{
 
 body .offcanvas{
      background-color: black !important;
-     box-shadow: 0 0 10px rgba(33, 33, 33, 0.54);
+     box-shadow: 0 0 10px #2121218a;
  }
  .offcanvas *{
      color: white;
@@ -424,7 +424,7 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
     color: white;
 }
 .navbar-dark .navbar-toggler {
-    color: rgb(255 255 255);
+    color: #ffffff;
     border-color: #000 !important;
     margin-right: 25px !important;
 box-shadow: none !important;
@@ -443,7 +443,7 @@ box-shadow: none !important;
 }
 
 .table-hover>tbody>tr:hover {
-     --bs-table-accent-bg: rgb(255 192 8 / 28%);
+     --bs-table-accent-bg: #ffc00847;
      color: inherit;
  }
 
@@ -645,7 +645,7 @@ body :not(.dark-theme) .text-grn
     right: 0;
     top: 0;
     bottom: 100%;
-    background: rgba(0,0,0,.65);
+    background: #000000a6;
     z-index: 100;
 }
 
@@ -1213,13 +1213,13 @@ a.nav-link {
 .full-ftc-sec .full-ftc-bullets {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.089);
+    background-color: #00000017;
     padding: 0.5rem;
 }
 .full-ftc-bullets-flex {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.089);
+    background-color: #00000017;
     
 }
 .full-ftc-bullets-flex * {
@@ -1461,7 +1461,7 @@ a.nav-link {
 }
 
 .dark-theme .iuBYbv {
-    background-color: rgb(255 255 255 / 5%);
+    background-color: #ffffff0d;
 }
 
 .rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
