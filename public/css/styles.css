@@ -1185,7 +1185,7 @@ a.nav-link {
 }
 .single-ftc-sec {
     width: 30rem;
-    background-color: rgba(0, 0, 0, 0.089);
+    background-color: #00000017;
     margin-bottom: 2rem;
 }
 .dark-theme .single-ftc-sec {
