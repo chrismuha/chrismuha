@@ -1410,7 +1410,16 @@ a.nav-link {
         font-size: 1.6rem;
     }
 }
-
+@media screen and (max-width: 360px) {
+    .page-banner::before {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .page-banner::before {
+        font-size: 1rem;
+    }
+}
 @media screen and (min-width: 750px) {
     .page-banner::before {
         font-size: 3rem;
