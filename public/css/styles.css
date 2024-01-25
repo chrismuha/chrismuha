@@ -1240,23 +1240,37 @@ a.nav-link {
 .ftc-ending {
     background-color: red;
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    gap: 12pt;
-    padding: 0 6pt;
     align-items: center;
+    height: 3.5rem;
+    gap: 12pt;
 }
 .ftc-ending p {
-    width: 100%;
     margin-top: 12pt;
     color: white;
     font-weight: 800;
 }
-.ftc-ending p:nth-child(1) {
-    text-align: end;
+.ftc-ending .line {
+    width: 2px;
+    height: 100%;
+    background-color: white;
 }
 .ftc-ending b {
     font-size: 12pt;
     color: white;
+}
+@media screen and (max-width: 550px) {
+    .ftc-ending {
+        flex-direction: column;
+        height: fit-content;
+        gap: 0;
+        text-align: center;
+    }
+    .ftc-ending .line {
+        height: 2px;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 992px) {
     .mcr-ftc {
@@ -1293,7 +1307,7 @@ a.nav-link {
 
 .buttons-ver-hor {
     display: flex;
-    flex-wrap: wrap;
+
     gap: 12pt;
     justify-content: center;
 }
