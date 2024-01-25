@@ -1385,12 +1385,18 @@ a.nav-link {
     position: relative;
 }
 .page-banner img {
-    height: auto;
+    height: 50vh;
     width: 100vw;
+    margin: auto;
     align-self: flex-start;
-    object-fit: cover;
+    object-fit: contain;
 }
-
+@media screen and (max-width: 1350px) {
+    .page-banner img {
+        height: auto;
+        object-fit: cover;
+    }
+}
 .page-banner::before {
     content: '';
     color: #ffffff;
