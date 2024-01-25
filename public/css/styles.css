@@ -1307,11 +1307,19 @@ a.nav-link {
 
 .buttons-ver-hor {
     display: flex;
-
     gap: 12pt;
     justify-content: center;
 }
-
+@media screen and (max-width: 420px) {
+    .buttons-ver-hor a {
+        font-size: 8pt !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .buttons-ver-hor a {
+        font-size: 7pt !important;
+    }
+}
 .button-services {
     width: fit-content ;
     margin: auto;
