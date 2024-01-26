@@ -1310,6 +1310,9 @@ a.nav-link {
     gap: 12pt;
     justify-content: center;
 }
+.buttons-ver-hor:first-child a {
+    margin-top: 0 !important;
+}
 @media screen and (max-width: 420px) {
     .buttons-ver-hor a {
         font-size: 8pt !important;
