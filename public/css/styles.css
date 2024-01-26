@@ -390,6 +390,9 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
 }
 
 /* Icons */
+.icon-button {
+    margin-top: 0px !important;
+}
 .icon-button i {
     background: none;
     color: white;
@@ -427,7 +430,7 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
     color: #ffffff;
     border-color: #000 !important;
     margin-right: 25px !important;
-box-shadow: none !important;
+    box-shadow: none !important;
     z-index: 130;
 }
 
@@ -1315,12 +1318,8 @@ a.nav-link {
 }
 @media screen and (max-width: 420px) {
     .buttons-ver-hor a {
-        font-size: 8pt !important;
-    }
-}
-@media screen and (max-width: 350px) {
-    .buttons-ver-hor a {
-        font-size: 7pt !important;
+        padding-left: 4pt;
+        padding-right: 4pt;
     }
 }
 .button-services {
