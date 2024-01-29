@@ -1408,13 +1408,21 @@ a.nav-link {
     align-items: flex-start;
     position: relative;
 }
+/* Old style */
 .page-banner img {
+    height: auto;
+    width: 100vw;
+    align-self: flex-start;
+    object-fit: cover;
+}
+/* New Style */
+/* .page-banner img {
     height: 50vh;
     width: 100vw;
     margin: auto;
     align-self: flex-start;
     object-fit: contain;
-}
+} */
 @media screen and (max-width: 1350px) {
     .page-banner img {
         height: auto;
