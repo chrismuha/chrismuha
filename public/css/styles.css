@@ -350,7 +350,7 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
         -ms-user-select: none;
             user-select: none;
     width: 43.2pt;
-    margin-top: 35px;
+    margin-top: 0px;
     margin-bottom: 55px;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
@@ -390,9 +390,6 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
 }
 
 /* Icons */
-.icon-button {
-    margin-top: 0px !important;
-}
 .icon-button i {
     background: none;
     color: white;
