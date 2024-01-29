@@ -284,6 +284,11 @@ font-weight:500 !important;
     text-align: center;
 }
 
+.links-vertical {
+    flex-direction: row;
+    gap: 6pt;
+}
+
 .footer-links, .review {
     font-family: 'Poppins', serif;
     /* font-family: 'Poppins', serif; */
