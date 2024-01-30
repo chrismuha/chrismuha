@@ -286,7 +286,7 @@ font-weight:500 !important;
 
 .links-vertical {
     flex-direction: row;
-    gap: 6pt;
+    gap: 3pt;
 }
 
 .footer-links, .review {
