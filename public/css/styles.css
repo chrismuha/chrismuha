@@ -1570,8 +1570,12 @@ a.nav-link {
     padding: 0 60pt;
     text-align: left;
 } 
+.review-slider:not(.google) .swiper-slide {
+    text-align: center;
+}
 .review-slider img {
     width: 90%;
+    margin: auto;
 }
 .review-slider > p{
     font-size: 22px;
@@ -1700,6 +1704,6 @@ a:hover {
     font-weight: 500;
     display: block;
     padding: 12pt 0;
-    width:; 80%;
+    width: 80%;
     margin: auto;
 }
