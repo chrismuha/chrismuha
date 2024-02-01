@@ -1412,7 +1412,7 @@ a.nav-link {
 }
 /* Old style */
 .page-banner.for-desktop img {
-    height: 400px;
+    height: 350px;
     width: 100vw;
     align-self: flex-start;
     object-fit: cover;
