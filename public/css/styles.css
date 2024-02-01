@@ -1694,7 +1694,10 @@ a:hover {
 .menu-table p, .menu-table a {
     font-family: 'Poppins' !important;
 }
-.review-slider .swiper-message::after {
-  content: '\a' 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
-  white-space: pre;
+.review-slider > p::after {
+  content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
+  font-size: 12pt;
+  font-weight: 500;
+  display: block;
+  padding: 12pt 0;
 }
