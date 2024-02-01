@@ -1695,9 +1695,11 @@ a:hover {
     font-family: 'Poppins' !important;
 }
 .review-slider > p::after {
-  content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
-  font-size: 12pt;
-  font-weight: 500;
-  display: block;
-  padding: 12pt 0;
+    content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
+    font-size: 12pt;
+    font-weight: 500;
+    display: block;
+    padding: 12pt 0;
+    width:; 80%;
+    margin: auto;
 }
