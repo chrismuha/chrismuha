@@ -1044,11 +1044,11 @@ a.nav-link {
     color: white !important;
 }
 
-.movetop {
+.footer-blue-button {
     text-align: center;
     margin: 12pt;
 }
-.movetop a {
+.footer-blue-button a {
     text-decoration: none;
     color: white;
     padding: 6pt 12pt;
@@ -1057,7 +1057,7 @@ a.nav-link {
     font-weight: bold;
     transition: 0.2s;
 }
-.movetop a:hover {
+.footer-blue-button a:hover {
     background-color: #0057a8;
 }
 @media only screen and (max-width: 530px) {
