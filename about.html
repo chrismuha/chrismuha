@@ -262,7 +262,7 @@
 <div class="review-slider google">
     <p>What our customers say on Google</p>
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper google-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide google-review">
                 <h1>Alexander Jackson</h1>
@@ -791,6 +791,16 @@
 
     <script>
         var swiper = new Swiper('.review-responses', {
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            autoHeight: true          
+        });
+        var swiper = new Swiper('.google-swiper', {
             loop: true,
 
             navigation: {
