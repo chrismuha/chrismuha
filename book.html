@@ -117,7 +117,7 @@
     </div>
 </nav>
 <div class="page-banner for-desktop">
-    <img src="public/banners/size-4-banners/book-banner.jpg" alt="page banner">
+    <img src="public/banners/size-2-banners/book-banner.jpg" alt="page banner">
 </div>
 <div class="page-banner for-mobile">
     <img src="public/banners/size-1-banners/book-banner.jpg" alt="page banner">
@@ -190,7 +190,7 @@
         </div>
 <div style="text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; width: 100%;">
     <a href=" https://facebook.com/muhachris " class="icon-button facebook" target=”_blank”><i class="fa fa-facebook"></i><span></span></a>
-    <a href=" https://twitter.com/muhachris?ref_src=twsrc%5Etfw " class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
+    <a href="  https://twitter.com/muhachris " class="icon-button twitter" target=”_blank”><i class="fa fa-twitter"></i><span></span></a>
     <a href="http://www.linkedin.com/in/chris-muha-9ab980262" class="icon-button facebook"><i class="fa fa-linkedin"></i><span></span></a>
 </div>
 
@@ -262,7 +262,7 @@
 <div class="review-slider google">
     <p>What our customers say on Google</p>
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper google-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide google-review">
                 <h1>Alexander Jackson</h1>
@@ -647,6 +647,10 @@
                     <p class="swiper-message">FIFTY-SEVENTH REVIEW</p>
                     <img src="public/reviews/FIVERR/buyer-reviews/vomastertodd-2.jpg"/>
                 </div>
+                <div class="swiper-slide">
+                    <p class="swiper-message">FIFTY-EIGHTH REVIEW</p>
+                    <img src="public/reviews/FIVERR/buyer-reviews/gunawanguan-3.jpg"/>
+                </div>
             </div>
         
             <div class="swiper-button-next"></div>
@@ -796,7 +800,16 @@
     
                 autoHeight: true          
             });
-    
+            var swiper = new Swiper('.google-swiper', {
+                loop: true,
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                autoHeight: true          
+            });
         </script>
 
 <footer>
@@ -1032,7 +1045,7 @@
 <script src="public/js/bootstrap.bundle.min.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
         nonce="y6OzJpbr"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
