@@ -1607,3 +1607,33 @@ a:hover {
     width: 80%;
     margin: auto;
 }
+.btn {
+    font-family: Arial; 
+    font-size: 14px; 
+    background-color: #32CD32; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0B6623;opacity: 1;color: #fff;
+}
+.e_mail_top {
+    font-family: Arial; 
+    font-size: 14px; 
+    background-color: #00BFFF !important;
+    color: #FFFFFF !important; 
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .e_mail_top:hover {
+    background-color: #187BCD !important; 
+    opacity: 0.8 !important;
+}
