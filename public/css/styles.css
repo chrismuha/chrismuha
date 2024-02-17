@@ -1097,7 +1097,7 @@ a.nav-link {
 }
 .top-ftc-sec i {
     padding: 0 6pt;
-    color: red;
+    color:#4bb543;
 }
 .single-ftc-pos {
     display: flex;
@@ -1610,7 +1610,7 @@ a:hover {
 .btn {
     font-family: Arial; 
     font-size: 14px; 
-    background-color: #32CD32; 
+    background-color: #40c53a; 
     color: #FFFFFF; 
     border: none;
     padding: 12px 16px;
@@ -1619,12 +1619,12 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #0B6623;opacity: 1;color: #fff;
+    background-color: #4db748;opacity: 1;color: #fff;
 }
 .e_mail_top {
     font-family: Arial; 
     font-size: 14px; 
-    background-color: #00BFFF !important;
+    background-color: #3283c4 !important;
     color: #FFFFFF !important; 
     border: none;
     padding: 12px 16px;
@@ -1634,6 +1634,6 @@ a:hover {
 }
 
     .e_mail_top:hover {
-    background-color: #187BCD !important; 
-    opacity: 0.8 !important;
+    background-color: #346891 !important; 
+    opacity: 1 !important;
 }
