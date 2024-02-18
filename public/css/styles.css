@@ -374,10 +374,13 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
     background-color: #4099ff;
 }
 .facebook span {
-    background-color: #3B5998;
+    background-color: #4267b2;
 }
 .google-plus span {
     background-color: #db5a3c;
+}
+.linkedin span {
+    background-color: pink; /*this does not work, once it works change the color to #0077b5*/
 }
 
 /* Icons */
@@ -400,13 +403,13 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
     color: #4199ff;
 }
 .icon-button .fa-facebook {
-    color: #3c5998;
+    color: #4267b2;
 }
 .icon-button .icon-google-plus {
     color: #db5a3c;
 }
 .icon-button .fa-linkedin {
-    color: #3c5998;
+    color: #0077b5;
 }
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
@@ -1608,10 +1611,10 @@ a:hover {
     margin: auto;
 }
 .btn {
-    font-family: Arial; 
-    font-size: 14px; 
-    background-color: #40c53a; 
-    color: #FFFFFF; 
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #40c53a;
+    color: #FFFFFF;
     border: none;
     padding: 12px 16px;
     cursor: pointer;
@@ -1622,10 +1625,10 @@ a:hover {
     background-color: #4db748;opacity: 1;color: #fff;
 }
 .e_mail_top {
-    font-family: Arial; 
-    font-size: 14px; 
-    background-color: #3283c4 !important;
-    color: #FFFFFF !important; 
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #00aeff !important;
+    color: #FFFFFF !important;
     border: none;
     padding: 12px 16px;
     cursor: pointer;
@@ -1634,6 +1637,6 @@ a:hover {
 }
 
     .e_mail_top:hover {
-    background-color: #346891 !important; 
+    background-color: #1484b8 !important;
     opacity: 1 !important;
 }
