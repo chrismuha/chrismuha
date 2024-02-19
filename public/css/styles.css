@@ -1640,3 +1640,8 @@ a:hover {
     background-color: #1484b8 !important;
     opacity: 1 !important;
 }
+
+.google-review .order-number {
+    min-height: 1rem;
+    text-align: center;
+}
