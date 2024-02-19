@@ -380,7 +380,7 @@ background-color: #0B6623 !important; opacity: 1 !important; color: #fff !import
     background-color: #db5a3c;
 }
 .linkedin span {
-    background-color: pink; /*this does not work, once it works change the color to #0077b5*/
+    background-color: #0077b5;
 }
 
 /* Icons */
