@@ -175,18 +175,6 @@ footer a.e_mail, a.e_mail {
     font-weight: 700;
 }
 
-.fb-like {
-    margin-bottom: 20px;
-}
-
-.fb-like iframe {
-    width: 100% !important;
-}
-
-.fb-like span {
-    width: 300px !important;
-}
-
 .arial {
     font-family: Arial, sans-serif;
 }
@@ -242,28 +230,6 @@ font-weight:500 !important;
 .container.contact .card {
     height: 200px;
     border: 0;
-}
-
-.btn-success {
-    background-color: #32CD32;
-    border-color: #32CD32;
-}
-
-.btn-success:hover, .btn-success:focus {
-    outline-color: #79EF79;
-    background-color: #79EF79;
-    border-color: #79EF79;
-}
-
-.btn-primary {
-    background-color: #00BFFF;
-    border-color: #00BFFF;
-}
-
-.btn-primary:hover, .btn-success:focus {
-    outline-color: #6BCDEF;
-    background-color: #6BCDEF;
-    border-color: #6BCDEF;
 }
 
 .footer-links > div {
