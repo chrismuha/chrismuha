@@ -1620,6 +1620,7 @@ a:hover {
 .news-banner {
     width: 100vw;
     height: 30px;
+    margin-bottom: 37px;
 }
 .breaking-news-headline {
     display: block;
@@ -1635,7 +1636,7 @@ a:hover {
     padding-left: 40vw;
 }
 .breaking-news-headline:hover {
-    color: #33a532;
+    color: #f4fcf4;
 }
 
 .breaking-news-title {
@@ -1683,7 +1684,7 @@ a:hover {
 
 #breaking-news-colour {
     height: 30px;
-    background-color: #0f398b;
+    background-color: #ff5344;
     width: 100vw;
 }
 
@@ -1697,7 +1698,7 @@ a:hover {
     content: "";
     width: 100px;
     height: 30px;
-    background-color: #0f398b;
+    background-color: #ff5344;
     position: absolute;
     z-index: 2;
 }
