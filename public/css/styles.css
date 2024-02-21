@@ -1634,6 +1634,8 @@ a:hover {
     width: 100vw;
     text-align: right;
     padding-left: 40vw;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
 }
 .breaking-news-headline:hover {
     color: #f4fcf4;
