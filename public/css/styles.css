@@ -1304,6 +1304,9 @@ a.nav-link {
     .page-banner.for-desktop img {
         display: none;
     }
+    .page-banner.for-desktop::before {
+        content: '';
+    }
     .page-banner.for-mobile img {
         display: block;
     }
