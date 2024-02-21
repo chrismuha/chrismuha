@@ -1,4 +1,11 @@
+// DOM ELEMENTS
+const newsBannerSection = document.querySelector('.news-banner');
+const newsBannerText = document.querySelector('.breaking-news-headline');
+const hasAutoNumber = Array.from(document.querySelectorAll('.has-auto-number'));
 var loader = document.getElementById("preloader");
+
+
+newsBannerText.innerText = 'Test news'
 
 window.addEventListener("load", function () {
 loader.style.display = "none";
@@ -21,6 +28,13 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
 });
 
+if (newsBannerText.innerText == false) {
+    newsBannerSection.style.display = 'none';
+} else {
+    newsBannerSection.style.display = 'block';
+}
+
+// Automatic Numbering
 let orderNumbers = [
     'first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth',
     'eleventh', 'twelfth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth', 'twentieth',
@@ -34,8 +48,6 @@ let orderNumbers = [
     'ninety-first', 'ninety-second', 'ninety-third', 'ninety-fourth', 'ninety-fifth', 'ninety-sixth', 'ninety-seventh', 'ninety-eighth', 'ninety-ninth', 'hundredth'
 ];
 
-const hasAutoNumber = Array.from(document.querySelectorAll('.has-auto-number'));
-
 hasAutoNumber.forEach(n => {
     const orderNumberElements = Array.from(n.querySelectorAll('.order-number'));
     for (let r = 0; r < orderNumberElements.length; r++) {
@@ -43,3 +55,4 @@ hasAutoNumber.forEach(n => {
         orderNumberElements[r].style.textTransform = 'uppercase';
     }
 });
+
