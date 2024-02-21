@@ -1074,7 +1074,7 @@ a.nav-link {
     gap: 12pt;
 }
 .single-ftc-sec {
-    width: 360.01pt;
+    width: 100%;
     background-color: #00000017;
     margin-bottom: 24pt;
 }
@@ -1134,6 +1134,7 @@ a.nav-link {
     align-items: center;
     height: 3.5rem;
     gap: 12pt;
+    margin-bottom: 24pt;
 }
 .ftc-ending p {
     margin-top: 12pt;
