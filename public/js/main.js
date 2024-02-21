@@ -5,7 +5,7 @@ const hasAutoNumber = Array.from(document.querySelectorAll('.has-auto-number'));
 var loader = document.getElementById("preloader");
 
 
-newsBannerText.innerText = 'Test news'
+newsBannerText.innerText = ''
 
 window.addEventListener("load", function () {
 loader.style.display = "none";
