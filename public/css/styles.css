@@ -1757,3 +1757,33 @@ to {
     margin-top: 0;
 }
 }
+
+@media (min-width: 576px) {
+    .hiring-container {
+        max-width: calc(540px + (5 * 540px / 100)) !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .hiring-container {
+        max-width: calc(720px + (5 * 720px / 100)) !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .hiring-container {
+        max-width: calc(960px + (5 * 960px / 100)) !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hiring-container {
+        max-width: calc(1140px + (5 * 1140px / 100)) !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hiring-container {
+        max-width: calc(1320px + (5 * 1320px / 100)) !important;
+    }
+}
