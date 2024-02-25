@@ -1078,6 +1078,9 @@ a.nav-link {
     background-color: #00000017;
     margin-bottom: 24pt;
 }
+.table-column-custom1 {
+    text-align: left;
+}
 .dark-theme .single-ftc-sec {
     background-color: #ffffff0e;
 }
