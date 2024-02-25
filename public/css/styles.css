@@ -447,22 +447,22 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
 /* social buttons */
 .icon-button {
     background-color: white;
-    border-radius: 43.2pt;
+    border-radius: 40pt;
     cursor: pointer;
     display: inline-block;
     font-size: 24pt;
-    height: 43.2pt;
-    line-height: 43.2pt;
-    margin: 0 22px;
+    height: 40pt;
+    line-height: 40pt;
+    margin: 0px 22px;
+    margin-top: 0px;
+    margin-bottom: 55px;
     position: relative;
     text-align: center;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    width: 43.2pt;
-    margin-top: 0px;
-    margin-bottom: 55px;
+    width: 40pt;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
 }
@@ -483,10 +483,10 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
     width: 0;
 }
 .icon-button:hover span {
-    width: 43.2pt;
-    height: 43.2pt;
-    border-radius: 43.2pt;
-    margin: -21.6pt;
+    width: 40pt;
+    height: 40pt;
+    border-radius: 40pt;
+    margin: -20pt;
 }
 .twitter span {
     background-color: #4099ff;
@@ -505,16 +505,16 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
 .icon-button i {
     background: none;
     color: white;
-    height: 43.2pt;
+    height: 40pt;
     left: 0;
-    line-height: 43.2pt;
+    line-height: 40pt;
     position: absolute;
     top: 0;
     -webkit-transition: all 0.1s;
        -moz-transition: all 0.1s;
          -o-transition: all 0.1s;
             transition: all 0.1s;
-    width: 43.2pt;
+    width: 40pt;
     z-index: 10;
 }
 .icon-button .fa-twitter {
