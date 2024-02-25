@@ -304,10 +304,11 @@
     </div>
     <div class="single-ftc-pos">
         <div class="single-ftc-sec">
-        <div class="table-column-custom1" style= "text-align: left;" !important> <!-- this is meant to align the text that is not bulleted but it is not working, currently. -->
+        <div class="table-column-custom1"> <!-- this is meant to align the text that is not bulleted but it is not working, currently. -->
             <h5>WEBSITE DEVELOPMENT:</h5>
-            <b><u>NEED A WEBSITE? WE OFFER PROFESSIONAL WEBSITE DESIGN FOR:</u></b>
-            <br><br>
+            <p>
+                <b><u>NEED A WEBSITE? WE OFFER PROFESSIONAL WEBSITE DESIGN FOR:</u></b>
+            </p>
             <ul>
                 <li>About the Author Websites</li>
                 <li>Business Websites</li>
@@ -316,8 +317,9 @@
                 <li>Portfolio</li>
                 <li>Biography</li>
             </ul>
-            <br>
-            <b>CHOOSE US TO DEVELOP YOUR WEBSITE BECAUSE WE OFFER THE MOST FLEXIBLE DESIGN OPTIONS. <br> WE MAINTAIN THE HIGHEST QUALITY, EVEN AFTER INITIAL DEVELOPMENT.</b>
+            <p>
+                <b>CHOOSE US TO DEVELOP YOUR WEBSITE BECAUSE WE OFFER THE MOST FLEXIBLE DESIGN OPTIONS. <br> WE MAINTAIN THE HIGHEST QUALITY, EVEN AFTER INITIAL DEVELOPMENT.</b>
+            </p>
         </div>
         </div>
     </div>
@@ -408,7 +410,7 @@
       </div>
 </div>
     <div class="header col-12 text-center location" style=" top: 5px;">
-        <p class="fw-bold border border-danger bitter" style="font-size:14px; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin:37px 0 37px 0">
+        <p class="fw-bold border border-danger bitter" style="font-size:14px; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin:0 0 37px 0">
             Please contact us by using the contact information in the footer of each page of this website
             or use one of the SCHEDULE buttons on this website to request an appointment. Please be sure to request a
             Consultation and/or Diagnostics.
@@ -929,6 +931,16 @@
             autoHeight: true          
         });
         var swiper = new Swiper('.google-swiper', {
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            autoHeight: true          
+        });
+        var swiper = new Swiper('.menu-table .swiper', {
             loop: true,
 
             navigation: {

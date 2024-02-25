@@ -936,14 +936,15 @@ i {
 .invertedscrollclick {
     scroll-margin-block-start: 510px;
 }
+.menu-table .swiper-slide {
+    padding-bottom: 37px;
+}
 .menu-table-header {
     width: 360.01pt !important;
-    height: 1225.03pt;
     margin: auto;
     border: black 1px solid;
     border-radius: 7.2pt;
-    margin-bottom: 36pt;
-    overflow-y: hidden;
+    padding-bottom: 36pt;
 }
 .mcr-virus-pic {
     width: 70%;
@@ -1078,8 +1079,9 @@ a.nav-link {
     background-color: #00000017;
     margin-bottom: 24pt;
 }
-.table-column-custom1 {
-    text-align: left;
+.table-column-custom1 p {
+    margin: 1rem 0.5rem;
+    font-size: 11pt;
 }
 .dark-theme .single-ftc-sec {
     background-color: #ffffff0e;
