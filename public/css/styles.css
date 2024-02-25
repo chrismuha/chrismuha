@@ -1463,7 +1463,7 @@ a.nav-link {
 .review-slider i {
     color: orange;
 }
-.button-google-review {
+.google-review-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
@@ -1472,16 +1472,6 @@ a.nav-link {
     margin: 24pt auto;
     background-color: white;
     border-radius: 12pt;
-}
-.button-google-review img {
-    width: 50%;
-}
-.button-google-review a {
-    background-color: #ff6153;
-    margin: 12pt 0;
-}
-.button-google-review a:hover {
-    background-color: #ff5344 !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1791,4 +1781,17 @@ to {
     .hiring-container {
         max-width: calc(1320px + (5 * 1320px / 100)) !important;
     }
+}
+
+.google-review-box img {
+    width: 50%;
+}
+.google-review-button {
+    background-color: #ffa500;
+    color: #3a7cec;
+    margin: 12pt 0;
+}
+.google-review-button:hover {
+    background-color: #f1b401 !important;
+    color: #3a7cec !important;
 }
