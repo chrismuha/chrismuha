@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 
+/* Theme Switcher */
 input[type=checkbox] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -47,9 +48,9 @@ body {
     overflow-x: hidden !important;
 }
 
-.dark-theme .text-black-50 {
+/* .dark-theme .text-black-50 {
     color: #5c5c5c !important
-}
+} */
 
 .dark-theme .card {
     background-color: black;
@@ -74,6 +75,7 @@ body:not(.dark-theme) .dark_logo{
     display: none;
 }
 
+/* 
 body .offcanvas{
      background-color: black !important;
      box-shadow: 0 0 10px #2121218a;
@@ -84,8 +86,10 @@ body .offcanvas{
  .offcanvas{
      transition: transform .03s ease-in-out !important;
      max-width: 250px !important;
- }
+ } */
 
+
+ /* Page primary/default styles */
 body {
     font-family: 'Poppins';
     font-weight: 500;
@@ -111,14 +115,65 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600 !important;
 }
 
+main.container {
+    margin-top: 37px;
+}
+
+header {
+    padding-top: 30px;
+}
+
+i {
+    font-style: normal;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+}
+
+/* Styling Classes */
+.bitter {
+    font-family: 'Poppins', serif;
+}
+
+.arial {
+    font-family: Arial, sans-serif;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.mont {
+    font-family: 'Montserrat', serif;
+}
+
+.header {
+    text-align: center;
+    text-transform: none;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+}
+
+.centered-content {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+/* .text-black-50 {
+    color: #000000!important;
+} */
+
+/* nav */
 .nav-link {
     font-family: 'Poppins', serif;
     text-transform: uppercase;
     font-size: 16px;
-}
-
-.bitter {
-    font-family: 'Poppins', serif;
 }
 
 .navbar-brand {
@@ -137,33 +192,69 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
 }
 
-.time table, .number {
-    font-family: 'Poppins', serif;
-}
-
-footer {
-    font-family: Arial, sans-serif;
-}
-
 .navbar-dark {
     background-color: black;
 }
 
-.bg-black {
-    background-color: black;
+nav.navbar {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 125;
 }
 
-.text-justify {
-    text-align: justify;
+.navbar-brand {
+    padding: 0 0 0 0;
+    padding-left: 18px;
+    z-index: 140;
+}
+
+.navbar>.container-fluid {
+    justify-content: space-evenly;    
+}
+
+.brand-desk {
+    display: none;
+}
+
+/* hours table */
+.time table, .number {
+    font-family: 'Poppins', serif;
+}
+
+.time table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500 !important;
+}
+
+.table-hover>tbody>tr:hover {
+    --bs-table-accent-bg: #ffc00847;
+    color: inherit;
+}
+
+.hours-bold-700 {
+    font-weight: 700;
+    margin-bottom: -6pt;
+}
+
+.hours-bold-600 {
+    font-weight: 600;
+    margin-bottom: -6pt;
+}
+
+/* footer */
+footer {
+    font-family: Arial, sans-serif;
 }
 
 footer {
     margin-top: 0px;
 }
-
+/* 
 footer .text-black-50 {
     font-size: 8pt;
-}
+} */
 
 footer a.btn, a.btn {
     font-weight: 700;
@@ -175,10 +266,7 @@ footer a.e_mail, a.e_mail {
     font-weight: 700;
 }
 
-.arial {
-    font-family: Arial, sans-serif;
-}
-
+/* services description */
 .pricing {
     margin-top: 50px;
 }
@@ -189,14 +277,14 @@ footer a.e_mail, a.e_mail {
     font-family: 'Poppins', sans-serif;    
 }
 
-.call {
+/* .call {
     font-family: Arial, sans-serif;
     font-weight: bold;
-}
+} */
 
-.desc > p {
+/* .desc > p {
     font-weight: 400 !important;
-}
+} */
 
 .pricing .card-header {
     border: 0;
@@ -215,52 +303,6 @@ footer a.e_mail, a.e_mail {
     font-family: 'Arial', sans-serif;
 }
 
-.time table td {
-    padding-top: 10px;
-    padding-bottom: 10px;
-font-weight:500 !important;
-}
-
-.books .card > a {
-    font-size: 14px;
-    color: #4198d0 !important;
-
-}
-
-.container.contact .card {
-    height: 200px;
-    border: 0;
-}
-
-.footer-links > div {
-    width: 300px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.links-vertical {
-    flex-direction: row;
-    gap: 3pt;
-}
-
-.footer-links, .review {
-    font-family: 'Poppins', serif;
-    font-weight: bold;
-}
-
-.books .card a {
-    font-family: Arial, sans-serif;
-}
-
-.mont {
-    font-family: 'Montserrat', serif;
-}
-
-.header {
-    text-align: center;
-    text-transform: none;
-}
-
 .pricing .card-header {
     background: transparent;
 }
@@ -270,15 +312,89 @@ font-weight:500 !important;
     box-shadow: 0 0 10px #00000015;
 }
 
-nav.navbar {
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 125;
+/* links in shop page */
+.books .card > a {
+    font-size: 14px;
+    color: #4198d0 !important;
+
 }
 
-main.container {
+.books .card a {
+    font-family: Arial, sans-serif;
+}
+
+
+/* .container.contact .card {
+    height: 200px;
+    border: 0;
+} */
+
+/* footer links */
+.footer-links > div {
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer-links, .review {
+    font-family: 'Poppins', serif;
+    font-weight: bold;
+}
+
+.bookmark-footer {
+    margin-left: 12pt !important;
+    margin-right: 12pt !important;
+    font-size: 12pt;
+    padding: 0;
+}
+
+.review {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* footer end blue buttons */
+.footer-blue-button {
+    text-align: center;
+    margin: 12pt;
+}
+.footer-blue-button a {
+    text-decoration: none;
+    color: white;
+    padding: 6pt 12pt;
+    background-color: #1b91ff;
+    border-radius: 2.4pt;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.footer-blue-button a:hover {
+    background-color: #0057a8;
+}
+
+/* page top buttons */
+.buttons-ver-hor {
+    display: flex;
+    gap: 12pt;
+    justify-content: center;
+}
+.buttons-ver-hor:first-child a {
+    margin-top: 0 !important;
+}
+@media screen and (max-width: 420px) {
+    .buttons-ver-hor a {
+        padding-left: 4pt;
+        padding-right: 4pt;
+    }
+}
+
+.buttons-section-index {
     margin-top: 37px;
+}
+
+/* call, text, email button */
+.links-vertical {
+    flex-direction: row;
+    gap: 3pt;
 }
 
 .e_mail:hover {
@@ -291,6 +407,44 @@ main.container {
 background-color: #0b6623 !important; opacity: 1 !important; color: white !important;
 }
 
+.e_mail {
+    margin-bottom: 50px;
+}
+
+
+.btn {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #40c53a;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #4db748;opacity: 1;color: white;
+}
+.e_mail_top {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #00aeff !important;
+    color: white !important;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .e_mail_top:hover {
+    background-color: #1484b8 !important;
+    opacity: 1 !important;
+}
+
+
+/* social buttons */
 .icon-button {
     background-color: white;
     border-radius: 43.2pt;
@@ -312,8 +466,6 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
     border: 1px solid #ddd;
     box-shadow: 0px 0px 5px #ddd;
 }
-
-
 
 /* Circle */
 .icon-button span {
@@ -349,7 +501,7 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
     background-color: #0077b5;
 }
 
-/* Icons */
+/* Icons for social buttons */
 .icon-button i {
     background: none;
     color: white;
@@ -383,6 +535,8 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
 .icon-button:hover .icon-google-plus {
     color: white;
 }
+
+/* navbar toggler/hamburger */
 .navbar-dark .navbar-toggler {
     color: #ffffff;
     border-color: black !important;
@@ -396,24 +550,14 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
     background-size: 30px !important;
 }
 
-.centered-content {
-    max-width: 580px;
-    margin: 0 auto;
-}
-
-.table-hover>tbody>tr:hover {
-     --bs-table-accent-bg: #ffc00847;
-     color: inherit;
- }
-
-body :not(.dark-theme) .text-grn {
+/* body :not(.dark-theme) .text-grn {
     color: #198754!important;   
-}
+} */
 
-.title-bg-black {
+/* .title-bg-black {
     display: inline-block;
     padding: 7px 15px;  
-}
+} */
 
 .hamburger .line{
   width: 40px;
@@ -447,9 +591,6 @@ body :not(.dark-theme) .text-grn {
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg);
 }
-
-
-
 
 .nav-toggle-btn {
     background: none;
@@ -570,7 +711,7 @@ body :not(.dark-theme) .text-grn {
     }
 }
 
-
+/* page menu */
 .menu {
     position: fixed;
     top: 0;
@@ -718,15 +859,6 @@ body :not(.dark-theme) .text-grn {
 }
 
 
-header {
-padding-top: 30px;
-}
-
-.text-black-50 {
-    color: #000000!important;
-}
-
-
 @media(max-width: 767px) {
     .menu {
         padding: 63pt 4.5pt 50.25pt;
@@ -771,12 +903,7 @@ padding-top: 30px;
 
 }
 
-i {
-    font-style: normal;
-    text-transform: uppercase !important;
-    font-weight: 500 !important;
-}
-
+/* footer end */
 .end-credits {
     color: black;
 }
@@ -789,28 +916,7 @@ i {
     color: white;
 }
 
-.e_mail {
-    margin-bottom: 50px;
-}
-
-.review {
-    padding-top: 50px;
-    text-align: center;
-}
-
-.header h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600 !important;
-}
-
-.navbar-brand {
-    padding: 0 0 0 0;
-    padding-left: 18px;
-    z-index: 140;
-}
-
 /* loading screen */
-
 #preloader {
     background: #fff no-repeat center center;
     z-index: 11100;
@@ -859,16 +965,6 @@ i {
     .menu a {
         margin-left: -2px;
     }
-}
-
-.hours-bold-700 {
-    font-weight: 700;
-    margin-bottom: -6pt;
-}
-
-.hours-bold-600 {
-    font-weight: 600;
-    margin-bottom: -6pt;
 }
 
 .nav-item a {
@@ -920,13 +1016,18 @@ i {
     overflow: hidden;
 }
 
-.bookmark-footer {
-    margin-left: 12pt !important;
-    margin-right: 12pt !important;
-    font-size: 12pt;
-    padding: 0;
+a.nav-link {
+    color: white !important;
 }
 
+/* mcr graphics in index */
+.mcr-virus-pic {
+    width: 70%;
+    margin: 0 auto 24pt auto;
+    width: 100%;
+}
+
+/* services redirection position */
 .scrollclick {
     scroll-margin-block-start: 110px;
 }
@@ -936,6 +1037,8 @@ i {
 .invertedscrollclick {
     scroll-margin-block-start: 510px;
 }
+
+/* geek squad comparison slider */
 .menu-table .swiper-slide {
     padding-bottom: 37px;
 }
@@ -945,11 +1048,6 @@ i {
     border: black 1px solid;
     border-radius: 7.2pt;
     padding-bottom: 36pt;
-}
-.mcr-virus-pic {
-    width: 70%;
-    margin: 0 auto 24pt auto;
-    width: 100%;
 }
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
@@ -1010,26 +1108,7 @@ i {
 .dark-theme .menu-table-header {
     border: white 1px solid;
 }
-a.nav-link {
-    color: white !important;
-}
 
-.footer-blue-button {
-    text-align: center;
-    margin: 12pt;
-}
-.footer-blue-button a {
-    text-decoration: none;
-    color: white;
-    padding: 6pt 12pt;
-    background-color: #1b91ff;
-    border-radius: 2.4pt;
-    font-weight: bold;
-    transition: 0.2s;
-}
-.footer-blue-button a:hover {
-    background-color: #0057a8;
-}
 @media only screen and (max-width: 530px) {
     .menu-table {
         display: flex;
@@ -1039,6 +1118,29 @@ a.nav-link {
     }
 }
 
+.menu-table {
+    max-width: 480.01pt;
+}
+.menu-table {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 665px) {
+    .menu-table {
+        margin: 0 12pt;
+    }
+}
+
+/* .button-header {
+    margin: 24pt 0;
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+.menu-table-header h4 {
+    color: white;
+}
+/* services menu table in index */
 .mcr-ftc {
     display: flex;
     flex-direction: column;
@@ -1200,40 +1302,18 @@ a.nav-link {
     }
 }
 
-.buttons-ver-hor {
-    display: flex;
-    gap: 12pt;
-    justify-content: center;
-}
-.buttons-ver-hor:first-child a {
-    margin-top: 0 !important;
-}
-@media screen and (max-width: 420px) {
-    .buttons-ver-hor a {
-        padding-left: 4pt;
-        padding-right: 4pt;
-    }
-}
-.button-services {
+/* .button-services {
     width: fit-content ;
     margin: auto;
-}
-.menu-deskt .navbar-nav {
+} */
+/* .menu-deskt .navbar-nav {
     display: block;
 }
 
 .menu-deskt .navbar-nav li {
     display: inline-block;
     padding: 0 12px;
-}
-
-.navbar>.container-fluid {
-    justify-content: space-evenly;    
-}
-
-.brand-desk {
-    display: none;
-}
+} */
 
 @media(min-width:1100px) {
     .menu {
@@ -1274,7 +1354,7 @@ a.nav-link {
     }
 }
 
-.title-header {
+/* .title-header {
     margin-top: -72px !important;
     height: fit-content;
     display: flex;
@@ -1285,7 +1365,9 @@ a.nav-link {
     position: absolute;
     text-align: left;
     z-index: 1;
-}
+} */
+
+/* page banner */
 .page-banner {
     display: flex;
     align-items: flex-start;
@@ -1371,17 +1453,7 @@ a.nav-link {
     }
 }
 
-.buttons-section-index {
-    margin-top: 37px;
-}
-
-
-.menu-table
-{
-    max-width: 480.01pt;
-    margin: 0 auto;
-}
-
+/* swipers */
 .swiper {
     width: 100%;
     height: 100%;
@@ -1410,27 +1482,6 @@ a.nav-link {
 
 .rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
     color: #f0b654;
-}
-
-
-.menu-table {
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 665px) {
-    .menu-table {
-        margin: 0 12pt;
-    }
-}
-
-.button-header {
-    margin: 24pt 0;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.menu-table-header h4 {
-    color: white;
 }
 
 .review-slider {
@@ -1486,6 +1537,35 @@ a.nav-link {
     }
 }
 
+.review-slider > p::after {
+    content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
+    font-size: 12pt;
+    font-weight: 500;
+    display: block;
+    padding: 12pt 0;
+    width: 80%;
+    margin: auto;
+}
+
+.google-review .order-number {
+    min-height: 1rem;
+    text-align: center;
+}
+
+.google-review-box img {
+    width: 50%;
+}
+.google-review-button {
+    background-color: #ffa500;
+    color: #3a7cec;
+    margin: 12pt 0;
+}
+.google-review-button:hover {
+    background-color: #f1b401 !important;
+    color: #3a7cec !important;
+}
+
+/* back to top circle button */
 .circle-top {
     height: 36pt;
     width: 36pt;
@@ -1549,9 +1629,9 @@ a:hover {
     margin-top: 37px;
     margin-bottom: 0;
 }
-.button-header {
+/* .button-header {
     margin: 37px 0;
-}
+} */
 .review-slider {
     margin-bottom: 0;
     margin-top: 37px;
@@ -1565,50 +1645,6 @@ a:hover {
 }
 .menu-table p, .menu-table a {
     font-family: 'Poppins' !important;
-}
-.review-slider > p::after {
-    content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
-    font-size: 12pt;
-    font-weight: 500;
-    display: block;
-    padding: 12pt 0;
-    width: 80%;
-    margin: auto;
-}
-.btn {
-    font-family: Arial;
-    font-size: 14px;
-    background-color: #40c53a;
-    color: white;
-    border: none;
-    padding: 12px 16px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background-color: #4db748;opacity: 1;color: white;
-}
-.e_mail_top {
-    font-family: Arial;
-    font-size: 14px;
-    background-color: #00aeff !important;
-    color: white !important;
-    border: none;
-    padding: 12px 16px;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-    .e_mail_top:hover {
-    background-color: #1484b8 !important;
-    opacity: 1 !important;
-}
-
-.google-review .order-number {
-    min-height: 1rem;
-    text-align: center;
 }
 
 
@@ -1753,6 +1789,7 @@ to {
 }
 }
 
+/* hiring page body */
 @media (min-width: 576px) {
     .hiring-container {
         max-width: calc(540px + (5 * 540px / 100)) !important;
@@ -1781,17 +1818,4 @@ to {
     .hiring-container {
         max-width: calc(1320px + (5 * 1320px / 100)) !important;
     }
-}
-
-.google-review-box img {
-    width: 50%;
-}
-.google-review-button {
-    background-color: #ffa500;
-    color: #3a7cec;
-    margin: 12pt 0;
-}
-.google-review-button:hover {
-    background-color: #f1b401 !important;
-    color: #3a7cec !important;
 }
