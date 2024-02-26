@@ -391,6 +391,20 @@ footer a.e_mail, a.e_mail {
     margin-top: 37px;
 }
 
+.buttons-section-index .btn.schedule-button {
+    background-color: #40c53a;
+}
+.buttons-section-index .btn.paybill-button {
+    background-color: #40c53a;
+}
+.buttons-section-index .btn.giftcard-button {
+    background-color: #40c53a;
+}
+.buttons-section-index .btn.downpay-button {
+    background-color: #40c53a;
+}
+
+
 /* call, text, email button */
 .links-vertical {
     flex-direction: row;
@@ -426,6 +440,15 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
 .btn:hover {
     background-color: #4db748;opacity: 1;color: white;
 }
+
+.btn.callus-button {
+    background-color: #40c53a;
+}
+
+.btn.textus-button {
+    background-color: #40c53a;
+}
+
 .e_mail_top {
     font-family: Arial;
     font-size: 14px;
