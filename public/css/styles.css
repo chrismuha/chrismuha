@@ -374,7 +374,7 @@ footer a.e_mail, a.e_mail {
 /* page top buttons */
 .buttons-ver-hor {
     display: flex;
-    gap: 12pt;
+    gap: 3pt;
     justify-content: center;
 }
 .buttons-ver-hor:first-child a {
