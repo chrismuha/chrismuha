@@ -368,7 +368,7 @@ footer a.e_mail, a.e_mail {
     transition: 0.2s;
 }
 .footer-blue-button a:hover {
-    background-color: #0057a8;
+    color: white;
 }
 
 /* page top buttons */
@@ -1511,6 +1511,11 @@ a.nav-link {
     width: 480.01pt;
     margin: 0 auto;
     margin-top: 37px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    top: var(--swiper-navigation-top-offset,150px) !important;
+    color: #111;
 }
 
 .google .swiper-wrapper {
