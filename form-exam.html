@@ -12,8 +12,7 @@
     <meta name="MobileOptimized" content="320" />
     
     <meta name="description"
-    content="Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. Or, you could be here because you were given the green light and we are interested in hiring you for the position you applied for here at Muha Computer Repair and we need to validate your skills were accurately reported on your resume (Curriculum Vitae, CV) and that the skills you possess are up to par with our high quality standards. your final requirement to be a part of Muha Computer Repair."/>
-
+    content="Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. You could also be here because you were given the green light, and we are interested in hiring you for the position you applied for here at Muha Computer Repair. We need to validate your skills were accurately reported on your resume and that the skills you possess are up to par with our high-quality standards. This is the final requirement you need to meet to get your foot in the door with the highest chances to being on the road to employment by Muha Computer Repair." />
     <link rel="apple-touch-icon" sizes="180x180" href="public/icons/apple-touch-icon.png">
     <link rel="apple-touch-startup-image" href="public/img/white-banner.png">
     <link rel="icon" type="image/png" sizes="32x32" href="public/icons/favicon-32x32.png">
@@ -67,7 +66,7 @@
 
         .page-banner::before {
             content: 'MCR Exam';
-            color: red;
+            color: black;
         }
     </style>
 </head>
@@ -164,8 +163,71 @@
     <img src="public/banners/size-1-banners/legal-banner.jpg" alt="page banner">
 </div>
 
-<p> Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. Or, you could be here because you were given the green light and we are interested in hiring you for the position you applied for here at Muha Computer Repair and we need to validate your skills were accurately reported on your resume (Curriculum Vitae, CV) and that the skills you possess are up to par with our high quality standards. your final requirement to be a part of Muha Computer Repair.</p>
-<form action=""></form>
+<p> Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. You could also be here because you were given the green light, and we are interested in hiring you for the position you applied for here at Muha Computer Repair. We need to validate your skills were accurately reported on your resume and that the skills you possess are up to par with our high-quality standards. This is the final requirement you need to meet to get your foot in the door with the highest chances to being on the road to employment by Muha Computer Repair.</p>
+
+<form action="index.html" method="POST" enctype="multipart/form-data">
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Username" minlength="5"  maxlength="25" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Create a Password" minlength="16" maxlength="24" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="user@gmail.com">
+    <br><br>
+
+    <label for="phone">Phone #:</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <br><br>
+
+    <label for="bday">Birthdate:</label>
+    <input type="date" id="bday">
+    <br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="0" max="99" value="1">
+    <br><br>
+
+    <label for="title">Title:</label>
+    
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." value="Mr." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="PhD." value="PhD." name="title">
+    <label for="Dr.">Dr.</label>
+    <input type="radio" id="Dr." value="Dr." name="title">
+    <br><br>
+
+    <label for="payment">Payment</label>
+    <select id="payment">
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Discover">Discover</option>
+        <option value="American Express">American Express</option>
+        <option value="Gift Card">Gift Card</option>
+    </select>
+    <br><br>
+
+    <label for="Exam Attempt">Exam Attempt:</label>
+    <input type="checkbox" id="Exam Attempt">
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" rows="2" cols="65"></textarea>
+    <br><br>
+
+    <label for="file">File:</label>
+    <input type="file" id="file" accept=".png, .jpeg, .heic, .pdf">
+    <br><br>
+
+    <input type="reset">
+    <input type="submit">
+
+</form>
 
 <script src="public/js/main.js"></script>
 </body>
