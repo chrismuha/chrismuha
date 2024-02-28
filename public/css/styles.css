@@ -9,7 +9,7 @@
 
 
 /* Theme Switcher */
-input[type=checkbox] {
+input[type=checkbox].theme-switcher {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -25,7 +25,7 @@ input[type=checkbox] {
     width: 50px;
 }
 
-input[type=checkbox]:after {
+input[type=checkbox].theme-switcher:after {
     content: "☀️";
     padding-bottom: 5px;
 }
@@ -34,7 +34,7 @@ input[type=checkbox]:after {
         margin-top: 75px; 
  }
 
-input[type=checkbox]:checked::after {
+input[type=checkbox].theme-switcher:checked::after {
     content: "🌕";
     padding-bottom: 5px;
 }
