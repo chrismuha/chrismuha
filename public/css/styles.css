@@ -94,6 +94,7 @@ body {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 14px;
+    margin-top: 66px;
 }
 
 p {
@@ -201,6 +202,7 @@ nav.navbar {
     right: 0;
     left: 0;
     z-index: 125;
+    position: fixed;
 }
 
 .navbar-brand {
