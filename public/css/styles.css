@@ -1488,7 +1488,7 @@ a.nav-link {
 
 .google .swiper-wrapper {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .review-slider .swiper-slide {
