@@ -370,6 +370,7 @@ footer a.e_mail, a.e_mail {
 }
 .footer-blue-button a:hover {
     color: white;
+    text-decoration: none;
 }
 
 /* page top buttons */
@@ -416,10 +417,14 @@ footer a.e_mail, a.e_mail {
     background-color: #187bcd !important;
     opacity: 1 !important;
     color: white !important;
+    text-decoration: none;
 }
 
 .btn:hover {
-background-color: #0b6623 !important; opacity: 1 !important; color: white !important;
+    background-color: #0b6623 !important; 
+    opacity: 1 !important; 
+    color: white !important;
+    text-decoration: none;
 }
 
 .e_mail {
@@ -1559,6 +1564,7 @@ a.nav-link {
 .google-review-button:hover {
     background-color: #f1b401 !important;
     color: #3a7cec !important;
+    text-decoration: none;
 }
 
 /* back to top circle button */
