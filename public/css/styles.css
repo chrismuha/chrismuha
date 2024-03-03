@@ -1490,6 +1490,9 @@ a.nav-link {
     top: var(--swiper-navigation-top-offset,150px) !important;
     color: #111;
 }
+.google-swiper .swiper-button-prev, .google-swiper .swiper-button-next {
+    top: var(--swiper-navigation-top-offset,350px) !important;
+}
 
 .google .swiper-wrapper {
     display: flex;
