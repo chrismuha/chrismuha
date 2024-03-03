@@ -68,6 +68,64 @@
             content: 'MCR Exam';
             color: black;
         }
+
+        .container {
+            margin-top: 37px;
+            margin-bottom: 37px;
+        }
+        form {
+            background-color: rgb(255, 208, 208);
+            padding: 1rem 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            border-radius: 0.2rem;
+        }
+        form input:not([type= radio], [type= checkbox], [type= file]), form textarea {
+            width: 100%;
+            min-height: 3rem;
+            padding: 0.5rem;
+        }
+        form input:is([type= submit],[type=reset]) {
+            background-color: rgb(255, 65, 65);
+            border: white;
+            border-radius: 0.2rem;
+            color: white;
+        }
+        form .horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        form .horizontal > div {
+            background-color: rgb(255, 106, 106);
+            color: white;
+            padding: 0.5rem;
+            width: 6rem;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+         form input[type= file] {
+            padding: 0;
+        }
+        input::-webkit-file-upload-button {
+            background-color: rgb(255, 106, 106);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.2rem;
+            border: white;
+            margin-right: 1rem;
+            margin-top: 0.5rem;
+        }
+        form #payment {
+            background-color: rgb(255, 106, 106);
+            color: white;
+            border: white;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 0.2rem;
+        }
     </style>
 </head>
 <body>
@@ -163,71 +221,87 @@
     <img src="public/banners/size-1-banners/legal-banner.jpg" alt="page banner">
 </div>
 
-<p> Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. You could also be here because you were given the green light, and we are interested in hiring you for the position you applied for here at Muha Computer Repair. We need to validate your skills were accurately reported on your resume and that the skills you possess are up to par with our high-quality standards. This is the final requirement you need to meet to get your foot in the door with the highest chances to being on the road to employment by Muha Computer Repair.</p>
+<div class="container">
 
-<form action="index.html" method="POST" enctype="multipart/form-data">
+    <p> Welcome to Muha Computer Repair, if you are on this page, you are looking to purchase an attempt at taking our certification examination to prove to other employers your skills are validated by professionals in the Information Technology (IT) industry. You could also be here because you were given the green light, and we are interested in hiring you for the position you applied for here at Muha Computer Repair. We need to validate your skills were accurately reported on your resume and that the skills you possess are up to par with our high-quality standards. This is the final requirement you need to meet to get your foot in the door with the highest chances to being on the road to employment by Muha Computer Repair.</p>
 
-    <label for="username">Username:</label>
-    <input type="text" id="username" placeholder="Username" minlength="5"  maxlength="25" required>
-    <br><br>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" placeholder="Create a Password" minlength="16" maxlength="24" required>
-    <br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="user@gmail.com">
-    <br><br>
-
-    <label for="phone">Phone #:</label>
-    <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-    <br><br>
-
-    <label for="bday">Birthdate:</label>
-    <input type="date" id="bday">
-    <br><br>
-
-    <label for="quantity">Quantity:</label>
-    <input type="number" id="quantity" min="0" max="99" value="1">
-    <br><br>
-
-    <label for="title">Title:</label>
+    <form action="index.html" method="POST" enctype="multipart/form-data">
     
-    <label for="Mr.">Mr.</label>
-    <input type="radio" id="Mr." value="Mr." name="title">
-    <label for="Ms.">Ms.</label>
-    <input type="radio" id="Ms." value="Ms." name="title">
-    <label for="PhD.">PhD.</label>
-    <input type="radio" id="PhD." value="PhD." name="title">
-    <label for="Dr.">Dr.</label>
-    <input type="radio" id="Dr." value="Dr." name="title">
-    <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username" minlength="5"  maxlength="25" required>
+        <br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Create a Password" minlength="16" maxlength="24" required>
+        <br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="user@gmail.com">
+        <br>
+    
+        <label for="phone">Phone #:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+    
+        <label for="bday">Birthdate:</label>
+        <input type="date" id="bday">
+        <br>
+    
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1">
+        <br>
+    
+        <label for="title">Title:</label>
+        <div class="horizontal">
+            <div>
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+            </div>
+            <div>
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." value="Ms." name="title">
+            </div>
+            <div>
+                <label for="PhD.">PhD.</label>
+                <input type="radio" id="PhD." value="PhD." name="title">
+            </div>
+            <div>
+                <label for="Dr.">Dr.</label>
+                <input type="radio" id="Dr." value="Dr." name="title">
+            </div>
+        </div>
+        <br>
+    
+        <label for="payment">Payment</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Discover">Discover</option>
+            <option value="American Express">American Express</option>
+            <option value="Gift Card">Gift Card</option>
+        </select>
+        <br>
+    
+        <div class="horizontal">
+            <label for="Exam Attempt">Exam Attempt:</label>
+            <input type="checkbox" id="Exam Attempt">
+        </div>
+        <br>
 
-    <label for="payment">Payment</label>
-    <select id="payment">
-        <option value="Visa">Visa</option>
-        <option value="Mastercard">Mastercard</option>
-        <option value="Discover">Discover</option>
-        <option value="American Express">American Express</option>
-        <option value="Gift Card">Gift Card</option>
-    </select>
-    <br><br>
-
-    <label for="Exam Attempt">Exam Attempt:</label>
-    <input type="checkbox" id="Exam Attempt">
-
-    <label for="comment">Comment:</label>
-    <textarea id="comment" rows="2" cols="65"></textarea>
-    <br><br>
-
-    <label for="file">File:</label>
-    <input type="file" id="file" accept=".png, .jpeg, .heic, .pdf">
-    <br><br>
-
-    <input type="reset">
-    <input type="submit">
-
-</form>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="2" cols="65"></textarea>
+        <br>
+    
+        <label class="file-upload" for="file">File:</label>
+        <input type="file" id="file" accept=".png, .jpeg, .heic, .pdf">
+        <br>
+    
+        <input type="reset">
+        <br>
+        <input type="submit">
+    
+    </form>
+</div>
 
 <script src="public/js/main.js"></script>
 </body>
