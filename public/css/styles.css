@@ -1550,6 +1550,23 @@ a.nav-link {
     margin: auto;
 }
 
+.google.review-slider > p::after {
+    font-size: 12pt;
+    font-weight: 500;
+    display: block;
+    padding: 12pt 0;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    border: magenta solid 2px; 
+    margin-bottom: 12pt; 
+    border-radius: 6pt; 
+    padding: 6pt; 
+    line-height: 2; 
+    margin: 16px;
+    width: unset;
+}
+
 .google-review .order-number {
     min-height: 1rem;
     text-align: center;
