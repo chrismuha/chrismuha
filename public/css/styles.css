@@ -496,6 +496,10 @@ footer a.e_mail, a.e_mail {
     width: 40pt;
 }
 
+.dark-theme .icon-button {
+    box-shadow: 0px 0px 5px lightgray;
+}
+
 /* Circle */
 .icon-button span {
     border-radius: 0;
@@ -1614,7 +1618,18 @@ a.nav-link {
     transition: 0.1s;
 }
 
+.dark-theme .circle-top {
+    background-color: #0074df;
+    border: white 4px solid;
+}
+
+
 .circle-top:hover , .circle-top:active {
+    background-color: #1b91ff;
+    border: white 2px solid;
+}
+
+.dark-theme .circle-top:hover {
     background-color: #1b91ff;
     border: white 2px solid;
 }
