@@ -1045,6 +1045,11 @@ a.nav-link {
     border-radius: 7.2pt;
     padding-bottom: 36pt;
 }
+.menu-table-header > *:not(h4) {
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
         width: 90%;
