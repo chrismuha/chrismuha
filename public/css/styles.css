@@ -925,6 +925,7 @@ footer a.e_mail, a.e_mail {
     background-size: 200%;
     position: fixed;
     margin: 0 auto;
+    margin-top: -66px;
 }
     
 #preloader img {
@@ -1048,11 +1049,6 @@ a.nav-link {
     border: black 1px solid;
     border-radius: 7.2pt;
     padding-bottom: 36pt;
-}
-.menu-table-header > *:not(h4) {
-    width: 70%;
-    margin-left: auto !important;
-    margin-right: auto !important;
 }
 @media screen and (max-width: 302px) {
     .menu-table-header .img {
@@ -1606,7 +1602,7 @@ a.nav-link {
     width: 36pt;
     border-radius: 120pt;
     background-color: #0074df;
-    border: white 4px solid;
+    border: #30D5C8 4px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1626,7 +1622,7 @@ a.nav-link {
 
 .circle-top:hover , .circle-top:active {
     background-color: #1b91ff;
-    border: white 2px solid;
+    border: #30D5C8 2px solid;
 }
 
 .dark-theme .circle-top:hover {
@@ -1864,4 +1860,11 @@ to {
     .hiring-container {
         max-width: calc(1320px + (5 * 1320px / 100)) !important;
     }
+}
+
+/* billing text custom styling */
+.billing-text {
+    font-weight:600; 
+    font-size: 14px; 
+    font-family: Calibri;
 }
