@@ -16,7 +16,6 @@ circleTopButton.addEventListener('click', ()=> {
         top: 0,
         behavior: 'smooth'
     });
-    console.log('mom')
     circleTopButton.classList.add('hover-animation');
     setTimeout(() => {
         circleTopButton.classList.remove('hover-animation');
