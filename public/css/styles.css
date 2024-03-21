@@ -1621,12 +1621,12 @@ a.nav-link {
 }
 
 
-.circle-top:hover , .circle-top:active {
+.hover-animation {
     background-color: #1b91ff;
     border: #30D5C8 2px solid;
 }
 
-.dark-theme .circle-top:hover {
+.dark-theme .hover-animation {
     background-color: #1b91ff;
     border: white 2px solid;
 }

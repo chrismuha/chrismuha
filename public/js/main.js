@@ -3,7 +3,7 @@ const newsBannerSection = document.querySelector('.news-banner');
 const newsBannerText = document.querySelector('.breaking-news-headline');
 const hasAutoNumber = Array.from(document.querySelectorAll('.has-auto-number'));
 var loader = document.getElementById("preloader");
-
+const circleTopButton = document.getElementById("top");
 
 newsBannerText.innerText = ''
 
@@ -11,6 +11,17 @@ window.addEventListener("load", function () {
 loader.style.display = "none";
 })
 
+circleTopButton.addEventListener('click', ()=> {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    console.log('mom')
+    circleTopButton.classList.add('hover-animation');
+    setTimeout(() => {
+        circleTopButton.classList.remove('hover-animation');
+    }, 500);
+})
 
 $('.a-nav-toggle, .menu-main a').on('click', function(){
     if ($('html').hasClass('body-menu-opened')) {
