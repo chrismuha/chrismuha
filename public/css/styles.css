@@ -1690,6 +1690,15 @@ a.nav-link {
     text-decoration: none;
 }
 
+@media screen and (max-width: 450px) {
+    .google-review h1 {
+        font-size: 18pt;
+    }
+    .review-slider.google .swiper-slide {
+        padding: 0 35pt !important;
+    }
+}
+
 /* back to top circle button */
 .circle-top {
     height: 36pt;
