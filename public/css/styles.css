@@ -1998,3 +1998,14 @@ to {
     font-size: 14px; 
     font-family: Calibri;
 }
+
+/* about page border with list styling */
+.about-list-with-border .div #about-list-with-border-content {
+    border-color: solid #FFA000;
+    border-width: 2px;
+    border-radius: 6pt;
+    margin-bottom: 12pt;
+    padding: 6pt;
+    line-height: 2;
+    list-style: circle;
+ }
