@@ -1668,8 +1668,14 @@ a.nav-link {
     text-align: center;
 }
 
+.order-number {
+    text-decoration: underline;
+}
+
 .google-review-box img {
     width: 50%;
+    border: blue 1px solid;
+    margin: 0.1rem auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -1697,6 +1703,10 @@ a.nav-link {
     .review-slider.google .swiper-slide {
         padding: 0 35pt !important;
     }
+}
+
+.google-review.swiper-slide p:not(.order-number) {
+    border: red solid 1px;
 }
 
 /* back to top circle button */
