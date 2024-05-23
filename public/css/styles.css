@@ -253,6 +253,7 @@ footer {
 footer {
     margin-top: 0px;
 }
+
 /* 
 footer .text-black-50 {
     font-size: 8pt;
@@ -318,7 +319,6 @@ footer a.e_mail, a.e_mail {
 .books .card > a {
     font-size: 14px;
     color: #4198d0 !important;
-
 }
 
 .books .card a {
@@ -968,7 +968,6 @@ footer a.e_mail, a.e_mail {
         text-decoration: none;
     }
 
-
     .menu-main > ul > li a:hover:after {
         width: 0%;
     }
@@ -1327,6 +1326,7 @@ a.nav-link {
         gap: 0;
         text-align: center;
     }
+    
     .ftc-ending .line {
         height: 2px;
         width: 100%;
@@ -1515,6 +1515,7 @@ a.nav-link {
         font-size: 15.6pt;
     }
 }
+
 @media screen and (max-width: 300px) {
     .page-banner::before {
         font-size: 12pt;
@@ -1628,9 +1629,11 @@ a.nav-link {
     .review-slider {
         width: 100%;
     }
+    
     .review-slider img {
         width: 100%;
     }
+    
     .review-slider .review-slider {
         padding: 0 48pt;
     }
@@ -1731,7 +1734,6 @@ a.nav-link {
     background-color: #0074df;
     border: white 4px solid;
 }
-
 
 .hover-animation {
     background-color: #1b91ff;
@@ -2001,8 +2003,7 @@ to {
 
 /* about page border with list styling */
 .about-list-with-border .div #about-list-with-border-content {
-    border-color: solid #FFA000;
-    border-width: 2px;
+    border: 2px solid #FFA000;
     border-radius: 6pt;
     margin-bottom: 12pt;
     padding: 6pt;
