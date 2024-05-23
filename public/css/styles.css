@@ -29,7 +29,7 @@ input[type=checkbox].theme-switcher:after {
     padding-bottom: 5px;
 }
 
-#navbarNav .nav-item:first-child{
+#navbarNav .nav-item:first-child {
         margin-top: 75px; 
 }
 
@@ -67,16 +67,16 @@ body {
     background-color: #1c1c1c;
 }
 
-.dark-theme .light_logo{
+.dark-theme .light_logo {
     display: none;
 }
 
-body:not(.dark-theme) .dark_logo{
+body:not(.dark-theme) .dark_logo {
     display: none;
 }
 
 /* 
-body .offcanvas{
+body .offcanvas {
      background-color: black !important;
      box-shadow: 0 0 10px #2121218a;
  }
@@ -85,7 +85,7 @@ body .offcanvas{
      color: white;
  }
 
- .offcanvas{
+ .offcanvas {
      transition: transform .03s ease-in-out !important;
      max-width: 250px !important;
  } */
@@ -906,11 +906,11 @@ footer a.e_mail, a.e_mail {
 }
 
 @media only screen and (min-width: 1080px) {
-    header .img-fluid{
+    header .img-fluid {
         max-width: 580px;
         margin-top: 50px;
     }
-    div.banner .img-fluid{
+    div.banner .img-fluid {
         max-width: 580px;
     }
 
@@ -1709,7 +1709,7 @@ a.nav-link {
 }
 
 .google-review.swiper-slide p:not(.order-number) {
-    border: red solid 1px;
+    border: #fbbc05 solid 1px;
 }
 
 /* back to top circle button */
