@@ -22,6 +22,7 @@ input[type=checkbox].theme-switcher {
     border-radius: 20px;
     height: 50px;
     width: 50px;
+    cursor:pointer;
 }
 
 input[type=checkbox].theme-switcher:after {
@@ -371,6 +372,11 @@ footer a.e_mail, a.e_mail {
 }
 
 .footer-blue-button a:hover {
+    color: unset;
+    text-decoration: unset;
+}
+
+.footer-blue-button a:active {
     color: white;
     text-decoration: none;
 }
@@ -419,14 +425,19 @@ footer a.e_mail, a.e_mail {
     gap: 3pt;
 }
 
-.e_mail:hover {
+.btn:hover {
+    text-decoration: unset;
+    color: unset;
+}
+
+.e_mail:active {
     background-color: #187bcd !important;
     opacity: 1 !important;
     color: white !important;
     text-decoration: none;
 }
 
-.btn:hover {
+.btn:active {
     background-color: #0b6623 !important; 
     opacity: 1 !important; 
     color: white !important;
@@ -448,7 +459,7 @@ footer a.e_mail, a.e_mail {
     text-decoration: none;
 }
 
-.btn:hover {
+.btn:active {
     background-color: #4db748;opacity: 1;color: white;
 }
 
@@ -472,7 +483,7 @@ footer a.e_mail, a.e_mail {
     border-radius: 5px;
 }
 
-    .e_mail_top:hover {
+    .e_mail_top:active {
     background-color: #1484b8 !important;
     opacity: 1 !important;
 }
@@ -1621,7 +1632,6 @@ a.nav-link {
     align-items: center;
     padding: 0 24pt;
     margin: 24pt auto;
-    background-color: white;
     border-radius: 12pt;
 }
 
@@ -1639,6 +1649,30 @@ a.nav-link {
     }
 }
 
+.reviews-responses-slider > p {
+    border: #4285f4 solid 2px;
+    border-radius: 6pt; 
+    padding: 6pt; 
+}
+
+.facebook-review-slider > p {
+    border: #34a853 solid 2px;
+    border-radius: 6pt; 
+    padding: 6pt; 
+}
+
+.buyer-review-slider > p {
+    border: #ea4335 solid 2px;
+    border-radius: 6pt; 
+    padding: 6pt; 
+}
+
+.seller-review-slider > p {
+    border: #4285f4 solid 2px;
+    border-radius: 6pt; 
+    padding: 6pt; 
+}
+
 .review-slider > p::after {
     content: 'We are here to provide exceptional customer service. We will ensure that your computers and devices are performing at their peak and are secure when using the internet.';
     font-size: 12pt;
@@ -1647,6 +1681,7 @@ a.nav-link {
     padding: 12pt 0;
     width: 80%;
     margin: auto;
+    text-transform: none;
 }
 
 .google.review-slider > p::after {
@@ -1657,7 +1692,7 @@ a.nav-link {
     margin: auto;
     font-size: 14px;
     text-align: left;
-    border: magenta solid 2px; 
+    border: #4285f4 solid 2px; 
     margin-bottom: 12pt; 
     border-radius: 6pt; 
     padding: 6pt; 
@@ -1679,6 +1714,7 @@ a.nav-link {
     width: 50%;
     border: blue 1px solid;
     margin: 0.1rem auto;
+    background-color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -2002,7 +2038,7 @@ to {
 }
 
 /* about page border with list styling */
-.about-list-with-border .div #about-list-with-border-content {
+#about-list-with-border-content {
     border: 2px solid #FFA000;
     border-radius: 6pt;
     margin-bottom: 12pt;
