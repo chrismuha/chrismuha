@@ -1728,8 +1728,10 @@ a.nav-link {
     color: #3a7cec;
     margin: 12pt 0;
 }
-
 .google-review-button:hover {
+    color: #3a7cec;
+}
+.google-review-button:active {
     background-color: #f1b401 !important;
     color: #3a7cec !important;
     text-decoration: none;
