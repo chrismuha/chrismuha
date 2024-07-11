@@ -2040,8 +2040,8 @@ to {
 }
 
 /* about page border with list styling */
+/* border style for color and type of line are specified in HTML because each border is a different color */
 .about-list-with-border {
-    border: 2px solid #FFA000;
     border-radius: 6pt;
     margin-bottom: 12pt;
     padding: 6pt;
