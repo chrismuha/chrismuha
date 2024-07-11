@@ -2040,7 +2040,7 @@ to {
 }
 
 /* about page border with list styling */
-#about-list-with-border-content {
+.about-list-with-border {
     border: 2px solid #FFA000;
     border-radius: 6pt;
     margin-bottom: 12pt;
