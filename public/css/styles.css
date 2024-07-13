@@ -2035,16 +2035,34 @@ to {
 /* billing text custom styling */
 .billing-text {
     font-weight:600; 
-    font-size: 14px; 
+    font-size: 10.5pt; 
     font-family: Calibri;
 }
 
-/* about page border with list styling */
-/* border style for color and type of line are specified in HTML because each border is a different color */
-.about-list-with-border {
-    border-radius: 6pt;
-    margin-bottom: 12pt;
-    padding: 6pt;
-    line-height: 2;
-    list-style: circle;
+/* about page borders */
+.about-borders {
+    border-radius: 6px;
+    margin-bottom: 12px;
+    padding: 6px;
+ }
+ .red-border {
+    border: 2px solid red;
+ }
+ .orange-border {
+    border: 2px solid orange;
+ }
+ .yellow-border {
+    border: 2px solid yellow;
+ }
+ .green-border {
+    border: 2px solid green;
+ }
+ .blue-border {
+    border: 2px solid blue;
+ }
+ .indigo-border {
+    border: 2px solid indigo;
+ }
+ .violet-border {
+    border: 2px solid violet;
  }
