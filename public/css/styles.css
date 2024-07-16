@@ -2040,9 +2040,14 @@ to {
 }
 
 /* about page borders */
+.about-container {
+    margin: 0 1rem;
+}
 .about-borders {
     border-radius: 6px;
+    margin: auto;
     margin-bottom: 12px;
+    max-width: 550px;
     padding: 6px;
  }
  .red-border {
