@@ -2071,3 +2071,25 @@ to {
  .violet-border {
     border: 2px solid violet;
  }
+
+ /* book page specific styling */
+ .book-container {
+    margin: 0 1rem;
+}
+
+ ul .book-page-no-bullets {
+    list-style-type: none;
+    list-style-position: inside;
+ }
+
+ /* book page borders */
+ .book-borders {
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 12px;
+    max-width: 550px;
+    padding: 6px;
+ }
+ .blue-border {
+    border: 2px solid #37B3DA;
+ }
