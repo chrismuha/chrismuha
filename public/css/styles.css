@@ -1005,7 +1005,11 @@ footer a.e_mail, a.e_mail {
     color: #ffffff8c !important;
     opacity: 100%;
     animation: normal !important;
-    text-decoration: none;
+    text-decoration: underline 2px #ff5344;
+}
+
+.nav-item a.active {
+    text-decoration: underline 2px #B9FF66;
 }
 
 .nav-item .active:hover {
@@ -1039,6 +1043,12 @@ footer a.e_mail, a.e_mail {
     .menu a {
         margin-left: -2px;
     }   
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-item a.nav-link {
+        text-decoration: none !important;
+    }
 }
 
 .menu {
