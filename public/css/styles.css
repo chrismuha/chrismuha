@@ -1289,8 +1289,6 @@ a.nav-link {
 .full-ftc-bullets-flex {
     display: flex;
     justify-content: space-between;
-    background-color: #00000017;
-    
 }
 
 .full-ftc-bullets-flex * {
@@ -1629,6 +1627,7 @@ a.nav-link {
     font-size: 22px;
     text-align: center;
     font-weight: 600;
+    margin: 0 1rem;
 }
 
 .review-slider i {
