@@ -10,6 +10,14 @@ window.addEventListener("load", function () {
     loader.style.display = "none";
 })
 
+// window.addEventListener('scroll', function(event) {
+//     circleTopButton.style.visibility = "hidden";
+// });
+// window.addEventListener('scrollend', function(event) {
+//     circleTopButton.style.visibility = "unset";
+// });
+
+
 circleTopButton.addEventListener('click', ()=> {
     window.scrollTo({
         top: 0,

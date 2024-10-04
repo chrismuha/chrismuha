@@ -334,7 +334,7 @@ footer a.e_mail, a.e_mail {
 /* footer links */
 .footer-links > div {
     width: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -501,7 +501,8 @@ footer a.e_mail, a.e_mail {
     line-height: 40pt;
     margin: 0px 22px;
     margin-top: 0px;
-    margin-bottom: 55px;
+    /* margin-bottom: 55px; */
+    margin-bottom: 16px;
     position: relative;
     text-align: center;
     -webkit-user-select: none;
@@ -1629,6 +1630,9 @@ a.nav-link {
     font-weight: 600;
     margin: 0 1rem;
 }
+.review-slider:not(.google) > p {
+    margin-bottom: 16px;
+}
 
 .review-slider i {
     color: orange;
@@ -1695,7 +1699,7 @@ a.nav-link {
 
 .google-review-box img {
     width: 50%;
-    border: blue 1px solid;
+    /* border: blue 1px solid; */
     margin: 0.1rem auto;
     background-color: white;
 }
@@ -1789,13 +1793,27 @@ a:hover {
 }
 
 /*spacing correction top layer codes*/
-.footer-links {
+/* .footer-links {
     margin-bottom: 37px !important;
-}
+} */
 
 .bookmark-footer, .review {
     margin: 37px 12pt !important;
     padding: 0;
+}
+
+.legal-footer {
+    margin: 0 12pt !important;
+}
+
+.bookmark-footer {
+    width: 300px;
+    margin: auto !important;
+}
+
+.address-box {
+    max-width: 360pt;
+    margin: auto;
 }
 
 .menu-table-header {
