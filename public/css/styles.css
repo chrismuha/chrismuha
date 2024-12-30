@@ -2094,3 +2094,16 @@ to {
  .blue-border {
     border: 2px solid #37B3DA;
  }
+
+ /* utilities page */
+ .utilities-btn {
+    text-decoration: none;
+    color: #000;
+ }
+ .dark-theme .utilities-btn {
+    color: white;
+ }
+ .utilities-btn:hover {
+    color: red;
+    text-decoration: underline;
+ }
