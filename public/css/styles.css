@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -13,7 +14,8 @@ input[type=checkbox].theme-switcher {
     -moz-appearance: none;
     appearance: none;
     font-size: 18pt;
-    font-family: "Segoe UI Emoji";
+    /* font-family: "Segoe UI Emoji"; */
+    font-family: "bootstrap-icons";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,10 +25,11 @@ input[type=checkbox].theme-switcher {
     height: 50px;
     width: 50px;
     cursor:pointer;
+    color: white;
 }
 
 input[type=checkbox].theme-switcher:after {
-    content: "☀️";
+    content: '\f5a2';
     padding-bottom: 5px;
 }
 
@@ -35,7 +38,7 @@ input[type=checkbox].theme-switcher:after {
 }
 
 input[type=checkbox].theme-switcher:checked::after {
-    content: "🌕";
+    content: '\f497';
     padding-bottom: 5px;
 }
 
