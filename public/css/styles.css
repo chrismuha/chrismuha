@@ -666,19 +666,19 @@ footer a.e_mail, a.e_mail {
 }
 
 .body-menu-opened .nav-toggle .stick-1 {
-    animation: ease .3s top forwards;
+    animation: ease .0s top forwards;
 }
 
 .nav-toggle .stick-1 {
-    animation: ease .3s top-2 forwards;
+    animation: ease .0s top-2 forwards;
 }
 
 .body-menu-opened .nav-toggle .stick-2 {
-    animation: ease .3s bottom forwards;
+    animation: ease .0s bottom forwards;
 }
 
 .nav-toggle .stick-2 {
-    animation: ease .3s bottom-2 forwards;
+    animation: ease .0s bottom-2 forwards;
 }
 
 @keyframes top {
@@ -976,7 +976,7 @@ footer a.e_mail, a.e_mail {
     }
 
     .nav-item a:hover {
-        color: #ffffff8c !important;
+        /* color: #ffffff8c !important; */
         opacity: 100%;
         animation: normal !important;
         text-decoration: none;
@@ -1005,7 +1005,7 @@ footer a.e_mail, a.e_mail {
 }
 
 .nav-item a:hover {
-    color: #ffffff8c !important;
+    /* color: #ffffff8c !important; */
     opacity: 100%;
     animation: normal !important;
     text-decoration: underline 2px #ff5344;
