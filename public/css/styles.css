@@ -1669,25 +1669,25 @@ a.nav-link {
 }
 
 .reviews-responses-slider > p {
-    border: #4285f4 solid 2px;
+    /* border: #4285f4 solid 2px; */
     border-radius: 6pt; 
     padding: 6pt; 
 }
 
 .facebook-review-slider > p {
-    border: #34a853 solid 2px;
+    /* border: #34a853 solid 2px; */
     border-radius: 6pt; 
     padding: 6pt; 
 }
 
 .buyer-review-slider > p {
-    border: #ea4335 solid 2px;
+    /* border: #ea4335 solid 2px; */
     border-radius: 6pt; 
     padding: 6pt; 
 }
 
 .seller-review-slider > p {
-    border: #4285f4 solid 2px;
+    /* border: #4285f4 solid 2px; */
     border-radius: 6pt; 
     padding: 6pt; 
 }
@@ -1739,9 +1739,9 @@ a.nav-link {
     }
 }
 
-.google-review.swiper-slide p:not(.order-number) {
+/* .google-review.swiper-slide p:not(.order-number) {
     border: #fbbc05 solid 1px;
-}
+} */
 
 /* back to top circle button */
 .circle-top {
