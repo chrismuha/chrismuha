@@ -2113,3 +2113,22 @@ to {
     color: red;
     text-decoration: underline;
  }
+
+ /* bug graphics section */
+ .graphics-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+    margin-top: 37px;
+    padding: 0 1rem;
+ }
+ .graphics-section > img {
+    width: 482px;
+    margin: 0;
+ }
+ @media screen and (max-width: 550px) {
+    .graphics-section > img {
+        width: 100%;
+    }
+ }
