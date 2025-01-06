@@ -48,6 +48,7 @@ function addReadMoreToElement(element) {
 
         const readMoreLink = document.createElement('a');
         readMoreLink.href = '#';
+        readMoreLink.classList.add('read-more-link')
         readMoreLink.textContent = 'Read more';
         readMoreLink.style.marginLeft = '5px';
 

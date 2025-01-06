@@ -179,7 +179,7 @@
 
 <main class="container">
 
-    <div class=" col-12 location cls" style="position: relative; top: 5px;
+    <div class="col-12 location cls" style="position: relative; top: 5px;
     margin: auto; font-family: 'Poppins'; text-align: left;">
         <u><b>POLICY DISCLOSURE</b></u>
         <li style="list-style: none;">
@@ -464,6 +464,12 @@
 <a id="top" class="circle-top">
     <i class="fa fa-arrow-up"></i>
 </a>
+
+<script>
+    document.querySelectorAll('.cls li').forEach(n=>{
+        n.classList.add('read-more')
+    })
+</script>
 
 <!-- SECONDARY SCRIPTS -->
 <script src="js/main.js" async></script>
