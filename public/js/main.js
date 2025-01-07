@@ -32,6 +32,8 @@ circleTopButton.addEventListener('click', ()=> {
 function addReadMoreToElement(element) {
     const maxLength = 100;
 
+    delete element.dataset.processed;
+
     if (element.dataset.processed) return;
 
     const originalContent = element.innerHTML.trim();
@@ -48,7 +50,7 @@ function addReadMoreToElement(element) {
 
         const readMoreLink = document.createElement('a');
         readMoreLink.href = '#';
-        readMoreLink.classList.add('read-more-link')
+        readMoreLink.classList.add('read-more-link');
         readMoreLink.textContent = 'Read more';
         readMoreLink.style.marginLeft = '5px';
 
@@ -73,7 +75,26 @@ function initializeReadMore() {
     elements.forEach(addReadMoreToElement);
 }
 
-document.addEventListener('DOMContentLoaded', initializeReadMore);
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Initializing on DOMContentLoaded');
+    const elements = document.querySelectorAll('.read-more');
+    elements.forEach((el) => {
+        delete el.dataset.processed;
+    });
+    initializeReadMore();
+});
+
+// window.onload = () => {
+//     console.log('Initializing on window load');
+//     initializeReadMore();
+// };
+
+// const observer = new MutationObserver(() => {
+//     console.log('MutationObserver triggered');
+//     initializeReadMore();
+// });
+// observer.observe(document.body, { childList: true, subtree: true });
+
 
 $('.a-nav-toggle, .menu-main a').on('click', function(){
     if ($('html').hasClass('body-menu-opened')) {
