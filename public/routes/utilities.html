@@ -2,10 +2,8 @@
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes" />
-
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="HandheldFriendly" content="true" />
   <meta name="MobileOptimized" content="320" />
@@ -13,19 +11,15 @@
   <title>Muha Computer Repair (MCR)</title>
   <meta name="description" content="Welcome to Muha Computer Repair, feel free to browse our website for information on our business and our owner. You will  discover our contact information and links you may find useful for educational purposes, and even to shop for Chris Muha's Book and our apparel." />
 
-  <!-- STYLE SHEETS -->
+  <!-- STYLESHEETS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
- 
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- PRIMARY SCRIPTS -->
   <script type="text/javascript" src="https://chrismuha.com/js/jquery.min.js"></script>
-
 
   <!-- ICONS -->
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
@@ -226,12 +220,28 @@
     <i class="fa fa-arrow-up"></i>
   </a>
 
-  <script src="js/main.js" async></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/reviews.js"></script>
+ <!-- SECONDARY SCRIPTS -->
+ <script src="js/main.js" async></script>
+ <script src="js/swiper-bundle.min.js"></script>
+ <script src="js/reviews.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="y6OzJpbr"></script>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="y6OzJpbr"></script>
+ <!-- READ MORE SCRIPT -->
+ <script>
+   document.querySelectorAll('.cls li').forEach(n=>{
+       n.classList.add('read-more')
+   })
+ </script>
+ 
+ <!-- DISABLE NAVIGATION BAR SCROLLING SCRIPT --> 
+ <script> const menuCheckbox = document.getElementById('click');
+                menuCheckbox.addEventListener('change',
+                () => { if (menuCheckbox.checked)
+                { document.body.classList.add('menu-open'); }
+                else { document.body.classList.remove('menu-open'); }
+    });
+ </script>
 
 </body>
 </html>
