@@ -10,15 +10,15 @@ window.addEventListener("load", function () {
     loader.style.display = "none";
 })
 
-window.addEventListener('scroll', function(event) {
+window.addEventListener('scroll', function (event) {
     circleTopButton.style.visibility = "hidden";
 });
-window.addEventListener('scrollend', function(event) {
+window.addEventListener('scrollend', function (event) {
     circleTopButton.style.visibility = "unset";
 });
 
 
-circleTopButton.addEventListener('click', ()=> {
+circleTopButton.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', initializeReadMore);
 document.onload = initializeReadMore;
 window.addEventListener('load', initializeReadMore)
 
-$('.a-nav-toggle, .menu-main a').on('click', function(){
+$('.a-nav-toggle, .menu-main a').on('click', function () {
     if ($('html').hasClass('body-menu-opened')) {
         $('html').removeClass('body-menu-opened').addClass('body-menu-close');
     } else {
