@@ -2190,10 +2190,25 @@ ul .book-page-no-bullets {
     }
 }
 
+/* Read More */
 .read-more-link {
     text-transform: unset;
 }
 
+/* Disable Scrolling when Navigation Menu is Open */
 body.menu-open {
+    overflow: hidden;
+}
+
+.menu {
+    overflow: hidden !important;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body.no-scroll {
     overflow: hidden;
 }
