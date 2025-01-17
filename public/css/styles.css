@@ -2196,7 +2196,7 @@ ul .book-page-no-bullets {
 }
 
 /* Disable Scrolling when Navigation Menu is Open */
-body.menu-open {
+/* body.menu-open {
     overflow: hidden;
 }
 
@@ -2211,4 +2211,4 @@ body.menu-open {
 
 body.no-scroll {
     overflow: hidden;
-}
+} */
