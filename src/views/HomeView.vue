@@ -1,6 +1,6 @@
 <template>
   <div id="preloader">
-    <img src="img/white-banner.png" alt="Loading logo">
+    <img src="@/assets/img/white-banner.png" alt="Loading logo">
     <p>loading... please wait...</p>
   </div>
 
@@ -9,7 +9,7 @@
 
       <div class="brand-desk">
         <a class="navbar-brand" href="index" target="_self">
-          <img src="img/black-banner.png" alt=“MCR Logo”>
+          <img src="@/assets/img/black-banner.png">
         </a>
       </div>
 
@@ -21,7 +21,7 @@
       </button>
 
       <a class="navbar-brand brand-mob" href="index" target="_self">
-        <img src="img/black-banner.png" alt=“MCR Logo”>
+        <img src="@/assets/img/black-banner.png">
       </a>
 
       <div class="hide-menu a-nav-toggle"></div>
@@ -86,10 +86,10 @@
   <div class="invertedscrollclick" id="top"></div>
 
   <div class="page-banner for-desktop">
-    <img src="banners/size-2-banners/home-banner.jpg" alt="page banner">
+    <img src="@/assets/banners/size-2-banners/home-banner.jpg" alt="page banner">
   </div>
   <div class="page-banner for-mobile">
-    <img src="banners/size-1-banners/home-banner.jpg" alt="page banner">
+    <img src="@/assets/banners/size-1-banners/home-banner.jpg" alt="page banner">
   </div>
 
   <div class="text-center">
@@ -153,9 +153,9 @@
   </div>
 
   <div class="col-12 text-center graphics-section">
-    <img src="img/bug-graphic.png" alt="bug graphic" class="img mcr-virus-pic">
-    <img src="img/mcr-graphic-2.png" alt="graphic 2" class="img mcr-virus-pic">
-    <img src="img/mcr-graphic-3.png" alt="graphic 3" class="img mcr-virus-pic">
+    <img src="@/assets/img/bug-graphic.png" alt="bug graphic" class="img mcr-virus-pic">
+    <img src="@/assets/img/mcr-graphic-2.png" alt="graphic 2" class="img mcr-virus-pic">
+    <img src="@/assets/img/mcr-graphic-3.png" alt="graphic 3" class="img mcr-virus-pic">
   </div>
 
   <div class="container">
@@ -296,7 +296,7 @@
         <div class="swiper-slide">
           <div class="menu-table-header text-uppercase bitter">
             <h4>Muha Computer Repair</h4>
-            <p>
+            <div>
             <p class="table-underlined-text">
               <u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
             </p>
@@ -309,7 +309,7 @@
             <p class="table-underlined-text">
               <u><b>We do not charge card fees.</b></u>
             </p>
-            </p>
+          </div>
             <div class="services">
               <a href="services#quickservices">QUICK SERVICES <br> $20 (FIXED PRICE)</a>
               <a href="services#tuneup">SOFTWARE TUNE-UP <br> $60 (FIXED PRICE)</a>
@@ -519,8 +519,8 @@
   <footer>
     <div class="container">
       <div class="banner text-center">
-        <img src="logo/MCRwhiteNred.png" alt=“MCR Logo” class="img-fluid dark_logo">
-        <img src="logo/MCRblackNred.png" alt=“MCR Logo” class="img-fluid light_logo">
+        <img src="@/assets/logo/MCRwhiteNred.png" class="img-fluid dark_logo">
+        <img src="@/assets/logo/MCRblackNred.png" class="img-fluid light_logo">
       </div>
       <div class="text-center" style="margin: 37px 0 !important;">
         <p class="h5 number" style="font-size:17px; border-radius: 12pt;"> <u><b>SHIPPING ADDRESS:</b></u>
@@ -533,7 +533,8 @@
       </div>
       <div class="time d-flex justify-content-center align-items-center">
         <table class="table table-responsive table-hover text-center" style="width: 300px">
-          <tr style="border-top: 1px solid #dee2e6 !important;">
+          <tbody>
+            <tr style="border-top: 1px solid #dee2e6 !important;">
             <td class="fw-bold">
               <p class="hours-bold-700">MONDAY</p>
             </td>
@@ -597,6 +598,7 @@
               <p class="hours-bold-600">24/7</p>
             </td>
           </tr>
+          </tbody>
         </table>
       </div>
       <br>
