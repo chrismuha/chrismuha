@@ -1,9 +1,4 @@
 <template>
-  <div id="preloader">
-    <img src="@/assets/img/white-banner.png" alt="Loading logo">
-    <p>loading... please wait...</p>
-  </div>
-
   <nav class="navbar navbar-expand-lg navbar-dark nav-mob scrollclick" id="nav">
     <div class="container-fluid" id="navContainer">
 
