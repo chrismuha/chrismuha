@@ -701,3 +701,43 @@
     <i class="fa fa-arrow-up"></i>
   </a>
 </template>
+<style scoped>
+    .location {
+      width: 482px;
+      margin: auto;
+    }
+
+    .px-3 {
+      margin: 12pt 24pt;
+    }
+
+    .bitter {
+      font-family: 'Poppins';
+      font-weight: 500 !important;
+    }
+
+    .semi-bold p {
+      font-weight: 500 !important;
+    }
+
+    div span {
+      font-weight: 600;
+    }
+
+    .read-more span {
+      font-weight: normal;
+    }
+
+    @media(max-width: 520px) {
+
+      .location {
+        width: fit-content;
+        margin: auto 1rem;
+      }
+    }
+
+    .page-banner::before {
+      content: 'Virtual Computer Repair';
+      color: red;
+    }
+</style>
