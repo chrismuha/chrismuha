@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import router from './router';
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 const isLoading = ref(false);
 
@@ -15,6 +15,10 @@ router.afterEach(() => {
     isLoading.value = false;
   }, 500);
 });
+
+onMounted(() => {
+  
+})
 </script>
 
 <template>

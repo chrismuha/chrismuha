@@ -1,15 +1,15 @@
 // DOM ELEMENTS
 const newsBannerSection = document.querySelector('.news-banner');
 const newsBannerText = document.querySelector('.breaking-news-headline');
-var loader = document.getElementById("preloader");
+// var loader = document.getElementById("preloader");
 const circleTopButton = document.getElementById("top");
 
 newsBannerText.innerText = '';
 
 
-window.addEventListener("load", function () {
-    loader.style.display = "none";
-})
+// window.addEventListener("load", function () {
+//     loader.style.display = "none";
+// })
 
 window.addEventListener('scroll', function (event) {
     circleTopButton.style.visibility = "hidden";

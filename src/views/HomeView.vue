@@ -8,7 +8,7 @@
         </a>
       </div>
 
-      <button class="nav-toggle-btn a-nav-toggle">
+      <button class="nav-toggle-btn a-nav-toggle" @click="toggleMenu">
         <span class="nav-toggle">
           <span class="stick stick-1"></span>
           <span class="stick stick-2"></span>
@@ -19,7 +19,7 @@
         <img src="@/assets/img/black-banner.png">
       </a>
 
-      <div class="hide-menu a-nav-toggle"></div>
+      <div class="hide-menu a-nav-toggle" @click="toggleMenu"></div>
 
       <div class="menu">
 
@@ -63,6 +63,8 @@
         </nav>
 
       </div>
+
+      <input type="checkbox" id="theme-switch" class="theme-switcher">
     </div>
   </nav>
 
@@ -292,19 +294,19 @@
           <div class="menu-table-header text-uppercase bitter">
             <h4>Muha Computer Repair</h4>
             <div>
-            <p class="table-underlined-text">
-              <u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
-            </p>
-            <p class="table-underlined-text">
-              <u><b>We offer services via shipping.</b></u>
-            </p>
-            <p class="table-underlined-text">
-              <u><b>We have no subscription service.</b></u>
-            </p>
-            <p class="table-underlined-text">
-              <u><b>We do not charge card fees.</b></u>
-            </p>
-          </div>
+              <p class="table-underlined-text">
+                <u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
+              </p>
+              <p class="table-underlined-text">
+                <u><b>We offer services via shipping.</b></u>
+              </p>
+              <p class="table-underlined-text">
+                <u><b>We have no subscription service.</b></u>
+              </p>
+              <p class="table-underlined-text">
+                <u><b>We do not charge card fees.</b></u>
+              </p>
+            </div>
             <div class="services">
               <a href="services#quickservices">QUICK SERVICES <br> $20 (FIXED PRICE)</a>
               <a href="services#tuneup">SOFTWARE TUNE-UP <br> $60 (FIXED PRICE)</a>
@@ -530,69 +532,69 @@
         <table class="table table-responsive table-hover text-center" style="width: 300px">
           <tbody>
             <tr style="border-top: 1px solid #dee2e6 !important;">
-            <td class="fw-bold">
-              <p class="hours-bold-700">MONDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">TUESDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">WEDNESDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">THURSDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">FRIDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">SATURDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">BY APPOINTMENT</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">SUNDAY</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">BY APPOINTMENT</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="fw-bold">
-              <p class="hours-bold-700">EXIGENCIES</p>
-            </td>
-            <td>
-              <p class="hours-bold-600">24/7</p>
-            </td>
-          </tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">MONDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">TUESDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">WEDNESDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">THURSDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">FRIDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">9:00 AM - 5:00 PM</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">SATURDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">BY APPOINTMENT</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">SUNDAY</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">BY APPOINTMENT</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="fw-bold">
+                <p class="hours-bold-700">EXIGENCIES</p>
+              </td>
+              <td>
+                <p class="hours-bold-600">24/7</p>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -702,42 +704,104 @@
   </a>
 </template>
 <style scoped>
-    .location {
-      width: 482px;
-      margin: auto;
+.location {
+  width: 482px;
+  margin: auto;
+}
+
+.px-3 {
+  margin: 12pt 24pt;
+}
+
+.bitter {
+  font-family: 'Poppins';
+  font-weight: 500 !important;
+}
+
+.semi-bold p {
+  font-weight: 500 !important;
+}
+
+div span {
+  font-weight: 600;
+}
+
+.read-more span {
+  font-weight: normal;
+}
+
+@media(max-width: 520px) {
+
+  .location {
+    width: fit-content;
+    margin: auto 1rem;
+  }
+}
+
+.page-banner::before {
+  content: 'Virtual Computer Repair';
+  color: red;
+}
+</style>
+<script>
+export default {
+  mounted() {
+    const btn = document.getElementById('theme-switch');
+
+    let theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+      document.body.classList.add('dark-theme')
+      btn.checked = true;
+    } else {
+      btn.checked = false
     }
 
-    .px-3 {
-      margin: 12pt 24pt;
+    document.querySelector('input#theme-switch').addEventListener('input', ({ target }) => {
+      if (target.checked) {
+        document.body.classList.add('dark-theme')
+        localStorage.setItem("theme", "dark")
+      }
+      else {
+        document.body.classList.remove('dark-theme')
+        localStorage.setItem("theme", "light")
+      }
+
+    })
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark-theme')
+      btn.checked = true;
     }
 
-    .bitter {
-      font-family: 'Poppins';
-      font-weight: 500 !important;
-    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      if (event.matches) {
+        document.body.classList.add('dark-theme')
+        btn.checked = true;
+      } else {
+        btn.checked = false;
+        document.body.classList.remove('dark-theme')
+      }
 
-    .semi-bold p {
-      font-weight: 500 !important;
-    }
+    });
+  },
+  methods: {
+    toggleMenu() {
+      const html = document.documentElement;
 
-    div span {
-      font-weight: 600;
-    }
+      if (html.classList.contains('body-menu-opened')) {
+        html.classList.remove('body-menu-opened');
+        html.classList.add('body-menu-close');
 
-    .read-more span {
-      font-weight: normal;
-    }
+        document.body.style.position = '';
+      } else {
+        html.classList.add('body-menu-opened');
+        html.classList.remove('body-menu-close');
 
-    @media(max-width: 520px) {
-
-      .location {
-        width: fit-content;
-        margin: auto 1rem;
+        document.body.style.position = 'fixed';
       }
     }
 
-    .page-banner::before {
-      content: 'Virtual Computer Repair';
-      color: red;
-    }
-</style>
+  }
+
+}
+</script>
