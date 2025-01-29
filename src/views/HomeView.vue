@@ -80,7 +80,7 @@
     </div>
   </div>
 
-  <div class="invertedscrollclick" id="top"></div>
+  <!-- <div class="invertedscrollclick" @click="scrollUp" id="top"></div> -->
 
   <div class="page-banner for-desktop">
     <img src="@/assets/banners/size-2-banners/home-banner.jpg" alt="page banner">
@@ -699,7 +699,7 @@
     </div>
   </footer>
 
-  <a id="top" class="circle-top">
+  <a id="top"  @click="scrollUp" class="circle-top">
     <i class="fa fa-arrow-up"></i>
   </a>
 </template>
@@ -747,6 +747,32 @@ div span {
 export default {
   mounted() {
     const btn = document.getElementById('theme-switch');
+    const newsBannerText = document.querySelector('.breaking-news-headline');
+    const newsBannerSection = document.querySelector('.news-banner');
+
+    const circleTopButton = document.getElementById("top");
+
+    newsBannerText.innerText = '';
+
+
+    // window.addEventListener("load", function () {
+    //     loader.style.display = "none";
+    // })
+
+    window.addEventListener('scroll', function (event) {
+      circleTopButton.style.visibility = "hidden";
+    });
+    window.addEventListener('scrollend', function (event) {
+      circleTopButton.style.visibility = "unset";
+    });
+
+    newsBannerText.innerText = "";
+
+    if (newsBannerText.innerText == false) {
+      newsBannerSection.style.display = 'none';
+    } else {
+      newsBannerSection.style.display = 'block';
+    }
 
     let theme = localStorage.getItem("theme");
     if (theme === "dark") {
@@ -799,6 +825,21 @@ export default {
 
         document.body.style.position = 'fixed';
       }
+    },
+
+    scrollUp() {
+      const circleTopButton = document.getElementById("top");
+
+      console.log("Hey")
+
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      circleTopButton.classList.add('hover-animation');
+      setTimeout(() => {
+        circleTopButton.classList.remove('hover-animation');
+      }, 500);
     }
 
   }
