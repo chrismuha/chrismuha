@@ -5,10 +5,12 @@ import TopSection from '@/components/global/TopSection.vue';
 import MenuTable from '@/components/global/MenuTable.vue';
 import Reviews from '@/components/global/Reviews.vue';
 import NewsBanner from '@/components/global/NewsBanner.vue';
+import PageBanner from '@/components/global/PageBanner.vue';
 </script>
 <template>
   <Navbar />
   <NewsBanner />
+  <PageBanner />
   <TopSection />
 
   <div class="col-12 text-center graphics-section">
