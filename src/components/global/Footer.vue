@@ -178,7 +178,7 @@
     </div>
     <div style="display: flex; margin: auto; width: fit-content;">
       <div class="footer-blue-button">
-        <a href="about">Next Page</a>
+        <a  @click="nextPage">Next Page</a>
       </div>
       <div class="footer-blue-button">
         <a href="policies">Previous Page</a>
@@ -194,6 +194,63 @@
 import globalMixin from '@/mixins/globalMixin';
 
 export default {
-    mixins: [globalMixin]
+    mixins: [globalMixin],
+
+    data () {
+      return {
+        pages: [
+          {
+            name: 'home',
+            route: '/'
+          },
+          {
+            name: 'about',
+            route: '/about'
+          },
+          {
+            name: 'services',
+            route: '/services'
+          },
+          {
+            name: 'billing',
+            route: '/billing'
+          },
+          { 
+            name: 'book', 
+            route: '/book'
+          },
+          {
+            name: 'policies',
+            route: '/policies'
+          },
+          {
+            name: 'hiring',
+            route: '/hiring'
+          }
+        ]
+      }
+    },
+
+    methods: {
+      nextPage () {
+        const currentPage = this.$route;
+        const currentIndex = this.pages.findIndex(page => page.route === currentPage.path);
+
+        const newIndex = (currentIndex + 1) === this.pages.length ? 0 : (currentIndex + 1);
+        const newPage = this.pages[newIndex];
+
+        this.$router.push(newPage.route);
+      },
+
+      previousPage () {
+        const currentPage = this.$route;
+        const currentIndex = this.pages.findIndex(page => page.route === currentPage.path);
+
+        const newIndex = (currentIndex - 1) === -1 ? this.pages.length - 1 : (currentIndex + 1);
+        const newPage = this.pages[newIndex];
+
+        this.$router.push(newPage.route);
+      }
+    }
 }
 </script>

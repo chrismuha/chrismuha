@@ -10,7 +10,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 <template>
   <Navbar />
   <NewsBanner />
-  <PageBanner />
+  <PageBanner banner="home" />
   <TopSection />
 
   <div class="col-12 text-center graphics-section">
