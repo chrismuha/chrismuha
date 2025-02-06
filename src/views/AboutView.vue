@@ -15,7 +15,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <main class="about-container" style="margin-top: 20px;">
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more"> <u>Chris has over ten years of experience in computer servicing and customer service.</u>
         <br>
         <br>
@@ -37,11 +36,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <br>
         <li>Chris is the most honest computer technician you will ever encounter.</li>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more"> <u>Computer slowing down? <br> Not a problem, Chris is here to tune it up to function as
           good as new!</u>
         <br>
@@ -62,11 +59,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <li>Chris keeps you in the loop every step of the way because customer satisfaction is his highest priority.
         </li>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more">
         <u>Need a new laptop but hate shopping?</u>
         <br>
@@ -102,11 +97,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <br> <b>Per <a href="policies">Muha Computer Repair Policies</a>, employees are required to sanitize all
           work surfaces in-between customer appointments.</b>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more">
         <li><u>Need a website developed?</u></li>
         <br>
@@ -119,11 +112,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <li><i>*We may require a contractual agreement to ensure we are on the same page to ensure a smooth business
             transaction.</i></li>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more">
         <u>Unfortunately, Chris is disabled with severe anxiety (GAD) including social anxiety and ASD/ADHD, as well as
           Asthma and COPD.</u>
@@ -149,22 +140,18 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <li><i>*Service charges will apply.
             <br> *Fuel/Gas charges/mileage will apply.</i></li>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more">
         Want to be a computer professional but are scared to learn or just do not have the money for college or
         self-education materials, look no further!
         Chris authored a book to educate you on basic computing as well as expert computer repair skills.
         His book is titled <u>The Fundamentals of Computer IT!</u>
       </ul>
-      </p>
     </div>
     <div class="spacing"></div>
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
       <ul class="read-more">
         <u>Chris hopes that you will enjoy his book and learn new tips, tricks, and more!</u>
         <br>
@@ -179,7 +166,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <br>
         <li>Do you have the knowledge you need to be a computer expert?</li>
       </ul>
-      </p>
     </div>
   </main>
 
@@ -209,11 +195,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
 .container {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
-
-.page-banner::before {
-  content: 'About Chris Muha';
-  color: #fbe106;
 }
 
 main a {

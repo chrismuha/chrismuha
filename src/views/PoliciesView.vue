@@ -211,11 +211,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
   padding-right: 0 !important;
 }
 
-.page-banner::before {
-  content: 'About Chris Muha';
-  color: #fbe106;
-}
-
 main a {
   text-transform: unset !important;
 }

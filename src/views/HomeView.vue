@@ -263,11 +263,6 @@ div span {
     margin: auto 1rem;
   }
 }
-
-.page-banner::before {
-  content: 'Virtual Computer Repair';
-  color: red;
-}
 </style>
 <script>
 import globalMixin from '@/mixins/globalMixin';
