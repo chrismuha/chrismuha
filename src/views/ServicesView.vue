@@ -426,7 +426,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
     </main>
 
   <Reviews />
-  <MenuTable />
   <Footer />
 </template>
 <style scoped>

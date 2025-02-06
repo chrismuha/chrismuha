@@ -10,187 +10,181 @@ import PageBanner from '@/components/global/PageBanner.vue';
 <template>
   <Navbar />
   <NewsBanner />
-  <PageBanner banner="book" />
+  <PageBanner banner="shop1" />
   <TopSection />
 
-  <main class="about-container" style="margin-top: 20px;">
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more"> <u>Chris has over ten years of experience in computer servicing and customer service.</u>
-        <br>
-        <br>
-        <li>Chris has repaired numerous software and hardware problems, which include, but are not limited to,
-          correcting settings to better the user experience of his customers computing experience.</li>
-        <br>
-        <li>Chris makes computers and mobile devices more secure, optimized and as ready as they were when they came out
-          of the box!</li>
-        <br>
-        <li>Chris' customers often give him feedback that their computers perform much better than they did when they
-          were new!</li>
-        <br>
-        <li>Chris also has the hardware experience to build you your dream computer or upgrade your existing.</li>
-        <br>
-        <li>Chris can also optimize your old and sluggish computers and devices to be able to perform like new or better
-          than ever before.</li>
-        <br>
-        <li>Complex tasks, complex operations, and whatever more will not be a roadblock for Chris.</li>
-        <br>
-        <li>Chris is the most honest computer technician you will ever encounter.</li>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more"> <u>Computer slowing down? <br> Not a problem, Chris is here to tune it up to function as
-          good as new!</u>
-        <br>
-        <br>
-        <li>The <a href="services">services</a> Chris offers and provides at Muha Computer Repair making your computers
-          performing better than new is nothing new for us!</li>
-        <br>
-        <li>Did you buy a used computer? Bring it to Chris and him tune it up to perform like you have never seen
-          before.</li>
-        <br>
-        <li>Chris is dedicated to his job to serve the community and is therefore committed to high-quality work and
-          customer satisfaction.</li>
-        <br>
-        <li>Chris ensures your computers and mobile devices are performing at their peak.</li>
-        <br>
-        <li>Chris ensures your data is private and secure.</li>
-        <br>
-        <li>Chris keeps you in the loop every step of the way because customer satisfaction is his highest priority.
-        </li>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more">
-        <u>Need a new laptop but hate shopping?</u>
-        <br>
-        <br>
-        <li>Let us shop for you, we will shop within your budget for you, for a new laptop or any other technology you
-          are looking for!</li>
-        <br>
-        <li>We are here to save you time shopping and/or to make transitioning to a new PC frustration free!</li>
-        <br>
-        <li>Let there be no confusion caused by time-consuming shopping!</li>
-        <br>
-        <li>We will do the shopping while you enjoy the breeze.</li>
-        <br>
-        <li>We are here to support your technological needs to keeps your workday smooth and making your personal time
-          feel luxurious!</li>
-        <br>
-        <li>All that comes with peace of mind knowing you have a contact that feels like a good neighbor, a geeky
-          friend, or just the computer guy who is here to help you when you need while keeping you in the loop with
-          computer security and upgraded technologies.</li>
-        <br>
-        <li><i>*Subject to a down payment for expected equipment costs. *Service charges will apply. Please contact us
-            with any questions.</i></li>
-        <br><br>
-        <u>Did your computer get repaired by the local big foot?
-          <br> Is your computer running like a car hit by a lake effect snowstorm?</u>
-        <br>
-        <br>
-        <li>Come see us to resolve your computer issues with proper optimizations and quality repairs for a fair price,
-          not a price decided by the local big foot.
-          We assure you; your technology will run faster than it was when it came out of the box.
-          Unlike the local unicorn, our services are reasonable, fit within your budget, and are in hands that care
-          about supporting the community without hurting their wallet.</li>
-        <br> <b>Per <a href="policies">Muha Computer Repair Policies</a>, employees are required to sanitize all
-          work surfaces in-between customer appointments.</b>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more">
-        <li><u>Need a website developed?</u></li>
-        <br>
-        <li>We are here to code everything from scratch, using effective and secure development processes, not
-          strategically dragging and dropping designs into a template.</li>
-        <br>
-        <li>We are here to support your needs, ensuring your safety and understanding, as well as ours for effective
-          communication.</li>
-        <br>
-        <li><i>*We may require a contractual agreement to ensure we are on the same page to ensure a smooth business
-            transaction.</i></li>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more">
-        <u>Unfortunately, Chris is disabled with severe anxiety (GAD) including social anxiety and ASD/ADHD, as well as
-          Asthma and COPD.</u>
-        <br>
-        <br>
-        <li>Chris has severely debilitating symptoms, including tics, both verbal and motor, but in no way does he
-          intend to be unprofessional and/or offensive and apologizes if he makes you uncomfortable, disturbed, or
-          offended.</li>
-        <br>
-        <li>Chris feels remote assistance is not only the most convenient for the customer but is also an effortless way
-          to social distance to protect yourselves from any wide-spread illnesses, such as the Corona virus (COVID).
-        </li>
-        <br>
-        <li>Chris specializes in providing secure VIRTUAL COMPUTER REPAIR!</li>
-        <br>
-        <li>Chris also provides on-site <a href="services">services</a> to those in need.
-          He is transported by his UCP Worker, so appointment times scheduled may need to be changed dependent on his
-          schedule.</li>
-        <br>
-        <li>At the expense of the customer, Chris also offers shipping <a href="services">services</a> for hardware
-          services, and even software services if you prefer.</li>
-        <br>
-        <li><i>*Service charges will apply.
-            <br> *Fuel/Gas charges/mileage will apply.</i></li>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more">
-        Want to be a computer professional but are scared to learn or just do not have the money for college or
-        self-education materials, look no further!
-        Chris authored a book to educate you on basic computing as well as expert computer repair skills.
-        His book is titled <u>The Fundamentals of Computer IT!</u>
-      </ul>
-      </p>
-    </div>
-    <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
-      <p>
-      <ul class="read-more">
-        <u>Chris hopes that you will enjoy his book and learn new tips, tricks, and more!</u>
-        <br>
-        <br>
-        <li>Chris' goal is to help those that do not know how to use technology including computers, smart phones and
-          more learn the basics of computing and even more if you want to be a computer expert.</li>
-        <br>
-        <li>You are learning from the most in-depth information that you will ever read on <br> The Fundamentals of
-          Computer IT!</li>
-        <br>
-        <li>You have read computer books, but have you read Chris' book?</li>
-        <br>
-        <li>Do you have the knowledge you need to be a computer expert?</li>
-      </ul>
-      </p>
-    </div>
+  <main class="container">
+      <div class="text-center centered-content">
+          <div class="row">
+              <div class="col-md-12 col-12" style="text-align:center;">
+                  <img src="../assets/img/eBook-FRONT.jpg" alt="Book Cover" class="book-cover"
+                      style="margin-top:0 !important; margin-bottom: 37px;">
+              </div>
+          </div>
+          <div class="p-3 mw location book-page-no-bullets"
+              style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
+              <p>
+              <ul class="read-more"> <b><u>Chris Muha, the Owner, and Lead Technician is the author of The
+                          Fundamentals of Computer IT: Knowledge to Enhance Your IT Expertise.</u></b>
+                  <br>
+                  <br>
+                  <li>Chris Muha solely owns the copyright of this literary work.</li>
+                  <br>
+                  <li>Currently, Amazon only has the Kindle version (eBook) of this book available for purchase...
+                  </li>
+                  <br>
+                  <li>The book is also published in digital format (eBook) on Google, Apple, and Barnes & Noble.</li>
+                  <br>
+                  <li>Prints of this book are available as author copies.</li>
+                  <br>
+                  <li>They are printed by Barnes & Noble press.</li>
+                  <br>
+                  <li>All book formats are printed using high-quality materials.</li>
+                  <br>
+                  <li>There are multiple formats of print versions of this book available.</li>
+                  <br>
+                  <li>Please be aware that all formats consist of the same content.</li>
+              </ul>
+              </p>
+          </div>
+          <div class="location"
+              style="/* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
+              <div class="p-3 mw book-page-no-bullets"
+                  style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
+                  <p>
+                      <b><u>The links below are shortened for convenience. The links direct to official merchant
+                              links.</u></b>
+                  </p>
+              </div>
+              <div class="books">
+                  <h2 class="fw-bold text-center text-decoration-underline"
+                      style="font-size: 15pt; color:#00C301; border-radius: 6pt; padding: 6pt; margin-bottom:37px;">
+                      PURCHASE CHRIS' BOOK:</h2>
+              </div>
+              <!-- <div class="card p-3 mb-4 text-center">
+    <h4 class="fw-bold text-center h6">Amazon (Standard Edition)</h4>
+    <a style="font-family: Helvetica, sans-serif; font-weight: bold;" 
+          href="https://tinyurl.com/2p33v43m">https://tinyurl.com/2p33v43m</a>
+      </div> -->
+              <div class="card p-3 text-center book-borders">
+                  <h4 class="fw-bold text-center h6">Amazon (Kindle Edition/eBook)</h4>
+                  <a style="font-family: Helvetica, sans-serif; font-weight: bold;"
+                      href="https://tinyurl.com/2p9dd7ym">https://tinyurl.com/2p9dd7ym</a>
+              </div>
+              <!-- <div class="card p-3 mb-4 text-center">
+    <h4 class="fw-bold text-center h6">Amazon (College Edition)</h4>
+    <a style="font-family: Helvetica, sans-serif; font-weight: bold;" href="https://tinyurl.com/527dwvds">https://tinyurl.com/527dwvds</a>
+      </div> -->
+              <div class="card p-3 text-center book-borders">
+                  <h4 class="fw-bold text-center h6">Apple (eBook)</h4>
+                  <a style="font-family: Helvetica, sans-serif; font-weight: bold;"
+                      href="https://tinyurl.com/nhekx25e">https://tinyurl.com/nhekx25e</a>
+              </div>
+              <div class="card p-3 text-center book-borders">
+                  <h4 class="fw-bold text-center h6">Google (eBook)</h4>
+                  <a style="font-family: Helvetica, sans-serif; font-weight: bold;"
+                      href="https://tinyurl.com/2p8wnhk3">https://tinyurl.com/2p8wnhk3</a>
+              </div>
+              <div class="card p-3 text-center book-borders">
+                  <h4 class="fw-bold text-center h6">Barnes & Noble (eBook)</h4>
+                  <a style="font-family: Helvetica, sans-serif; font-weight: bold;"
+                      href="https://tinyurl.com/2p997mu5">https://tinyurl.com/2p997mu5</a>
+              </div>
+          </div>
+
+      </div>
   </main>
 
-  <Reviews />
-  <MenuTable />
+  <div class="text-center" style="margin-bottom: 37px;">
+      <div class="text-center location" style=" margin-bottom: 37px;">
+          <div
+              style="display:flex; justify-content: center; flex-direction: column; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+              <!-- <p class="fw-bold text-decoration-underline" style="font-family: 'Poppins'; font-size:16.5pt; text-align: center; margin-bottom: 0; margin-left: 1rem; margin-right: 1rem; padding: 6pt;line-height: 2;"> </p> -->
+              <p class="fw-bold text-decoration-none"
+                  style="font-family: 'Poppins'; font-size:13.5pt; text-align: left; margin-bottom: 0;"><a
+                      href="mailto:muhachris297@gmail.com">To purchase a print of Chris' book, Please e-mail us</a> to
+                  purchase a print of Chris' book.
+                  <br>
+                  We will place an order for you because our merchants do not currently offer prints of our book.
+                  <br>
+                  Please include book order as the subject of the e-mail.
+              </p>
+          </div>
+      </div>
+      <p class="spacing fw-bold text-decoration-none text-center"
+          style="font-family: 'Poppins'; font-size:16.5pt; color:#85bb65; margin-bottom: 0;">YOU CAN SHOP FOR OUR
+          MERCHANDISE
+          <a href="https://www.tinyurl.com/mcr-masteryourimage">HERE</a>.
+      </p>
+  </div>
+  <div>
+      <p class="p-3 mw location read-more"
+          style="font-family: 'Poppins'; font-size:13.5pt; font-weight: 600; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+          <u> If you have any concerns about plagiarism/copying and pasting articles
+              from the internet, any other literary works, and/or etcetera, please read the following disclosure from
+              Chris Muha: </u>
+          <span
+              style="font-family: 'Poppins'; font-size:10pt; font-weight: 600; text-align: left;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+              <br> All the writings in my book have been written by me, with extremely limited amounts of research
+              because of my broad knowledge of computers.
+              In addition to my broad knowledge/expertise in the Information Technology field.
+              I have done more educational research and have had more educational experiences throughout the years,
+              which has expanded my knowledge.
+              Continuing my work in the Information Technology field will continue to allow me to expand my knowledge.
+              Throughout those times, I have been able to gain even more experience by helping people in need with
+              their technologies.
+              I have updated my book numerous times for that reason, and I will continue to do so.
+              That is why it is vital to read every piece of information contained in my book to best understand the
+              contents of my book.
+              If you want to take a deep dive into how I learned to better my writing skills, as I continued to better
+              my education in Information Technology, compare versions of my book.
+              That is if you can obtain or have copies of the original publications.
+              I do not have copies of those files because I override everything when I update the documentation to
+              update my publications.
+              I do not have specific documentation of the specific changes I have made, except for what I have
+              published for release notes for the Apple eBook version.
+              However, I feel that this is more than enough information for anyone to understand what the updates have
+              been, and to encourage them to read through/brainstorm and take notes on my writings.
+              I encourage you to read my book again if you have read it already to go through your notes or add to
+              them.
+              If you have not read my book, I encourage you to do so.
+              If you are in the process of reading my book, I encourage you to finish doing so and read it again
+              because I enhance my writings every so often and publish those updates to my book.
+              Additionally, it would be worth reading my book again after each update because my knowledge continues
+              to enhance, just like technology.
+              I am dedicated to continuing to add to my book accordingly.
+              Any chapters of this book that do not have direct information on computers such as the History chapter
+              is my studies from research that I did on the internet for projects I was assigned back in High School.
+              That does include educational material but not for computer repair specifically.
+              It is more on the technological advancements of computing technology.
+          </span>
+      </p>
+  </div>
+
+  <main class="container">
+
+      <div class="text-center centered-content">
+          <div class="row">
+              <div class="col-md-12 col-12" style="text-align:center;">
+                  <img src="../assets/img/3D-book.jpg" alt="3D Book" class="book-cover" style="margin-top:0 !important">
+              </div>
+          </div>
+      </div>
+  </main>
+
   <Footer />
 </template>
 <style scoped>
-.bitter {
-  font-family: 'Poppins';
-  font-weight: 500 !important;
+@media(min-width: 1080px) {
+  .img-fluid {
+      max-width: 580px;
+      margin-top: 50px;
+  }
+
+  div.banner .img-fluid {
+      max-width: 580px;
+  }
+
 }
 
 .location {
@@ -201,8 +195,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
 @media(max-width: 520px) {
 
   .location {
-    width: fit-content;
-    margin: auto 1rem;
+      width: fit-content;
+      margin: auto 1rem;
   }
 }
 
@@ -211,12 +205,21 @@ import PageBanner from '@/components/global/PageBanner.vue';
   padding-right: 0 !important;
 }
 
-main a {
-  text-transform: unset !important;
+.book-cover {
+  max-width: 330px;
+  width: 100%;
 }
 
-.spacing {
-  height: 32px;
+.card {
+  margin-bottom: 37px;
+}
+
+.card a {
+  text-transform: lowercase;
+}
+
+.books a p {
+  font-family: Arial, sans-serif;
 }
 </style>
 <script>

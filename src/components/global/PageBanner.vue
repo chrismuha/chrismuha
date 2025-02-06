@@ -34,7 +34,7 @@ export default {
                 about: '#fbe106',
                 services1: '#FF8B28',
                 billing: '#85BB65',
-                book: '#37B3DA',
+                shop1: '#37B3DA',
                 policies: 'unset',
                 hiring: 'unset',
                 Default: 'unset'
@@ -47,7 +47,7 @@ export default {
                 about: 'About Chris Muha',
                 services1: 'MCR Services',
                 billing: 'MCR Billing',
-                book: 'Chris Muha Book',
+                shop1: 'Chris Muha Book',
                 policies: 'MCR Policies',
                 hiring: 'Work For MCR',
                 Default: 'Page Banner'
