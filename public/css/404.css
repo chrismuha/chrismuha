@@ -73,24 +73,24 @@ body {
     border-radius: 3px;
 }
 
-.center {
+/* .center {
     display: block;
     margin: auto;
     width: 50%;
     height: 50%;
     padding-bottom: -10px;
-}
+} */
 
 .text-center {
     text-align: center;
 }
 
-.logo {
+/* .logo {
     width: 50%;
     height: 50%;
     padding-top: -10px;
     padding-bottom: -10px;
-}
+} */
 
 /* PAGE HEADER DESIGN CLASSES */
 .page-header-design {
@@ -107,7 +107,12 @@ body {
 
 #rectangle2 {
     background-color: black;
-    width: 100%;
+}
+
+.logo-container {
+    width: 302px;
+    height: fit-content;
+    margin: auto;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -127,8 +132,8 @@ body {
 
 /* PAGE HEADER ID SHAPE IMAGES */
 #rectangle2 img {
-    width: fit-content;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 /* MOBILE OPTIMIZATION */
