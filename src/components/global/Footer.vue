@@ -3,8 +3,8 @@
   <footer>
     <div class="container">
       <div class="banner text-center">
-        <img :src="banner" class="img-fluid dark_logo">
-        <img :src="banner" class="img-fluid light_logo">
+        <img :src="banner_dark" class="img-fluid dark_logo">
+        <img :src="banner_light" class="img-fluid light_logo">
       </div>
       <div class="text-center" style="margin: 37px 0 !important;">
         <p class="h5 number" style="font-size:17px; border-radius: 12pt;"> <u><b>SHIPPING ADDRESS:</b></u>
@@ -196,7 +196,8 @@ import globalMixin from '@/mixins/globalMixin';
 export default {
     mixins: [globalMixin],
     props: {
-      banner: String
+      banner_dark: String,
+      banner_light: String
     },
 
     data () {
