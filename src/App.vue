@@ -17,7 +17,7 @@ router.afterEach(() => {
 });
 
 onMounted(() => {
-  
+
 })
 </script>
 
@@ -29,7 +29,7 @@ onMounted(() => {
 
   <RouterView v-show="!isLoading" />
 </template>
-
 <style>
+@import url('@/assets/bootstrap.min.css');
 @import url('@/assets/main.css');
 </style>
