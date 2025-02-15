@@ -227,7 +227,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
   </div>
 
   <Reviews />
-  <Footer banner="/logo/MCRblackNred.png" />
+  <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
 <style scoped>
 .location {

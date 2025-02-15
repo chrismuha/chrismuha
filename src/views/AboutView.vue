@@ -171,7 +171,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <Reviews />
   <MenuTable />
-  <Footer />
+  <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
 <style scoped>
 .bitter {

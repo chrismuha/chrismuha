@@ -46,7 +46,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
     </main>
 
 
-  <Footer />
+    <Footer banner_light="/logo/MCRblack.png" banner_dark="/logo/MCRwhite.png"  />
 </template>
 <script>
 import globalMixin from '@/mixins/globalMixin';

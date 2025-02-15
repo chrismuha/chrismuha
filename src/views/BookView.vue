@@ -172,7 +172,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </div>
   </main>
 
-  <Footer />
+  <Footer banner_light="/logo/MCRblueNblack.png" banner_dark="/logo/MCRblueNwhite.png"  />
 </template>
 <style scoped>
 @media(min-width: 1080px) {
