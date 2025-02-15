@@ -175,6 +175,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <Footer banner_light="/logo/MCRblueNblack.png" banner_dark="/logo/MCRblueNwhite.png"  />
 </template>
 <style scoped>
+@import url('@/assets/main.css');
+
 @media(min-width: 1080px) {
   .img-fluid {
       max-width: 580px;

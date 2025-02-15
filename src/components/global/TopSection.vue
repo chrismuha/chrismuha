@@ -56,10 +56,13 @@
   </div>
 
   <div class="text-uppercase mx-5 review bookmark-footer">
-    You may find the bookmarks <a href="bookmarks">HERE</a> useful.
+    You may find the bookmarks <a href="../../../bookmarks.html">HERE</a> useful.
     They go into detail on the basics of computing and more.
   </div>
 </template>
+<style scoped>
+@import url('@/assets/main.css');
+</style>
 <script>
 import globalMixin from '@/mixins/globalMixin';
 

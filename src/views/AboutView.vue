@@ -174,6 +174,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
 <style scoped>
+@import url('@/assets/main.css');
+
 .bitter {
   font-family: 'Poppins';
   font-weight: 500 !important;

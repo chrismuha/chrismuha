@@ -190,6 +190,9 @@
     <i class="fa fa-arrow-up"></i>
   </a>
 </template>
+<style scoped>
+@import url('@/assets/main.css');
+</style>
 <script>
 import globalMixin from '@/mixins/globalMixin';
 

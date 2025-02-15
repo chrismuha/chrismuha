@@ -31,5 +31,5 @@ onMounted(() => {
 </template>
 <style>
 @import url('@/assets/bootstrap.min.css');
-@import url('@/assets/main.css');
+@import url('@/assets/global.css');
 </style>
