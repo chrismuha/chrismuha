@@ -81,11 +81,11 @@ export default {
     const textReviews = Array.from(reviewsCollection).filter(element => element.classList.contains("text-slider"))
 
     const promises = [];
-    const assetsFolder = "/src/assets/";
-    const path = "/src/assets/reviews/"
-    const rawCategories = Object.values(
-      import.meta.glob("/src/assets/reviews/*/*", { eager: true })
-    ).map((module) => module.default);
+    const assetsFolder = "/public/";
+    const path = "/public/reviews/"
+    const rawCategories = Object.keys(
+      import.meta.glob("/public/reviews/*/*", { eager: true, query: '?url' })
+    )
     const categories = {};
 
     rawCategories.forEach((cat) => {
