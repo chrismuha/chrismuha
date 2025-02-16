@@ -105,6 +105,10 @@ export default {
       const category =  parent.dataset.type.toLowerCase();
       const files = categories[category]
 
+      console.log(files);
+      console.log(categories);
+      console.log(category)
+
       files.forEach((image) => {
         const swiperSlide = document.createElement('div');
         const orderNumber = document.createElement('p');
