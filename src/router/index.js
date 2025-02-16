@@ -8,9 +8,7 @@ const router = createRouter({
     { path: '/home', redirect: '/' },
     { 
       path: '/bookmarks', 
-      beforeEnter() {
-        window.location.href = '/bookmarks.html'; 
-      } 
+      redirect: () => window.location.href = '/bookmarks.html' 
     },
     { path: '/about', name: 'about', component: () => import('@/views/AboutView.vue') },
     { path: '/services', name: 'services', component: () => import('@/views/ServicesView.vue') },
