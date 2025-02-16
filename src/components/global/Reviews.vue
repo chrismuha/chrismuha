@@ -90,8 +90,8 @@ export default {
 
     rawCategories.forEach((cat) => {
       console.log(cat)
-      console.log(category)
       const category = cat.slice(path.length).split('/')[0];
+      console.log(category)
 
       if(categories[category]) {
         categories[category].push(cat)
