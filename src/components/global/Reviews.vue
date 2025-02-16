@@ -81,6 +81,7 @@ export default {
     const textReviews = Array.from(reviewsCollection).filter(element => element.classList.contains("text-slider"))
 
     const promises = [];
+    const assetsFolder = "/src/assets/";
     const path = "/src/assets/reviews/"
     const rawCategories = Object.values(
       import.meta.glob("/src/assets/reviews/*/*", { eager: true })
@@ -111,7 +112,7 @@ export default {
 
         swiperSlide.classList.add('swiper-slide');
         orderNumber.classList.add('order-number');
-        img.src = image
+        img.src = image.slice(assetsFolder.length)
 
         swiperSlide.appendChild(orderNumber)
         swiperSlide.appendChild(img)
