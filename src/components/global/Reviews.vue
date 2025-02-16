@@ -81,17 +81,28 @@ export default {
     const textReviews = Array.from(reviewsCollection).filter(element => element.classList.contains("text-slider"))
 
     const promises = [];
+    const path = "/src/assets/reviews/"
+    const rawCategories = Object.values(
+      import.meta.glob("/src/assets/reviews/*/*", { eager: true })
+    ).map((module) => module.default);
+    const categories = {};
 
+    rawCategories.forEach((cat) => {
+      const category = cat.slice(path.length).split('/')[0];
+
+      if(categories[category]) {
+        categories[category].push(cat)
+      } else {
+        categories[category] = [cat];
+      }
+    })
 
     for (let i = 0; i < imageReviews.length; i++) {
       const review = imageReviews[i];
 
       const parent = review.querySelector('.swiper-wrapper');
-
-      const files = Object.values(
-        import.meta.glob("/src/assets/reviews/buyer/*", { eager: true })
-      ).map((module) => module.default);
-
+      const category =  parent.dataset.type.toLowerCase();
+      const files = categories[category]
 
       files.forEach((image) => {
         const swiperSlide = document.createElement('div');
