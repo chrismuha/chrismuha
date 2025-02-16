@@ -6,6 +6,12 @@ const router = createRouter({
     { path: '/', name: 'home', component: () => import('@/views/HomeView.vue') },
     { path: '/index', name: 'index', redirect: '/' },
     { path: '/home', redirect: '/' },
+    { 
+      path: '/bookmarks', 
+      beforeEnter() {
+        window.location.href = '/bookmarks.html'; 
+      } 
+    },
     { path: '/about', name: 'about', component: () => import('@/views/AboutView.vue') },
     { path: '/services', name: 'services', component: () => import('@/views/ServicesView.vue') },
     { path: '/billing', name: 'billing', component: () => import('@/views/BillingView.vue') },
