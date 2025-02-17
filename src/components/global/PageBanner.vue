@@ -1,19 +1,19 @@
 <template>
     <div class="page-banner-wrapper">
         <div class="page-banner for-desktop" :style="bannerStyle" :data-content="bannerContent">
-            <img :src="'/banners/size-2-banners/' + banner  + '-banner' + '.jpg'" alt="page banner">
+            <img :src="'/banners/size-1-banners/' + banner  + '-banner-2000x740' + '.webp'" alt="page banner">
         </div>
         <div class="page-banner for-mobile" :style="bannerStyle" :data-content="bannerContent">
-            <img :src="'/banners/size-1-banners/'+ banner  + '-banner' + '.jpg'" alt="page banner">
+            <img :src="'/banners/size-2-banners/'+ banner  + '-banner-1800x740' + '.webp'" alt="page banner">
         </div>
     </div>
 </template>
 <style scoped>
 @import url('@/assets/main.css');
-    .page-banner::before {
+    /* .page-banner::before {
         content: attr(data-content);
         color: var(--banner-color, unset);
-    }
+    } */
 
     .page-banner-wrapper {
         margin-top: 66px;
@@ -39,9 +39,9 @@ export default {
             const colors = {
                 home: 'red',
                 about: '#fbe106',
-                services1: '#FF8B28',
+                services: '#FF8B28',
                 billing: '#85BB65',
-                shop1: '#37B3DA',
+                shop: '#37B3DA',
                 policies: 'white',
                 hiring: 'white',
                 Default: 'unset'
@@ -52,9 +52,9 @@ export default {
             const contents = {
                 home: 'Virtual Computer Repair',
                 about: 'About Chris Muha',
-                services1: 'MCR Services',
+                services: 'MCR Services',
                 billing: 'MCR Billing',
-                shop1: 'Chris Muha Book',
+                shop: 'Chris Muha Book',
                 policies: 'MCR Policies',
                 hiring: 'Work For MCR',
                 Default: 'Page Banner'

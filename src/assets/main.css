@@ -824,7 +824,7 @@ a.e_mail {
     right: 0;
     top: 0;
     bottom: 100%;
-    background: #000000a6;
+    /* background: #000000a6; */
     z-index: 100;
 }
 

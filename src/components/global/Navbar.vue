@@ -19,7 +19,7 @@
                 <img src="@/assets/img/black-banner.png">
             </a>
 
-            <div class="hide-menu a-nav-toggle" @click="toggleMenu"></div>
+            <div class="hide-menu a-nav-toggle" id="hideMenu" @click="toggleMenu"></div>
 
             <div class="menu">
 
@@ -70,6 +70,8 @@ export default {
         closeMenu() {
             this.toggleMenu();
             document.body.style.position = '';
+            // document.getElementById('hideMenu').style.bottom = '100%';
+            // console.log(document.querySelector('.body-menu-opened .hide-menu'));
         },
     },
     mounted() {
