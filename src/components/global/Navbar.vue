@@ -65,6 +65,18 @@
 import globalMixin from '@/mixins/globalMixin';
 
 export default {
-    mixins: [globalMixin]
+    mixins: [globalMixin],
+    methods: {
+        closeMenu() {
+            this.toggleMenu();
+            document.body.style.position = '';
+        },
+    },
+    mounted() {
+        const routerLinks = document.querySelectorAll('a.nav-link');
+        routerLinks.forEach((link) => {
+            link.addEventListener('click', this.closeMenu);
+        });
+    }
 }
 </script>
