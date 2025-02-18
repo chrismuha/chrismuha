@@ -26,8 +26,8 @@
     </p>
   </div>
 
-  <div class="d-flex justify-content-center align-items-center flex-wrap links-vertical">
-    <div style="margin-bottom: 20px; margin-top: 20px;">
+  <div class="d-flex justify-content-center align-items-center flex-wrap links-vertical" style="margin-top:20px; margin-bottom: 20px; gap:20px 3pt;">
+    <div>
       <div style="text-align: center; justify-content: center;">
         <a class="btn callus-button" href="tel:+1 (315)-338-1919"><i class="fa fa-phone"></i>
           CALL US</a>
@@ -41,6 +41,12 @@
       <div style="text-align: center; justify-content: center;">
         <a class="e_mail_top btn" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope"></i>
           E-MAIL US</a>
+      </div>
+    </div>
+    <div>
+      <div style="text-align: center; justify-content: center;">
+        <a class="e_mail_top btn" href="/contact"><i class="fa fa-envelope"></i>
+          Contact Us</a>
       </div>
     </div>
   </div>
@@ -60,14 +66,14 @@
     They go into detail on the basics of computing and more.
   </div>
 
-  <div class="contact-form-button">
+  <!-- <div class="contact-form-button">
     <p @click="goToRoute('/contact')">Contact Form</p>
-  </div>
+  </div> -->
 </template>
 <style scoped>
 @import url('@/assets/main.css');
 
-.contact-form-button {
+/* .contact-form-button {
   display: flex;
   justify-content: center;
   color: white;
@@ -81,7 +87,7 @@
   margin-bottom: 0;
   font-family: 'poppins';
   font-weight: 600;
-}
+} */
 </style>
 <script>
 import checkRouteMixin from '@/mixins/checkRouteMixin';
