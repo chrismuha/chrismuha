@@ -59,9 +59,29 @@
     You may find the bookmarks <a href="/bookmarks">HERE</a> useful.
     They go into detail on the basics of computing and more.
   </div>
+
+  <div class="contact-form-button">
+    <p @click="goToRoute('/contact')">Contact Form</p>
+  </div>
 </template>
 <style scoped>
 @import url('@/assets/main.css');
+
+.contact-form-button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 37px;
+}
+
+.contact-form-button p {
+  padding: 0.5rem 1rem;
+  background: red;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+  font-family: 'poppins';
+  font-weight: 600;
+}
 </style>
 <script>
 import checkRouteMixin from '@/mixins/checkRouteMixin';
