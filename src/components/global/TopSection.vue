@@ -4,15 +4,14 @@
     <div class="buttons-section-index">
       <div class="buttons-ver-hor">
         <a class="btn schedule-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-schedule-chrismuha"
-          rel="nofollow">SCHEDULE </a>
-        <a class="btn paybill-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-payment" rel="nofollow">PAY
-          BILL </a>
+          rel="nofollow"> <i class="bi bi-calendar-event-fill" style="margin-right: 5px;"></i>SCHEDULE </a>
+        <a class="btn paybill-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-payment" rel="nofollow"> <i class="bi bi-file-earmark-check-fill" style="margin-right: 5px;"></i>PAY BILL </a>
       </div>
       <div class="buttons-ver-hor">
         <a class="btn giftcard-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-gift-card-balance"
-          rel="nofollow">CHECK GIFT CARD BALANCE</a>
+          rel="nofollow"> <i class="bi bi-gift-fill" style="margin-right: 5px;"></i>CHECK GIFT CARD BALANCE</a>
         <a class="btn downpay-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-down-payment"
-          rel="nofollow">DOWN PAYMENT </a>
+          rel="nofollow"> <i class="bi bi-credit-card-fill" style="margin-right: 5px;"></i> DOWN PAYMENT</a>
       </div>
     </div>
   </div>
@@ -29,24 +28,24 @@
   <div class="d-flex justify-content-center align-items-center flex-wrap links-vertical" style="margin-top:20px; margin-bottom: 20px; gap:20px 3pt;">
     <div>
       <div style="text-align: center; justify-content: center;">
-        <a class="btn callus-button" href="tel:+1 (315)-338-1919"><i class="fa fa-phone"></i>
+        <a class="btn callus-button" href="tel:+1 (315)-338-1919"><i class="bi bi-telephone-fill"></i>
           CALL US</a>
       </div>
     </div>
     <div>
-      <a class="btn textus-button" href="sms:+13153381919"><i class="fa fa-comment"></i>
+      <a class="btn textus-button" href="sms:+13153381919"><i class="bi bi-chat-fill"></i>
         TEXT US</a>
     </div>
     <div>
       <div style="text-align: center; justify-content: center;">
-        <a class="e_mail_top btn" href="mailto:muhachris297@gmail.com"><i class="fa fa-envelope"></i>
+        <a class="e_mail_top btn" href="mailto:muhachris297@gmail.com"><i class="bi bi-envelope-fill"></i>
           E-MAIL US</a>
       </div>
     </div>
     <div>
       <div style="text-align: center; justify-content: center;">
-        <a class="e_mail_top btn" href="/contact"><i class="fa fa-envelope"></i>
-          Contact Us</a>
+        <a class="contact-form_top btn" href="/contact"><i class="bi bi-pencil-fill"></i>
+          CONTACT US</a>
       </div>
     </div>
   </div>
@@ -73,21 +72,6 @@
 <style scoped>
 @import url('@/assets/main.css');
 
-/* .contact-form-button {
-  display: flex;
-  justify-content: center;
-  color: white;
-  margin-top: 37px;
-}
-
-.contact-form-button p {
-  padding: 0.5rem 1rem;
-  background: red;
-  border-radius: 0.5rem;
-  margin-bottom: 0;
-  font-family: 'poppins';
-  font-weight: 600;
-} */
 </style>
 <script>
 import checkRouteMixin from '@/mixins/checkRouteMixin';

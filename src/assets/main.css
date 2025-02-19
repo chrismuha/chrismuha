@@ -543,6 +543,40 @@ a.e_mail {
     opacity: 1 !important;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 37px;
+  }
+  
+.contact-form_top {
+    font-family: Arial;
+    font-size: 14px;
+    background-color: red !important;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.contact-form_top:active {
+    background-color: darkred !important;
+    opacity: 1 !important;
+}
+
+.btn:focus,
+.btn:active,
+.email:focus,
+.email:active,
+.contact-form_top:active,
+.contact-form_top:focus,
+.textus-button_top:focus,
+.textus-button_top:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 /* social buttons */
 .icon-button {
     background-color: white;
