@@ -46,7 +46,7 @@
         <div class="swiper-slide">
           <div class="menu-table-header text-uppercase bitter">
             <h4>Geek Squad</h4>
-            <p class="table-underlined-text"><u><b>STORE/DROP-OFF SERVICING</b></u>
+            <p class="table-underlined-text"><i>STORE/DROP-OFF SERVICING</i>
             </p>
             <div class="services">
               <p>Add Device to an Existing Network <br> $39.99 + Tax</p>
@@ -59,7 +59,7 @@
               <p>Printer Setup or Troubleshooting <br> $99.99 + Tax</p>
             </div>
             <br>
-            <p><u><b>Remote Support Monthly Subscription <br> $24.99 + Tax</b></u>
+            <p><i>Remote Support Monthly Subscription <br> $24.99 + Tax</i>
               <br>
             </p>
             <div class="services last-child">
@@ -72,7 +72,7 @@
               <p>Wired Camera Installation (two cameras) <br> $199.99 + Tax</p>
               <p>Wireless Camera Installation (two cameras) <br> $99.99 + Tax</p>
             </div>
-            <p><u><b>Remote Support Monthly Subscription + Hardware Support <br> $49.99 + Tax</b></u></p>
+            <p><i>Remote Support Monthly Subscription + Hardware Support <br> $49.99 + Tax</i></p>
           </div>
         </div>
       </div>
@@ -85,4 +85,8 @@
 </template>
 <style scoped>
 @import url('@/assets/main.css');
+
+.menu-table-header .services a {
+  font-weight: 500;
+}
 </style>

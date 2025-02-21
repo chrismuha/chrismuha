@@ -117,16 +117,16 @@
           style="font-family: 'Poppins'; font-size:22px; color:#85bb65;">YOU CAN SHOP FOR OUR MERCHANDISE
           <a href="https://www.tinyurl.com/mcr-masteryourimage">HERE</a>.
         </p>
-        <div class="text-center p-3 centered-content"
+        <!-- <div class="text-center p-3 centered-content"
           style="display:flex; justify-content: center; width: 80%; padding: 0 !important;">
           <p class="fw-bold text-decoration-none"
-            style="font-family: 'Poppins'; font-size:14px; text-align: left; margin: 0;">
+            style="font-family: 'Poppins'; font-size:10pt; text-align: left; margin: 0;">
             <br> We are thankful for A&P Master Images for ordering and embroidering our attire.
             <br> We greatly appreciate the hard work and dedication of A&P Master Images.
             <br> We recommend their services to anyone in the community that needs embroidered apparel.
             <br> You can contact them by phone at <a href="tel:+1 (315)-793-1934"> 315-793-1934.</a>
           </p>
-        </div>
+        </div> -->
 
         <div class="text-uppercase mx-5 review legal-footer">
           Please read our <br> <a href="MCR LEGAL DISCLAIMER.pdf">Legal Disclaimer</a>.

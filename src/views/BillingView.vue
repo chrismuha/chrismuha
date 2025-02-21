@@ -11,7 +11,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <Navbar />
   <NewsBanner />
   <PageBanner banner="billing" />
-  <TopSection />
 
   <main class="container">
     <div class="text-center centered-content" style=" position:relative; top:0; margin-bottom:0;">
@@ -81,6 +80,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <Reviews />
   <MenuTable />
+  <TopSection />
   <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
 <style scoped>

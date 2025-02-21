@@ -11,7 +11,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <Navbar />
   <NewsBanner />
   <PageBanner banner="about" />
-  <TopSection />
 
   <main class="about-container" style="margin-top: 20px;">
     <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
@@ -171,6 +170,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <Reviews />
   <MenuTable />
+  <TopSection />
   <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
 <style scoped>
