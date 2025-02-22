@@ -28,8 +28,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                 style="font-family: 'Poppins'; font-size:14px; text-align: center; width: 90%; margin: auto;">Please
                 refer to the footer of each page of this website to view our hours.
                 <br> You can contact us using the contact information on this website to setup servicing too.
-                <br> EXIGENCIES are 24/7! <br> Please leave a voicemail if the phone is not answered. <br> We will get
-                back to you as soon as possible.
+                <br> EXIGENCIES are 24/7! <br> Please leave a voicemail if the phone is not answered.
+                <br> We will get back to you as soon as possible.
             </p>
         </div>
 
@@ -41,8 +41,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$20 (FIXED PRICE) <br> </h3>
-                        <p>This service is for miscellaneous services (Other Technical Assistance) that take under one
-                            hour.</p>
+                        <p>This service is for miscellaneous services (Other Technical Assistance) that take
+                            under one hour.</p>
                     </div>
                 </div>
             </div>
@@ -54,13 +54,12 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$60 (FIXED PRICE) </h3>
-                        <p> This service includes a System Optimization, which will clear your cache, such as temporary
-                            files, and delete your cookies to make your PC feel like new again!
+                        <p> This service includes a System Optimization, which will clear your cache,
+                            such as temporary files, and delete your cookies to make your PC feel like new again!
                             <br>
                         <div class="break"></div> <i style="font-size: 11px;">*YOU WILL BE ADVISED OTHERWISE</i>
                         <br>
-                        <div class="break"></div> <span style="font-size: 11px;"> <i>*A HARDWARE UPGRADE (OR MULTIPLE)
-                                MAY BE REQUIRED FOR THE BEST EFFECT OF THIS SERVICE.</i>
+                        <div class="break"></div> <span style="font-size: 11px;"> <i>*A HARDWARE UPGRADE (OR MULTIPLE) MAY BE REQUIRED FOR THE BEST EFFECT OF THIS SERVICE.</i>
                             <i>YOU WILL BE ADVISED WHAT IS RIGHT FOR YOU.</i>
                             <br>
                             <div class="break"></div> *VIRUSES MAY BE REMOVED AS AN EXTRA BENEFIT!
@@ -85,8 +84,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$50/HR. </h3>
                         <p> You may require one or more of the following services:
-                            <br> Virus Removal (Restoring an Operating System to factory settings may be required, you
-                            will be advised what is right for you).
+                            <br> Virus Removal (Restoring an Operating System to factory settings may be required,
+                            you will be advised what is right for you).
                             <br> Resolving Printing Issues
                             <br> Software Tune-Up (This service will make your PC feel like new again!)
                             <br>
@@ -95,7 +94,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                                 YOU WILL BE ADVISED WHAT IS RIGHT FOR YOU.</i> </span>
                         <br>
                         <div class="break"></div> <span style="font-size: 11px;">*OLD VERSIONS OF FILES SUCH AS WORD
-                            DOCUMENTS THAT HAVE BEEN OVERWRITTEN WILL BE DELETED.</span>
+                            DOCUMENTS THAT HAVE BEEN OVERWRITTEN WILL BE
+                            DELETED.</span>
                         <br>
                         <div class="break"></div> <span style="font-size: 11px;"> <i>*YOU MAY HAVE TO LOG BACK TO YOUR
                                 ONLINE ACCOUNTS.</i> </span>
@@ -111,7 +111,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                         <h2 class="card-title" style="font-size: 16.5px !important;">AFTER HOURS SERVICES </h2>
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
-                        <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$200 FEE FOR AFTER HOURS SERVICES
+                        <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$200 FEE
+                            FOR AFTER HOURS SERVICES
                             ADDED TO BILL TOTAL. </h3>
                         <span class="fw-bold"
                             style="font-size: 11px; font-family: 'Poppins', sans-serif; margin-bottom: 21px;">*IF WE ARE
@@ -158,9 +159,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$30/HR. <br> </h3>
-                        <p>This service is for miscellaneous services that exceed one hour. Services under this category
-                            include services such as completing and uploading documentation online, email setup, email
-                            troubleshooting, and even computer tutorials to teach you what you need (or want) to know.
+                        <p>This service is for miscellaneous services that exceed one hour.
+                            Services under this category include services such as completing and uploading documentation online, email setup, email troubleshooting, and even computer tutorials to teach you what you need (or want) to know.
                         </p>
                     </div>
                 </div>
@@ -182,16 +182,13 @@ import PageBanner from '@/components/global/PageBanner.vue';
                             <br>
                             <br> We can scan and fax documentation.
                             <br>
-                            <br> We can convert file types to do things such as resolve documentation issues and/or
-                            restrict edits to your documentation before emailing it.
+                            <br> We can convert file types to do things such as resolve documentation issues and/or restrict edits to your documentation before emailing it.
                             <br>
-                            <br> In addition to the bullets above, we can print shipping labels on thermal labels, which
-                            have the sticky back for a hassle-free experience.
+                            <br> In addition to the bullets above, we can print shipping labels on thermal labels,
+                            which have the sticky back for a hassle-free experience.
                             We even cover package drop-off, so you do not have to!
-                            For only $5, we will take your packages to an authorized shipping provider for the shipping
-                            label you have, such as UPS or FedEx.
-                            We can even print shipping labels on thermal paper, which has a sticky back for a
-                            hassle-free experience.
+                            For only $5, we will take your packages to an authorized shipping provider for the shipping label you have, such as UPS or FedEx.
+                            We can even print shipping labels on thermal paper, which has a sticky back for a hassle-free experience.
                         </p>
                     </div>
                 </div>
@@ -205,8 +202,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     <div class="card-body" style="font-family: 'Poppins';">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$40/HR. </h3>
                         <br>
-                        <p>This service includes the backup and/or recovery of data from a Hard Drive or other Storage
-                            Disk.</p>
+                        <p>This service includes the backup and/or recovery of data from a Hard Drive or other Storage Disk.</p>
                     </div>
                 </div>
             </div>
@@ -221,21 +217,16 @@ import PageBanner from '@/components/global/PageBanner.vue';
                         </h2>
                     </div>
                     <div class="card-body" style=" font-family: 'Poppins'">
-                        <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$30/HR. <br> <i><b>*(PARTS SOLD
-                                    SEPARATELY)</b></i> </h3>
+                        <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$30/HR. <br> <i><b>*(PARTS SOLD SEPARATELY)</b></i> </h3>
                         This service includes upgrading or replacing hardware components.
                         <br> This service also includes dusting.<br>
                         <br>
                         <p> <span class="fst-italic"
-                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE
-                                DO NOT SERVICE LIQUID COOLERS. </span>
+                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE DO NOT SERVICE LIQUID COOLERS. </span>
                             <br><br> <span class="fst-italic"
-                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE
-                                DO NOT REPAIR BROKEN SCREENS OR SERVICE THE HARDWARE IN APPLE COMPUTERS. </span>
+                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE DO NOT REPAIR BROKEN SCREENS OR SERVICE THE HARDWARE IN APPLE COMPUTERS. </span>
                             <br><br> <span class="fst-italic"
-                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE
-                                DO NOT REPAIR PRINTER HARDWARE (ONLY PRINTER SOFTWARE BUT WE CAN CHANGE INK CARTRIDGES
-                                AND TROUBLESHOOT AND DIAGNOSIS PRINTER HARDWARE ISSUES). </span>
+                                style="text-transform: uppercase; font-size: 11px; font-family: 'Poppins', sans-serif;">*WE DO NOT REPAIR PRINTER HARDWARE (ONLY PRINTER SOFTWARE BUT WE CAN CHANGE INK CARTRIDGES AND TROUBLESHOOT AND DIAGNOSIS PRINTER HARDWARE ISSUES). </span>
                         </p>
                     </div>
                     <div class="col-12 mb-3 scrollclick-larger" id="comassembly">
@@ -247,42 +238,32 @@ import PageBanner from '@/components/global/PageBanner.vue';
                                 <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$200-$300 (PRICE VARIES)
                                 </h3>
                                 <br>
-                                <p> We can build you a computer for your small office, <br> home office, or personal
-                                    use.</p>
+                                <p> We can build you a computer for your small office, <br> home office, or personal use.</p>
                                 <p>SMALL OFFICE/HOME OFFICE PC BUILDS COST $200 LABOR.</p>
                                 <p>GAMING PC BUILDS COST $300 FOR LABOR.</p>
                                 <div class="break2"></div> <span class="fst-italic"
-                                    style="font-size: 11px; font-family: 'Poppins', sans-serif;">*A CONSULTATION IS
-                                    NECESSARY. </span>
+                                    style="font-size: 11px; font-family: 'Poppins', sans-serif;">*A CONSULTATION IS NECESSARY.</span>
                                 <br>
                                 <div class="break"></div> <span class="fst-italic"
-                                    style="font-size: 11px; text-transform: uppercase; font-family: 'Poppins', sans-serif;">*ALL
-                                    HARDWARE COSTS ARE DUE UP FRONT. </span>
+                                    style="font-size: 11px; text-transform: uppercase; font-family: 'Poppins', sans-serif;">*ALL HARDWARE COSTS ARE DUE UP FRONT.</span>
                                 <br>
                                 <div class="break"></div> <span class="fst-italic"
-                                    style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase"><b>*DOWN
-                                        PAYMENT FOR HALF OF THE COST OF LABOR IS REQUIRED. REMAINING LABOR COSTS DUE
-                                        AFTER COMPLETION OF SERVICE.</b></span>
+                                    style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase"><b>*DOWN PAYMENT FOR HALF OF THE COST OF LABOR IS REQUIRED. REMAINING LABOR COSTS DUE AFTER COMPLETION OF SERVICE.</b></span>
                                     <br><br>
                                     <div class="break"></div> <span class="fst-italic"
-                                        style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase">*We
-                                        build with premium components only.</span>
+                                        style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase">*We build with premium components only.</span>
                                         <br>
                                         <div class="break"></div> <span class="fst-italic"
-                                            style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase">*We
-                                            do not install Liquid Coolers.</span>
+                                            style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase">*We do not install Liquid Coolers.</span>
                                             <br>
                                             <div class="break"></div> <span class="fst-italic"
-                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*OPERATING
-                                                SYSTEM AND INSTALLATION SERVICE SOLD SEPARATELY. </span>
+                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*OPERATING SYSTEM AND INSTALLATION SERVICE SOLD SEPARATELY.</span>
                                             <br>
                                             <div class="break"></div> <span class="fst-italic"
-                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*OTHER PAID
-                                                SOFTWARE INSTALLATION SOLD SEPARATELY. </span>
+                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*OTHER PAID SOFTWARE INSTALLATION SOLD SEPARATELY.</span>
                                             <br>
                                             <div class="break"></div> <span class="fst-italic"
-                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*SOFTWARE
-                                                INSTALLATION SOLD SEPARATELY. </span>
+                                                style="font-size: 11px; font-family: 'Poppins', sans-serif;">*SOFTWARE INSTALLATION SOLD SEPARATELY.</span>
                             </div>
                         </div>
                     </div>
@@ -297,11 +278,10 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$10 (FIXED PRICE) </h3>
                         <p> This service is for plugging in computers, printers, routers, modems, and etcetera only.
-                            <br> It does not include a computer purchase, software purchase, or any service other
-                            than plugging in the system.
+                            <br> It does not include a computer purchase, software purchase, or any service other than plugging in the system.
                             <br>
                         <div class="break"></div> <span class="fst-italic" style="font-size:11px;">*OTHER SERVICES
-                            ARE SOLD SEPARATELY. </span>
+                            ARE SOLD SEPARATELY.</span>
                         </p>
                     </div>
                 </div>
@@ -317,24 +297,18 @@ import PageBanner from '@/components/global/PageBanner.vue';
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;"> *FREE <br> </h3>
                         <p> A conversation to discuss your problem(s) and/or need(s).
                             We can provide you with a free quote over the phone, via text, or via email.</p>
-                        <p> A Diagnosis is extensive troubleshooting to come to a hardware and/or software
-                            diagnostics. <br></p>
+                        <p> A Diagnosis is extensive troubleshooting to come to a hardware and/or software diagnostics. <br></p>
                         <div class="break"></div>
                         <p> <span
-                                style="text-transform: uppercase; font-style: italic; font-size: 11px; font-family: 'Poppins', sans-serif;">*Any
-                                Diagnosis that takes longer than one hour will be charged at an
-                                hourly rate of $30. If you choose to move forward with services with us, you will
-                                receive a
-                                discount on your order to cover a one-hour diagnostic. However, you will be charged
-                                at the hourly rate of $30 if you decide
-                                not to move forward with any service(s) with us or if we cannot replicate the issues
-                                you are
-                                experiencing. </span>
+                                style="text-transform: uppercase; font-style: italic; font-size: 11px; font-family: 'Poppins', sans-serif;">
+                                *Any Diagnosis that takes longer than one hour will be charged at an hourly rate of $30.
+                                If you choose to move forward with services with us, you will receive a discount on your order to cover a one-hour diagnostic.
+                                However, you will be charged at the hourly rate of $30 if you decide to not move forward with any service(s) with us or if we cannot reproduce the issues you are experiencing. </span>
                             <br>
                             <span
                                 style="font-size: 11px; font-family: 'Poppins', sans-serif; text-transform: uppercase;">
                                 <b><i>
-                                        *A consultation is necessary for us to diagnosis.</i></b> </span>
+                                *A consultation is necessary for us to diagnosis.</i></b> </span>
                         </p>
                     </div>
                 </div>
@@ -347,32 +321,30 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">STARTING AT $250.00 </h3>
-                        <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$250 MINIMUM, $250.00 DOWN
-                            PAYMENT REQUIRED </h3>
+                        <h3 style="font-size: 14.5px !important; margin: -4px 0 21px 0;">$250 MINIMUM,
+                            $250.00 DOWN PAYMENT REQUIRED </h3>
+                        <br> <span style="font-size: 11px; font-family: 'Poppins', sans-serif;">
                         <p> This service is for having us develop you or your business a website.
-                            We offer high-quality web development using HTML, CSS, and JavaScript code to be able to
-                            provide a wide array of features and flexibility.
-                            WordPress, Google Sites, and etcetera lack customizability, flexibility, and user
-                            friendliness.
-                            We code to ensure the best user experience to those viewing and using a website to do
-                            things such as to get information or book an appointment.
+                            We offer high-quality web development using HTML, CSS, and JavaScript code to be able to provide a wide array of features and flexibility.
+                            WordPress, Google Sites, and etcetera lack customizability, flexibility, and user friendliness.
+                            We code to ensure the best user experience to those viewing and using a website to do things such as to get information or book an appointment.
                             We can provide you with a free quote over the phone, via text, or via email.
-                            From basic websites with only a few paragraphs to a website with fancy animations, we
-                            got that covered.
-                            If you already have a website, we would be happy to look at it, make changes, fix bugs
-                            and etcetera.
-                            We strive to ensure all your dreams and envisions become reality with no exceptions to
-                            what a website can have.
+                            From basic websites with only a few paragraphs to a website with fancy animations, we got that covered.
+                            If you already have a website, we would be happy to look at it, make changes, fix bugs and etcetera.
+                            We strive to ensure all your dreams and envisions become reality with no exceptions to what a website can have.
                             After initial development, we will be happy to revise things (at an extra cost).
-                            We will fix errors made on our end for free and will work out any other kinks and to
-                            ensure ease of use.
-                            <br> <span style="font-size: 11px; font-family: 'Poppins', sans-serif;"><i
-                                    style="text-transform: none !important;">We will more than likely recommend
-                                    redevelopment of a website if it is not code based to ensure our high-quality
-                                    standards are met.</i> </span>
-                            <br> <span style="font-size: 11px; font-family: 'Poppins', sans-serif;"><b><i>*A
-                                        CONSULTATION IS NECESSARY.</i></b> </span>
-                        </p>
+                            We will fix errors made on our end for free and will work out any other kinks and to ensure ease of use. </p> </span>
+                                <br> <span style="font-style: italic; font-size: 14px; font-family:'Poppins', sans-serif;">
+                                    <p> The Down Payment covers the base design for a website based on customer requests and requirements.
+                                    Any development after that accrue the hourly charge.
+                                    If the customer does not give us any design ideas, we will come up with what we feel best suites the customer.
+                                    If the customer does not like the design, we will revise it until the customer is satisfied.
+                                    There will be charges for any additional website design changes after the initial design is completed.
+                                    The customer will be charged for any additional features that are not included in the base design.
+                                    The customer will be charged for any additional pages that are not included in the base design.
+                                    The customer will be charged for any additional features that are not included in the base design.</p> </span>
+                                    <span style="font-style: italic; font-size: 11px; font-family: 'Poppins', sans-serif;"><p> We will more than likely recommend redevelopment of a website if it is not code based to ensure our high-quality standards are met. </p> </span>
+                                    <br> <span style="font-style: italic; font-size: 11px; font-family: 'Poppins', sans-serif;"><b><i>*A CONSULTATION IS NECESSARY.</i></b> </span>
                     </div>
                 </div>
             </div>
@@ -383,13 +355,11 @@ import PageBanner from '@/components/global/PageBanner.vue';
                         <h2 class="card-title" style="font-size: 16.5px !important;">MINIMUM SERVICE FEE </h2>
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
-                        <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$100 FEE ADDED TO ORDERS UNDER
-                            $125. </h3>
+                        <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$100 FEE ADDED TO ORDERS UNDER $125. </h3>
                         <p><i>THIS FEE DOES NOT APPLY TO CONSULTATION & DIAGNOSTICS.</i></p>
-                        <p> This fee is for ensuring we meet a minimum to cover our travel costs and any time we
-                            spend servicing quick needs instead of taking on bigger jobs.
-                            We charge this fee because we need to ensure we meet our minimum if we are going to
-                            service our customers on a first come first serve basis.
+                        <p> This fee is for ensuring we meet a minimum to cover our travel costs
+                            and any time we spend servicing quick needs instead of taking on bigger jobs.
+                            We charge this fee because we need to ensure we meet our minimum if we are going to service our customers on a first come first serve basis.
                         </p>
                         <p> <span class="fw-bold"
                                 style="font-size: 11px; font-family: 'Poppins', sans-serif; margin-bottom: 21px; text-transform: uppercase;">
@@ -412,12 +382,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
                     </div>
                     <div class="card-body" style="font-family: 'Poppins'">
                         <h3 style="font-size: 14.5px !important; margin: -4px 0 0 0;">$1000 </h3>
-                        <p> <br> This service is an annual package to allow you to have services when you need them
-                            most, at an annual rate to save you money. </p>
-                        <p> <i>*IF YOU DO NOT USE THE SUBSCRIPTION, YOU WILL STILL BE CHARGED, LIKE ANY OTHER
-                                SUBSCRIPTION.</i> </p>
-                        <p>*THIS SUBSCRIPTION DOES NOT INCLUDE THE COSTS OF HARDWARE COMPONENTS, PERIPHERALS, OR
-                            ACCESSORIES.</p>
+                        <p> <br> This service is an annual package to allow you to have services when you need them most, at an annual rate to save you money. </p>
+                        <p> <i>*IF YOU DO NOT USE THE SUBSCRIPTION, YOU WILL STILL BE CHARGED, LIKE ANY OTHER SUBSCRIPTION.</i> </p>
+                        <p>*THIS SUBSCRIPTION DOES NOT INCLUDE THE COSTS OF HARDWARE COMPONENTS, PERIPHERALS, OR ACCESSORIES.</p>
                     </div>
                 </div>
             </div>
