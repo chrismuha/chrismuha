@@ -37,7 +37,7 @@ export default {
     methods: {
         getBannerColor() {
             const colors = {
-                home: 'red',
+                home: '#ed2024',
                 about: '#fbe106',
                 services: '#FF8B28',
                 billing: '#85BB65',

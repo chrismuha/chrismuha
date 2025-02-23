@@ -26,7 +26,7 @@
 
 .header1-p {
     color: black;
-    background-color: red;
+    background-color: #ed2024;
     max-width: 684px;
     padding: 16px 16px 16px;
     border-radius: 3px;
@@ -43,7 +43,7 @@
 
 .header2-h2 {
     color: white;
-    background-color: red;
+    background-color: #ed2024;
     max-width: 684px;
     padding: 16px 16px 16px;
     border-radius: 34.6px;
@@ -69,7 +69,7 @@
 }
 
 .header3-p {
-    color: red;
+    color: #ed2024;
     background-color: black;
     max-width: 684px;
     padding: 16px 16px 16px;
@@ -107,7 +107,7 @@
 
 /* PAGE HEADER DESIGN SHAPE ID */
 #rectangle1 {
-    background: red;
+    background: #ed2024;
     margin: auto;
     width: 100%;
     height: 60px;
@@ -133,7 +133,7 @@
 }
 
 #rectangle4 {
-    background-color: red;
+    background-color: #ed2024;
     width: 100%;
     height: 59.5px;
 }
