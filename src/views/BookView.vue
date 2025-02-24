@@ -20,10 +20,10 @@ import PageBanner from '@/components/global/PageBanner.vue';
                       style="margin-top:0 !important; margin-bottom: 37px;">
               </div>
           </div>
-          <div class="p-3 mw location book-page-no-bullets"
-              style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
+          <div class="px-3 mw location book-page-no-bullets"
+              style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; margin-bottom: 37px;">
               <p>
-              <ul class="read-more"> <b><u>Chris Muha, the Owner, and Lead Technician is the author of The
+              <ul class="read-more" style="margin-bottom: 0;"> <b><u>Chris Muha, the Owner, and Lead Technician is the author of The
                           Fundamentals of Computer IT: Knowledge to Enhance Your IT Expertise.</u></b>
                   <br>
                   <br>
@@ -47,17 +47,17 @@ import PageBanner from '@/components/global/PageBanner.vue';
               </p>
           </div>
           <div class="location"
-              style="/* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
-              <div class="p-3 mw book-page-no-bullets"
-                  style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; border-radius: 6pt; padding: 6pt; margin-bottom: 37px;">
-                  <p>
+              style="/* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; margin-bottom: 37px;">
+              <div class="px-3 mw book-page-no-bullets"
+                  style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; border-radius: 6pt; padding: 0 6pt; margin-bottom: 37px;">
+                  <p style="margin-bottom: 0;">
                       <b><u>The links below are shortened for convenience. The links direct to official merchant
                               links.</u></b>
                   </p>
               </div>
               <div class="books">
                   <h2 class="fw-bold text-center text-decoration-underline"
-                      style="font-size: 15pt; color:#00C301; border-radius: 6pt; padding: 6pt; margin-bottom:37px;">
+                      style="font-size: 15pt; color:#00C301; border-radius: 6pt; padding: 0 6pt; margin-bottom:37px;">
                       PURCHASE CHRIS' BOOK:</h2>
               </div>
               <!-- <div class="card p-3 mb-4 text-center">
@@ -97,7 +97,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <div class="text-center" style="margin-bottom: 37px;">
       <div class="text-center location" style=" margin-bottom: 37px;">
           <div
-              style="display:flex; justify-content: center; flex-direction: column; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+              style="display:flex; justify-content: center; flex-direction: column; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; border-width: 2px !important; line-height: 2;">
               <!-- <p class="fw-bold text-decoration-underline" style="font-family: 'Poppins'; font-size:16.5pt; text-align: center; margin-bottom: 0; margin-left: 1rem; margin-right: 1rem; padding: 6pt;line-height: 2;"> </p> -->
               <p class="fw-bold text-decoration-none"
                   style="font-family: 'Poppins'; font-size:13.5pt; text-align: left; margin-bottom: 0;"><a
@@ -111,14 +111,14 @@ import PageBanner from '@/components/global/PageBanner.vue';
           </div>
       </div>
       <p class="spacing fw-bold text-decoration-none text-center"
-          style="font-family: 'Poppins'; font-size:16.5pt; color:#85bb65; margin-bottom: 0;">YOU CAN SHOP FOR OUR
+          style="font-family: 'Poppins'; font-size:16.5pt; color:#85bb65; height: fit-content; margin-bottom: 0;">YOU CAN SHOP FOR OUR
           MERCHANDISE
           <a href="https://www.tinyurl.com/mcr-masteryourimage">HERE</a>.
       </p>
   </div>
   <div>
-      <p class="p-3 mw location read-more"
-          style="font-family: 'Poppins'; font-size:13.5pt; font-weight: 600; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+      <p class="px-3 mw location read-more"
+          style="font-family: 'Poppins'; font-size:13.5pt; font-weight: 600; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
           <u> If you have any concerns about plagiarism/copying and pasting articles
               from the internet, any other literary works, and/or etcetera, please read the following disclosure from
               Chris Muha: </u>

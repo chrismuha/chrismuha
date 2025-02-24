@@ -106,7 +106,7 @@
       </div>
       <div class="d-flex justify-content-center align-items-center flex-wrap flex-column footer-links">
 
-        <div class="my-1 text-uppercase" style="text-align: center; justify-content: center;">
+        <div class="my-1 centered-content text-uppercase" style="text-align: center; justify-content: center; width: 80%;">
           <p> You can view or download our contact information
             <a href="https://vcrd.co/chris_muha/6796">HERE</a>.
             The file (vCard file) can be used to add us to your contacts list on your smartphone, tablet, or computer.
@@ -114,7 +114,7 @@
         </div>
 
         <p class="fw-bold text-decoration-none text-center"
-          style="font-family: 'Poppins'; font-size:22px; color:#85bb65;">YOU CAN SHOP FOR OUR MERCHANDISE
+          style="font-family: 'Poppins'; font-size:11.5pt; color:#85bb65;">YOU CAN SHOP FOR OUR MERCHANDISE
           <a href="https://www.tinyurl.com/mcr-masteryourimage">HERE</a>.
         </p>
         <!-- <div class="text-center p-3 centered-content"
