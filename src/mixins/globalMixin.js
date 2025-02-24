@@ -8,48 +8,65 @@ export default {
     methods: {
         addReadMoreToElement(element) {
             const maxLength = 100;
-        
+            
             if (element.dataset.processed) return;
-        
+            
             const originalContent = element.innerHTML.trim();
-        
+            
             if (originalContent.length > maxLength) {
                 const truncatedContent = originalContent.slice(0, maxLength) + '...';
-        
+                
                 const truncatedSpan = document.createElement('span');
                 truncatedSpan.innerHTML = truncatedContent;
-        
+                
                 const fullSpan = document.createElement('span');
                 fullSpan.innerHTML = originalContent;
                 fullSpan.style.display = 'none';
-        
+                
                 const readMoreLink = document.createElement('a');
                 readMoreLink.href = '#';
-                readMoreLink.classList.add('read-more-link')
+                readMoreLink.classList.add('read-more-link');
                 readMoreLink.textContent = 'Read more';
                 readMoreLink.style.marginLeft = '5px';
-        
+                
+                const readLessLink = document.createElement('a');
+                readLessLink.href = '#';
+                readLessLink.classList.add('read-less-link');
+                readLessLink.textContent = 'Read less';
+                readLessLink.style.marginLeft = '5px';
+                readLessLink.style.display = 'none';
+                
                 readMoreLink.addEventListener('click', (e) => {
                     e.preventDefault();
                     truncatedSpan.style.display = 'none';
                     fullSpan.style.display = 'inline';
                     readMoreLink.style.display = 'none';
+                    readLessLink.style.display = 'inline';
                 });
-        
+                
+                readLessLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    truncatedSpan.style.display = 'inline';
+                    fullSpan.style.display = 'none';
+                    readMoreLink.style.display = 'inline';
+                    readLessLink.style.display = 'none';
+                });
+                
                 element.innerHTML = '';
                 element.appendChild(truncatedSpan);
                 element.appendChild(fullSpan);
                 element.appendChild(readMoreLink);
+                element.appendChild(readLessLink);
             }
-        
+            
             element.dataset.processed = 'true';
         },
-
+        
         initializeReadMore() {
             document.querySelectorAll('.cls li').forEach(n => {
-                n.classList.add('read-more')
-            })
-
+                n.classList.add('read-more');
+            });
+            
             const elements = document.querySelectorAll('.read-more');
             elements.forEach(this.addReadMoreToElement);
         },
