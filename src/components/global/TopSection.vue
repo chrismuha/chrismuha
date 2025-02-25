@@ -38,13 +38,13 @@
     </div>
     <div>
       <div style="text-align: center; justify-content: center;">
-        <a class="e_mail_top btn" href="mailto:muhachris297@gmail.com"><i class="bi bi-envelope-fill"></i>
+        <a class="e_mail_top btn emailus-button" href="mailto:muhachris297@gmail.com"><i class="bi bi-envelope-fill"></i>
           E-MAIL US</a>
       </div>
     </div>
     <div>
       <div style="text-align: center; justify-content: center;">
-        <a class="contact-form_top btn" href="/contact"><i class="bi bi-pencil-fill"></i>
+        <a class="contact-form_top btn contactus-button" href="/contact"><i class="bi bi-pencil-fill"></i>
           CONTACT US</a>
       </div>
     </div>
@@ -72,6 +72,15 @@
 <style scoped>
 @import url('@/assets/main.css');
 
+@media screen and (max-width: 450px) {
+  .buttons-ver-hor:nth-child(2) {
+    flex-direction: column;
+  }
+  .buttons-ver-hor:nth-child(2) a {
+    width: fit-content;
+    margin: auto;
+  }
+}
 </style>
 <script>
 import checkRouteMixin from '@/mixins/checkRouteMixin';
