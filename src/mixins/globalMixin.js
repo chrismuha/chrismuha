@@ -143,12 +143,14 @@ export default {
     
             document.body.style.position = 'fixed';
             }
+
+            console.log('Menu toggled:', html.classList.contains('body-menu-opened') ? 'Opened' : 'Closed');
         },
     
         scrollUp() {
             const circleTopButton = document.getElementById("top");
     
-            console.log("Hey")
+            // console.log("Hey")
     
             window.scrollTo({
             top: 0,

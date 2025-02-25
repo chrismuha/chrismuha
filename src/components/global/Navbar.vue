@@ -68,13 +68,24 @@ export default {
     mixins: [globalMixin],
     methods: {
         closeMenu() {
-            this.toggleMenu();
-            document.body.style.position = '';
-            // document.getElementById('hideMenu').style.bottom = '100%';
-            // console.log(document.querySelector('.body-menu-opened .hide-menu'));
+            const html = document.documentElement;
+            if (html.classList.contains('body-menu-opened')) {
+                this.toggleMenu(); // Only toggle if it's open
+            }
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         },
     },
     mounted() {
+        const html = document.documentElement;
+        html.classList.remove('body-menu-opened', 'body-menu-close');
+        document.body.style.position = '';
+
+        console.log('Page loaded, menu closed');
+
+        // Close menu when clicking a nav link
         const routerLinks = document.querySelectorAll('a.nav-link');
         routerLinks.forEach((link) => {
             link.addEventListener('click', this.closeMenu);

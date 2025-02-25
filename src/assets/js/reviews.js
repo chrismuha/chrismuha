@@ -14,7 +14,7 @@ for (let i = 0; i < imageReviews.length; i++) {
   const fetchPromise = fetch('https://chrismuha.com/reviews/' + parent.dataset.type.toLowerCase())
     .then(response => response.json())
     .then((images) => {
-      console.log(images)
+      // console.log(images)
 
       images.forEach((image) => {
         const swiperSlide = document.createElement('div');
