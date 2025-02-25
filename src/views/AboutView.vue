@@ -13,7 +13,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <PageBanner banner="about" />
 
   <main class="about-container" style="margin-top: 20px;">
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid red;">
       <ul class="read-more"> <u>Chris has over ten years of experience in computer servicing and customer service.</u>
         <br>
         <br>
@@ -37,7 +37,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid orange;">
       <ul class="read-more"> <u>Computer slowing down? <br> Not a problem, Chris is here to tune it up to function as
           good as new!</u>
         <br>
@@ -60,7 +60,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid yellow;">
       <ul class="read-more">
         <u>Need a new laptop but hate shopping?</u>
         <br>
@@ -98,7 +98,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid green;">
       <ul class="read-more">
         <li><u>Need a website developed?</u></li>
         <br>
@@ -113,7 +113,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid blue;">
       <ul class="read-more">
         <u>Unfortunately, Chris is disabled with severe anxiety (GAD) including social anxiety and ASD/ADHD, as well as
           Asthma and COPD.</u>
@@ -141,7 +141,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid indigo;">
       <ul class="read-more">
         Want to be a computer professional but are scared to learn or just do not have the money for college or
         self-education materials, look no further!
@@ -150,7 +150,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </ul>
     </div>
     <div class="spacing"></div>
-    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt;">
+    <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid violet;">
       <ul class="read-more">
         <u>Chris hopes that you will enjoy his book and learn new tips, tricks, and more!</u>
         <br>
