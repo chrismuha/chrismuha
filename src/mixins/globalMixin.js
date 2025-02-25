@@ -27,13 +27,14 @@ export default {
                 readMoreLink.href = '#';
                 readMoreLink.classList.add('read-more-link');
                 readMoreLink.textContent = 'Read more';
-                readMoreLink.style.marginLeft = '5px';
+                // readMoreLink.style.marginLeft = '5px';
+                readMoreLink.style.display = 'flex';
                 
                 const readLessLink = document.createElement('a');
                 readLessLink.href = '#';
                 readLessLink.classList.add('read-less-link');
                 readLessLink.textContent = 'Read less';
-                readLessLink.style.marginLeft = '5px';
+                // readLessLink.style.marginLeft = '5px';
                 readLessLink.style.display = 'none';
                 
                 readMoreLink.addEventListener('click', (e) => {
@@ -41,14 +42,14 @@ export default {
                     truncatedSpan.style.display = 'none';
                     fullSpan.style.display = 'inline';
                     readMoreLink.style.display = 'none';
-                    readLessLink.style.display = 'inline';
+                    readLessLink.style.display = 'flex';
                 });
                 
                 readLessLink.addEventListener('click', (e) => {
                     e.preventDefault();
                     truncatedSpan.style.display = 'inline';
                     fullSpan.style.display = 'none';
-                    readMoreLink.style.display = 'inline';
+                    readMoreLink.style.display = 'flex';
                     readLessLink.style.display = 'none';
                 });
                 
