@@ -68,12 +68,28 @@
       <div class="swiper-button-prev"></div>
     </div>
   </div>
+
+  <div v-if="showModal" class="image-overlay" @click="closeModal">
+    <div class="image-container" @click.stop>
+      <img :src="modalImage" alt="Expanded Image" />
+      <button class="close-button" @click="closeModal">
+        <i class="bi bi-x"></i>
+      </button>
+    </div>
+  </div>
 </template>
 <script>
 import globalMixin from '@/mixins/globalMixin';
 
 export default {
   mixins: [globalMixin],
+
+  data() {
+    return {
+      showModal: false,
+      modalImage: ''
+    };
+  },
 
   mounted() {
     const reviewsCollection = document.getElementsByClassName('review-slider')
@@ -105,10 +121,6 @@ export default {
       const parent = review.querySelector('.swiper-wrapper');
       const category =  parent.dataset.type.toLowerCase();
       const files = categories[category]
-
-      // console.log(files);
-      // console.log(categories);
-      // console.log(category)
 
       files.forEach((image) => {
         const swiperSlide = document.createElement('div');
@@ -158,7 +170,7 @@ export default {
 
             const reviewBox = `
         <div class="google-review-box">
-          <img src="img/google-reviews-logo.png" alt="Google Review">
+          <img src="img/google-reviews-logo.png" class="google-review-logo-image" alt="Google Review">
         </div>
         <div class="div">
           <a href="https://tinyurl.com/mcr-google-review" class="btn google-review-button">WRITE A GOOGLE REVIEW</a>
@@ -225,8 +237,80 @@ export default {
         });
 
 
-      })
+      });
 
+      document.addEventListener("click", (event) => {
+        if (!event.target.classList.contains("google-review-logo-image")) {
+          if (event.target.tagName === "IMG" && event.target.closest(".swiper-wrapper")) {
+            this.openModal(event.target.src);
+          }
+        }
+      });
+
+  },
+  methods: {
+    openModal(imageSrc) {
+      this.modalImage = imageSrc;
+      this.showModal = true;
+      document.body.style.overflowY = 'hidden';
+    },
+
+    closeModal() {
+      this.showModal = false;
+      this.modalImage = '';
+      document.body.style.overflowY = '';
+    }
   }
 }
 </script>
+<style>
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.546);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.image-container {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.image-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: 2rem 0;
+  max-height: 100vh;
+  border-radius: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  opacity: 80%;
+}
+</style>
