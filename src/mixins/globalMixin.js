@@ -29,6 +29,7 @@ export default {
                 readMoreLink.textContent = 'Read more';
                 // readMoreLink.style.marginLeft = '5px';
                 readMoreLink.style.display = 'flex';
+                readMoreLink.style.width = 'fit-content';
                 
                 const readLessLink = document.createElement('a');
                 readLessLink.href = '#';
@@ -36,6 +37,7 @@ export default {
                 readLessLink.textContent = 'Read less';
                 // readLessLink.style.marginLeft = '5px';
                 readLessLink.style.display = 'none';
+                readLessLink.style.width = 'fit-content';
                 
                 readMoreLink.addEventListener('click', (e) => {
                     e.preventDefault();

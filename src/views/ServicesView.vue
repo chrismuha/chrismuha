@@ -395,6 +395,19 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <TopSection />
   <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
+<script>
+import globalMixin from '@/mixins/globalMixin';
+
+export default {
+  mixins: [globalMixin],
+  mounted() {
+    document.querySelectorAll('.read-more-link, .read-less-link').forEach(n=>{
+        n.style.margin = 'auto';
+        n.style.textTransform = 'none';
+    })
+  }
+}
+</script>
 <style scoped>
 @import url('@/assets/main.css');
 
@@ -445,10 +458,3 @@ import PageBanner from '@/components/global/PageBanner.vue';
     }
 }
 </style>
-<script>
-import globalMixin from '@/mixins/globalMixin';
-
-export default {
-  mixins: [globalMixin],
-}
-</script>
