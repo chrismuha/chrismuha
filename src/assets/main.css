@@ -1259,7 +1259,7 @@ a.nav-link {
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin: 24pt auto;
+    margin: 20px auto;
     font-family: 'Poppins';
 }
 
@@ -1277,7 +1277,8 @@ a.nav-link {
 }
 
 .top-ftc-sec .ftc-bullets ul {
-    padding: 12pt;
+    padding: 0;
+    margin: 20px 0;
 }
 
 .top-ftc-sec li {
@@ -1299,7 +1300,7 @@ a.nav-link {
 .single-ftc-sec {
     width: 100%;
     background-color: #00000017;
-    margin-bottom: 24pt;
+    margin-bottom: 20px;
 }
 
 .table-column-custom1 p {
@@ -1321,7 +1322,7 @@ a.nav-link {
 }
 
 .full-ftc-sec {
-    margin-bottom: 24pt;
+    margin-bottom: 20px;
 }
 
 .full-ftc-sec h5 {
@@ -1366,7 +1367,7 @@ a.nav-link {
     align-items: center;
     height: 3.5rem;
     gap: 12pt;
-    margin-bottom: 24pt;
+    margin-bottom: 20px;
 }
 
 .ftc-ending p {

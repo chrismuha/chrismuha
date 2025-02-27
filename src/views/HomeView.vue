@@ -155,7 +155,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <div class="header col-12 text-center location" style="top: 5px;">
     <p class="fw-bold bitter read-more"
-      style=" text-align:left; font-size: 14px; border-radius: 6pt; padding: 6pt;  border-width: 2px !important; ; margin:0 0 37px 0">
+      style=" text-align:left; font-size: 14px; border-radius: 6pt; padding: 6pt;  border-width: 2px !important; ; margin:0 0 20px 0">
       Please contact us by using the contact information in the footer of each page of this website
       or use one of the SCHEDULE buttons on this website to request an appointment.
       Please be sure to request a Consultation and Diagnostics.
@@ -167,22 +167,22 @@ import PageBanner from '@/components/global/PageBanner.vue';
       You can also view our business hours in the footer of each page of this website.
     </p>
     <p class="bitter read-more"
-      style="text-align:left; font-size:14px;  border: orange solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin:37px 0 37px 0">
+      style="text-align:left; font-size:14px;  border: orange solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin:20px 0 20px 0">
       We offer our software services remotely via AnyDesk and/or via shipping.
       <br> We can guide you through installation or install it for you when you come see us for an appointment.
       <br>
     </p>
     <p class="fw-bold bitter"
-      style="text-align:left; font-size:14px; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px;  border: 2px solid yellow; ">
+      style="text-align:left; font-size:14px; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 20px;  border: 2px solid yellow; ">
       We also offer hardware services by mail-in/shipment.
       <br> <i> All shipping costs are at the expense of the customer. </i>
     </p>
     <p class="bitter"
-      style="text-align:left; font-size:14px;  border: #00ff00 solid 2px;  margin-bottom: 12pt; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px;  line-height: 2;">
+      style="text-align:left; font-size:14px;  border: #00ff00 solid 2px;  margin-bottom: 12pt; border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 20px;  line-height: 2;">
       Muha Computer Repair is a small computer repair business located in Boonville NY.
     </p>
     <p class="bitter read-more"
-      style="text-align:left; font-size:14px;  border: #0000ff solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+      style="text-align:left; font-size:14px;  border: #0000ff solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 20px; line-height: 2;">
       We service all Upstate New York and beyond.
       <br> We offer remote services to all customers, so you do not have to leave your home or office to get
       the assistance you need.
@@ -194,7 +194,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       servicing.
     </p>
     <p class="bitter read-more"
-      style="text-align:left; font-size:14px;  border: #6e00ff solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px;  line-height: 2;">
+      style="text-align:left; font-size:14px;  border: #6e00ff solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 20px;  line-height: 2;">
       We offer convenient and honest high-quality computer services with a flexible schedule.
       <br> We have several years of experience in computer diagnostic and repair services.
       Not only that, but we also ensure you are secure when using the internet and give you a plan to help protect and
@@ -204,7 +204,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       before repair, and discussing all options available to you.
     </p>
     <p class="bitter read-more"
-      style="text-align:left; font-size:14px;  border: #bf40bf solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 37px; line-height: 2;">
+      style="text-align:left; font-size:14px;  border: #bf40bf solid 2px;  border-radius: 6pt; padding: 6pt; border-width: 2px !important; margin-bottom: 20px; line-height: 2;">
       If you need a new computer, desktop, laptop, or even a new smartphone or tablet, we are here to help you
       with that too. We have been designing, building, and selling the highest-quality computer builds on the market
       since 2019.
