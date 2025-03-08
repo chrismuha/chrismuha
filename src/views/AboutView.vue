@@ -14,6 +14,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <main class="about-container faq-container" style="margin-top: 20px;">
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid red;"> </div> -->
+    <!-- <div style="color: blue";> <h1>Frequently Asked Questions</h1> </div> -->
+
 
     <div class="faq-item"> </div>
     <div class="faq-question"> Question? Need help? Want to know more about Chris  Want to know more about Muha Computer Repair? </div>
@@ -34,7 +36,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
        Chris is the most honest computer technician you will ever encounter. </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid orange;"> </div> -->
     <div class="faq-item"> </div>
       <div class="faq-question"> Computer slowing down? </div>
@@ -53,9 +54,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
        Chris keeps you in the loop every step of the way because customer satisfaction is his highest priority. </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid yellow;"> </div> -->
     <div class="faq-item"> </div>
+    <div class="faq-question"> Need a new computer? </div>
     <div class="faq-answer"> Let us shop for you, we will shop within your budget for you, for a new laptop or any other technology you are looking for!
 
        We are here to save you time shopping and/or to make transitioning to a new PC frustration free!
@@ -72,12 +73,12 @@ import PageBanner from '@/components/global/PageBanner.vue';
           computer security and upgraded technologies.
 
        <i>*Subject to a down payment for expected equipment costs. *Service charges will apply.
-          Please contact us with any questions.</i>
+          Please contact us with any questions.</i> </div>
         
-        Did your computer get repaired by the local big foot?
-        Is your computer running like a car hit by a lake effect snowstorm?
-        
-       Come see us to resolve your computer issues with proper optimizations and quality repairs for a fair price,
+
+    <div class="faq-item"> </div>
+    <div class="faq-question"> Did your computer get repaired by the local big foot? <!-- Is your computer running like a car hit by a lake effect snowstorm? --> </div>
+      <div class="faq-answer"> Come see us to resolve your computer issues with proper optimizations and quality repairs for a fair price,
           not a price decided by the local big foot.
           We assure you; your technology will run faster than it was when it came out of the box.
           Unlike the local unicorn, our services are reasonable, fit within your budget, and are in hands that care
@@ -86,10 +87,9 @@ import PageBanner from '@/components/global/PageBanner.vue';
           work surfaces in-between customer appointments. </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid green;"> </div> -->
       <div class="faq-item"> </div>
-      <div class="faq-question"> Need a website developed?
+      <div class="faq-question"> Need a website developed? </div>
       <div class="faq-answer"> We are here to make your website dreams become an attractive reality to the customers you never thought you had coming.
       We code everything from scratch, using effective and secure development processes, not strategically dragging and dropping designs into a template.
       We are here to code everything from scratch, using effective and secure development processes, not
@@ -100,7 +100,6 @@ import PageBanner from '@/components/global/PageBanner.vue';
        <i>*We may require a contractual agreement to ensure we are on the same page to ensure a smooth business transaction.</i> </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid blue;"> </div> -->
       <div class="faq-item"></div>
       <div class="faq-question"> What are Chris' disabilities and why is he running a business?</div>
@@ -127,28 +126,29 @@ import PageBanner from '@/components/global/PageBanner.vue';
            *Fuel/Gas charges/mileage will apply. </i> </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid indigo;"> </div> -->
-    <div class="faq-item"></div>
+    <div class="faq-item"> </div>
     <div class="faq-question"> Want to be a computer professional but are scared to learn or just do not have the money for college or self-education materials? </div>
     <div class="faq-answer"> Look no further!
         Chris authored a book to educate you on basic computing as well as expert computer repair skills.
         His book is titled <u>The Fundamentals of Computer IT!</u> </div>
 
 
-    <div class="spacing"></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid violet;"></div> -->
     <div class="faq-item"> </div>
     <div class="faq-question"> Why did Chris write a book? </div>
     <div class="faq-answer"> Chris' goal is to help those that do not know how to use technology
       including computers, smart phones and more learn the basics of computing and even more if you want to be a computer expert.</div>
-            
+    
+
+    <div class="faq-item"> </div>
     <div class="faq-question"> Have you read Chris' book? </div>
     <div class="faq-answer"> You are learning from the most in-depth information that you will ever read on The Fundamentals of Computer IT! </div>
 
+
+    <div class="faq-item"> </div>
     <div class="faq-question"> Do you have the knowledge you need to be a computer expert? </div>
     <div class="faq-answer"> Chris hopes that you will enjoy his book and learn new tips, tricks, and more! </div>
-    </div>
   </main>
 
   <Reviews />
@@ -217,9 +217,15 @@ main a {
 </style>
 
 <script>
+import '@/assets/js/faq.js';
+
 import globalMixin from '@/mixins/globalMixin';
 
 export default {
+  mounted() {
+    console.log('FAQ script loaded');
+  },
+
   mixins: [globalMixin],
 }
 </script>
