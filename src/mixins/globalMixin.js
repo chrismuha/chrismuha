@@ -4,6 +4,7 @@ export default {
         this.initializeTheme();
         this.handleScrollEvents();
         this.checkNewsBanner();
+        this.faqFunction();
     },
     methods: {
         addReadMoreToElement(element) {
@@ -162,7 +163,16 @@ export default {
             setTimeout(() => {
             circleTopButton.classList.remove('hover-animation');
             }, 500);
-        }
+        },
+
+        faqFunction() {
+            document.querySelectorAll('.faq-question').forEach(question => {
+              question.addEventListener('click', () => {
+                const parent = question.parentElement;
+                parent.classList.toggle('active');
+              });
+            });
+          },          
     }
 };
   
