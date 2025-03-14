@@ -78,6 +78,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
     </div>
   </main>
 
+  <TopSection />
   <Reviews />
   <MenuTable />
   <TopSection />
