@@ -229,6 +229,8 @@ main a {
   font-size: 10.5pt;
   font-weight: 500;
   color: #ff0000;
+  border: 1px solid red;
+  border-radius: 0.2rem;
 }
 
 /* .faq-item.active .faq-answer {
