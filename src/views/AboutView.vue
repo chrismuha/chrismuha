@@ -236,6 +236,10 @@ main a {
 /* .faq-item.active .faq-answer {
   display: block;
 } */
+
+ .faq-item.active .faq-question {
+  outline: 1px solid green;
+ }
 </style>
 
 <script>

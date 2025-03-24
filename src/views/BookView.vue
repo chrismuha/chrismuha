@@ -14,8 +14,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <main class="container">
       <div class="text-center centered-content">
-          <div class="row">
-              <div class="col-md-12 col-12" style="text-align:center;">
+          <div>
+              <div style="text-align:center; padding: 0;">
                   <img src="../assets/img/eBook-FRONT.jpg" alt="Book Cover" class="book-cover"
                       style="margin-top:0 !important; margin-bottom: 37px;">
               </div>
@@ -163,7 +163,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <main class="container">
 
       <div class="text-center centered-content">
-          <div class="row">
+          <div>
               <div class="col-md-12 col-12" style="text-align:center;">
                   <img src="../assets/img/3D-book.jpg" alt="3D Book" class="book-cover" style="margin-top:0 !important">
               </div>
