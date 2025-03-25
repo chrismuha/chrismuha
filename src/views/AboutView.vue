@@ -145,7 +145,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
       <div class="faq-question"> Want to be a computer professional but are scared to learn or just do not have the money for college or self-education materials? </div>
       <div class="faq-answer"> Look no further!
       Chris authored a book to educate you on basic computing as well as expert computer repair skills.
-      His book is titled <u>The Fundamentals of Computer IT!</u> 
+      His book is titled <a href="BookView.vue"><u>The Fundamentals of Computer IT!</u> </a>
       </div>
     </div>
 

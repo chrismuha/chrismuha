@@ -11,13 +11,13 @@
                 <u><b>Remote pricing is the same as on-site <br> & drop-off software service pricing.</b></u>
               </p>
               <p class="table-underlined-text">
-                <u><b>We offer services via shipping.</b></u>
+                <u><b><i>We offer services via shipping.</i></b></u>
               </p>
               <p class="table-underlined-text">
-                <u><b>We have no subscription service.</b></u>
+                <u><b><i>We have no subscription service.</i></b></u>
               </p>
               <p class="table-underlined-text">
-                <u><b>We do not charge card fees.</b></u>
+                <u><b><i>We do not charge card fees.</i></b></u>
               </p>
             </div>
             <div class="services">
