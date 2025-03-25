@@ -13,13 +13,13 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <PageBanner banner="about" />
 
   <main class="about-container faq-container" style="margin-top: 20px;">
-    <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid red;"> </div> -->
     <!-- <div style="color: blue";> <h1>Frequently Asked Questions</h1> </div> -->
-
-
+    
+    <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid red;"> </div> -->
     <div class="faq-item">
-      <div class="faq-question"> Question? Need help? Want to know more about Chris  Want to know more about Muha Computer Repair? </div>
-      <div class="faq-answer"> Chris has over ten years of experience in computer servicing and customer service.
+      <div class="faq-question"> Question or just need help with your computing needs?
+      Want to know more about Chris? Want to know more about Muha Computer Repair? </div>
+      <div class="faq-answer"> Chris has over fifteen years of experience in computer servicing.
         
       Chris has repaired numerous software and hardware problems, which include, but are not limited to, correcting settings to better the user experience of his customers computing experience.
       
@@ -43,9 +43,15 @@ import PageBanner from '@/components/global/PageBanner.vue';
       <div class="faq-question"> Computer slowing down? </div>
       <div class="faq-answer"> Not a problem, Chris is here to tune it up to function as good as new!
       
-      The <a href="services">services</a> Chris offers and provides at Muha Computer Repair making your computers performing better than new is nothing new for us!
-    
-      Did you buy a used computer? Bring it to Chris and him tune it up to perform like you have never seen before.
+      The <a href="services">services</a> Chris offers and provides at Muha Computer Repair making your computers performing better than new is nothing new for Chris!
+      Honesty is a priority for Chris, so you will have a positive experience at Muha Computer Repair;
+      without the worry of being sold something on a commission or worry that the price you paid for services was too good to be true.
+    </div>
+  </div>
+
+    <div class="faq-item">
+      <div class="faq-question"> Did you buy a used computer? </div>
+      <div class="faq-answer"> Bring it to Chris and him tune it up to perform like you have never seen before.
     
       Chris is dedicated to his job to serve the community and is therefore committed to high-quality work and customer satisfaction.
     
@@ -53,12 +59,13 @@ import PageBanner from '@/components/global/PageBanner.vue';
     
       Chris ensures your data is private and secure.
     
-      Chris keeps you in the loop every step of the way because customer satisfaction is his highest priority. 
+      Chris keeps you in the loop every step of the way because customer satisfaction is a must.
+      Chris will strive to thrive so he will work as long as he needs to so customers are satisfied.
       </div>
     </div>
 
 
-    <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid yellow;"> </div> -->
+      <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid yellow;"> </div> -->
     <div class="faq-item">
       <div class="faq-question"> Need a new computer? </div>
       <div class="faq-answer"> Let us shop for you, we will shop within your budget for you, for a new laptop or any other technology you are looking for!
@@ -73,42 +80,39 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
       All that comes with peace of mind knowing you have a contact that feels like
       a good neighbor, a geeky friend, or just the computer guy who is here to help you when you need it
-      while keeping you in the loop with
-      computer security and upgraded technologies.
+      while keeping you in the loop with computer security and upgraded technologies.
 
       <i>*Subject to a down payment for expected equipment costs. *Service charges will apply.
       Please contact us with any questions.</i> 
       </div>
     </div>
-        
-
-    <div class="faq-item">
-      <div class="faq-question"> Did your computer get repaired by the local big foot? <!-- Is your computer running like a car hit by a lake effect snowstorm? --> </div>
-      <div class="faq-answer"> Come see us to resolve your computer issues with proper optimizations and quality repairs for a fair price,
-      not a price decided by the local big foot.
-      We assure you; your technology will run faster than it was when it came out of the box.
-      Unlike the local unicorn, our services are reasonable, fit within your budget, and are in hands that care
-      about supporting the community without hurting their wallet.
-      Per <a href="policies">Muha Computer Repair Policies</a>, employees are required to sanitize all
-      work surfaces in-between customer appointments. 
-      </div>
-    </div>
-
+    
 
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid green;"> </div> -->
     <div class="faq-item">
-      <div class="faq-question"> Need a website developed? </div>
-      <div class="faq-answer"> We are here to make your website dreams become an attractive reality to the customers you never thought you had coming.
-      We code everything from scratch, using effective and secure development processes, not strategically dragging and dropping designs into a template.
-      We are here to code everything from scratch, using effective and secure development processes, not
-      strategically dragging and dropping designs into a template using WordPress or any other website development utilities like that.
+      <div class="faq-question"> Did your computer get repaired by the local big foot? <!-- Is your computer running like a car hit by a lake effect snowstorm? --> </div>
+      <div class="faq-answer"> Come see us to resolve your computer issues with proper optimizations and quality repairs for a fair price,
+        not a price decided by the local big foot.
         
-      We are here to support your needs, ensuring your safety and understanding, as well as ours for effective communication.
+        We assure you; your technology will run faster than it was when it came out of the box.
+        Unlike the local unicorn, our services are reasonable, fit within your budget, and are in hands that care
+        about supporting the community without hurting their wallet.
         
-      <i>*We may require a contractual agreement to ensure we are on the same page to ensure a smooth business transaction.</i> 
+        Per <a href="policies">Muha Computer Repair Policies</a>, employees are required to
+        sanitize all work surfaces in-between customer appointments. 
       </div>
     </div>
-
+    
+    <div class="faq-item">
+      <div class="faq-question"> Need a website developed? </div>
+      <div class="faq-answer"> We are here to make your website dreams become an attractive reality to the customers you never thought you had coming.
+        We code everything from scratch, using effective and secure development processes, not strategically dragging and dropping designs into a template.
+        We are here to support your needs, ensuring your safety and understanding, as well as ours for effective communication.
+        <i>*We require a contractual agreement to ensure there are no monetary disputes to ensure a smooth business transaction.</i> 
+      </div>
+    </div>
+    
+    
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid blue;"> </div> -->
     <div class="faq-item">
       <div class="faq-question"> What are Chris' disabilities and why is he running a business?</div>
@@ -127,9 +131,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
       He is transported by his UCP Worker,
       so appointment times scheduled may need to be changed dependent on his schedule.
 
-      At the expense of the customer,
-      Chris also offers shipping <a href="services">services</a> for hardware
-      services, and even software services if you prefer.
+      At the expense of the customer, Chris also offers shipping <a href="services">services</a>
+      for hardware services, and even software services if you prefer.
 
       <i>*Service charges will apply.
       *Fuel/Gas charges/mileage will apply. </i> 
@@ -146,23 +149,21 @@ import PageBanner from '@/components/global/PageBanner.vue';
       </div>
     </div>
 
-
-    <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid violet;"></div> -->
     <div class="faq-item"> 
       <div class="faq-question"> Why did Chris write a book? </div>
-      <div class="faq-answer"> Chris' goal is to help those that do not know how to use technology
-      including computers, smart phones and more learn the basics of computing and even more if you want to be a computer expert.
+      <div class="faq-answer"> Chris' goal is to help those that do not know how to use technology including
+      computers, smartphones and more learn the basics of computing and even more if you want to be a computer expert.
       </div>
     </div>
     
-
     <div class="faq-item">
-      <div class="faq-question"> Have you read Chris' book? </div>
+      <div class="faq-question"> You may have read computer articles and maybe even computer books, but have you read Chris' book? </div>
       <div class="faq-answer"> You are learning from the most in-depth information that you will ever read on The Fundamentals of Computer IT! 
       </div>
     </div>
 
 
+    <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid violet;"></div> -->
     <div class="faq-item">
       <div class="faq-question"> Do you have the knowledge you need to be a computer expert? </div>
       <div class="faq-answer"> Chris hopes that you will enjoy his book and learn new tips, tricks, and more! 
