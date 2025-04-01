@@ -166,11 +166,23 @@ export default {
         },
 
         faqFunction() {
-            document.querySelectorAll('.faq-question').forEach(question => {
-              question.addEventListener('click', () => {
-                const parent = question.parentElement;
-                parent.classList.toggle('active');
-              });
+            const questions = document.querySelectorAll('.faq-question');
+            questions.forEach((question, i) => {
+                if (!question.querySelector('.read-more')) {
+                    const readMoreText = document.createElement('p');
+                    readMoreText.innerText = "Read More";
+                    question.appendChild(readMoreText);
+                    readMoreText.classList.add('read-more');
+                    readMoreText.style.marginBottom = 0;
+                }
+                
+                question.addEventListener('click', () => {
+                    const parent = question.parentElement;
+                    parent.classList.toggle('active');
+
+                    const readMoreText = question.querySelector('.read-more');
+                    readMoreText.innerText = parent.classList.contains('active') ? "Read Less" : "Read More";
+                });
             });
           },          
     }

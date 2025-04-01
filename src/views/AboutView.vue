@@ -13,8 +13,8 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <PageBanner banner="about" />
 
   <main class="about-container faq-container" style="margin-top: 20px;">
-    <!-- <div style="color: blue";> <h1>Frequently Asked Questions</h1> </div> -->
     
+    <div><h1 class="faq-header">Frequently Asked Questions</h1></div>
     <!-- <div class="about-borders" style="font-family: 'Poppins'; font-size: 10.5pt; border: 2px solid red;"> </div> -->
     <div class="faq-item">
       <div class="faq-question"> Question or just need help with your computing needs?
@@ -176,8 +176,10 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <TopSection />
   <Footer banner_light="/logo/MCRblackNred.png" banner_dark="/logo/MCRwhiteNred.png"  />
 </template>
+
 <style scoped>
 @import url('@/assets/main.css');
+@import url('@/assets/faq.css');
 
 .bitter {
   font-family: 'Poppins';
@@ -209,10 +211,7 @@ main a {
 .spacing {
   height: 32px;
 }
-</style>
 
-<style scoped>
-@import url('@/assets/faq.css');
 .faq-item {
   min-height: 32px;
   height: auto;
@@ -241,8 +240,12 @@ main a {
  .faq-item.active .faq-question {
   outline: 1px solid green;
  }
-</style>
 
+ .faq-header {
+  color: blue;
+  font-size: xx-large;
+ }
+</style>
 <script>
 import globalMixin from '@/mixins/globalMixin';
 
