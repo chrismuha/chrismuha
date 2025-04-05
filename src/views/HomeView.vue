@@ -14,9 +14,13 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <TopSection />
 
   <div class="col-12 text-center graphics-section">
-    <img src="@/assets/img/bug-graphic.png" alt="bug graphic" class="img mcr-virus-pic">
-    <img src="@/assets/img/mcr-graphic-2.png" alt="graphic 2" class="img mcr-virus-pic">
-    <img src="@/assets/img/mcr-graphic-3.png" alt="graphic 3" class="img mcr-virus-pic">
+    <div class="graphics-first-row">
+      <img src="@/assets/img/bug-graphic.png" alt="bug graphic" class="img mcr-virus-pic bug-graphic-1">
+      <img src="@/assets/img/mcr-graphic-2.png" alt="graphic 2" class="img mcr-virus-pic bug-graphic-2">
+    </div>
+    <div class="graphics-second-row">
+      <img src="@/assets/img/mcr-graphic-3.png" alt="graphic 3" class="img mcr-virus-pic bug-graphic-3">
+    </div>
   </div>
 
   <div class="container">
@@ -264,6 +268,16 @@ div span {
     width: fit-content;
     margin: auto 1rem;
   }
+}
+
+.bug-graphic-1 {
+
+}
+.bug-graphic-2 {
+
+}
+.bug-graphic-3 {
+  
 }
 </style>
 <script>

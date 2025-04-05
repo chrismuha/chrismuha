@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos.woff2') format('woff2'),
+        url('Aptos.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-BoldItalic.woff2') format('woff2'),
+        url('Aptos-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Display';
+    src: url('AptosDisplay.woff2') format('woff2'),
+        url('AptosDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-BlackItalic.woff2') format('woff2'),
+        url('Aptos-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-Bold.woff2') format('woff2'),
+        url('Aptos-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-Black.woff2') format('woff2'),
+        url('Aptos-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Display';
+    src: url('AptosDisplay-Bold.woff2') format('woff2'),
+        url('AptosDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Display';
+    src: url('AptosDisplay-Italic.woff2') format('woff2'),
+        url('AptosDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Display';
+    src: url('AptosDisplay-BoldItalic.woff2') format('woff2'),
+        url('AptosDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-ExtraBold.woff2') format('woff2'),
+        url('Aptos-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-ExtraBoldItalic.woff2') format('woff2'),
+        url('Aptos-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-Italic.woff2') format('woff2'),
+        url('Aptos-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-LightItalic.woff2') format('woff2'),
+        url('Aptos-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-Light.woff2') format('woff2'),
+        url('Aptos-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Narrow';
+    src: url('Aptos-Narrow.woff2') format('woff2'),
+        url('Aptos-Narrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Mono';
+    src: url('AptosMono-Bold.woff2') format('woff2'),
+        url('AptosMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Mono';
+    src: url('AptosMono.woff2') format('woff2'),
+        url('AptosMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Mono';
+    src: url('AptosMono-BoldItalic.woff2') format('woff2'),
+        url('AptosMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Mono';
+    src: url('AptosMono-Italic.woff2') format('woff2'),
+        url('AptosMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Narrow';
+    src: url('Aptos-Narrow-Bold-Italic.woff2') format('woff2'),
+        url('Aptos-Narrow-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-SemiBold.woff2') format('woff2'),
+        url('Aptos-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Narrow';
+    src: url('Aptos-Narrow-Bold.woff2') format('woff2'),
+        url('Aptos-Narrow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Narrow';
+    src: url('Aptos-Narrow-Italic.woff2') format('woff2'),
+        url('Aptos-Narrow-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos';
+    src: url('Aptos-SemiBoldItalic.woff2') format('woff2'),
+        url('Aptos-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Serif';
+    src: url('AptosSerif-BoldItalic.woff2') format('woff2'),
+        url('AptosSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Serif';
+    src: url('AptosSerif-Regular.woff2') format('woff2'),
+        url('AptosSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Serif';
+    src: url('AptosSerif-Bold.woff2') format('woff2'),
+        url('AptosSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aptos Serif';
+    src: url('AptosSerif-Italic.woff2') format('woff2'),
+        url('AptosSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import '../assets/fonts/stylesheet.css';
 
 * {
     touch-action: manipulation;
@@ -1264,6 +1265,7 @@ a.nav-link {
 }
 
 .top-ftc-sec h5 {
+    font-family: 'Aptos' !important;
     margin: 0;
     color: red;
     text-decoration: underline;
@@ -1966,20 +1968,31 @@ ul .book-page-no-bullets {
 /* bug graphics section */
 .graphics-section {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+    margin: auto;
+    margin-top: 37px;
+    padding: 0 1rem;
+    width: 80%;
+}
+
+.graphics-first-row {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 37px;
     margin-top: 37px;
-    padding: 0 1rem;
 }
 
-.graphics-section>img {
-    width: 482px;
+.graphics-section img {
+    width: 438px;
     margin: 0;
 }
 
 @media screen and (max-width: 550px) {
-    .graphics-section>img {
+    .graphics-section img {
         width: 100%;
     }
 }
