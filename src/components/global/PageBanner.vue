@@ -1,7 +1,7 @@
 <template>
     <div class="page-banner-wrapper">
         <div class="page-banner for-desktop" :style="bannerStyle" :data-content="bannerContent">
-            <img :src="'/banners/size-1-banners/' + banner  + '-banner-2000x740' + '.webp'" alt="page banner">
+            <img :src="'/banners/size-2-banners/' + banner  + '-banner-1800x740' + '.webp'" alt="page banner">
         </div>
         <div class="page-banner for-mobile" :style="bannerStyle" :data-content="bannerContent">
             <img :src="'/banners/size-2-banners/'+ banner  + '-banner-1800x740' + '.webp'" alt="page banner">
