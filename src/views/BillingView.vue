@@ -15,7 +15,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
   <main class="container">
     <div class="text-center centered-content" style=" position:relative; top:0; margin-bottom:0;">
       <p class="read-more"
-        style="font-size:10.5pt; font-weight:500; text-align: left;  font-family: 'Poppins'; width: 90%; margin: auto;">
+        style="font-size:16px; font-weight:500; text-align: left;  font-family: 'Poppins'; width: 90%; margin: auto;">
         To request an appointment, contact us by email to <a
           href="mailto:muhachris297@gmail.com">muhachris297@gmail.com</a> or by phone <a
           href="tel:+1 (315)-338-1919">(315)-338-1919.</a> Feel free to use the contact buttons on this website to
@@ -26,7 +26,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
         <br> You can also view the services we offer on the <a href="Services">Services Page</a> of this website.
       </p>
       <p class="read-more"
-        style="font-size:10.5pt; font-weight:500; text-align: left;  font-family: 'Poppins'; width: 90%; margin: auto;">
+        style="font-size:16px; font-weight:500; text-align: left;  font-family: 'Poppins'; width: 90%; margin: auto;">
         <br><br> Please do not be alarmed if your browser asks you if it is okay to redirect you to that website.
         Once there, please select the service(s) that you are looking for assistance with.
         Be sure to leave us a brief description of the issue(s) you are having so we can best assist you.
@@ -35,7 +35,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
     </div>
     <div class="text-center centered-content">
       <div class="text-left"
-        style="font-family: 'Poppins'; font-size:10.5pt; font-weight:500; text-align:left; width: 90%; margin: auto;">
+        style="font-family: 'Poppins'; font-size:16px; font-weight:500; text-align:left; width: 90%; margin: auto;">
         <br> You can contact us by using our contact information listed in the footer of each page of this website too.
         You can also view our hours there.
         We would be happy to assist you!

@@ -5,7 +5,8 @@
       <div class="buttons-ver-hor">
         <a class="btn schedule-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-schedule-chrismuha"
           rel="nofollow"> <i class="bi bi-calendar-event-fill" style="margin-right: 5px;"></i>SCHEDULE </a>
-        <a class="btn paybill-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-payment" rel="nofollow"> <i class="bi bi-file-earmark-check-fill" style="margin-right: 5px;"></i>PAY BILL </a>
+        <a class="btn paybill-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-payment" 
+          rel="nofollow"> <i class="bi bi-file-earmark-check-fill" style="margin-right: 5px;"></i>PAY BILL </a>
       </div>
       <div class="buttons-ver-hor">
         <a class="btn giftcard-button" style="margin-top:20px;" href="https://tinyurl.com/mcr-gift-card-balance"
@@ -73,12 +74,24 @@
 @import url('@/assets/main.css');
 
 @media screen and (max-width: 450px) {
-  .buttons-ver-hor:nth-child(2) {
+  /* .buttons-ver-hor:nth-child(2) {
     flex-direction: column;
-  }
-  .buttons-ver-hor:nth-child(2) a {
+  } */
+  /* .buttons-ver-hor:nth-child(2) a {
     width: fit-content;
     margin: auto;
+  } */
+  .buttons-ver-hor {
+    flex-direction: column;
+  }
+  .buttons-ver-hor a {
+    width: fit-content;
+    margin: auto;
+  }
+  .links-vertical {
+    flex-direction: column;
+    align-items: start !important;
+    margin: 0 1rem;
   }
 }
 </style>

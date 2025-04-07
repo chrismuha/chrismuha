@@ -14,7 +14,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
 
   <main class="container hiring-container">
         <div class="hiring custompadding">
-            <div class="bg-light-0">
+            <div class="bg-light-0" style="font-size: 16px;">
                 <p class="fw-bold mw"
                     style="font-family: 'Poppins'; font-size:14px; font-weight: 600; display: flex; justify-content: center;">
                     I am interested in having more people on my team at Muha Computer Repair.

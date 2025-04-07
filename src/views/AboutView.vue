@@ -219,14 +219,14 @@ main a {
 
 .faq-question {
   font-family: 'Poppins';
-  font-size: 10.5pt;
+  font-size: 16px;
   font-weight: 500;
   color: #ff0000;
 }
 
 .faq-answer {
   font-family: 'Poppins';
-  font-size: 10.5pt;
+  font-size: 16px;
   font-weight: 500;
   color: #ff0000;
   border: 1px solid red;

@@ -21,7 +21,7 @@ import PageBanner from '@/components/global/PageBanner.vue';
               </div>
           </div>
           <div class="px-3 mw location book-page-no-bullets"
-              style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 10.5pt; font-weight: 900; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; margin-bottom: 37px;">
+              style="font-family: 'Poppins'; display: flex; justify-content: center; font-size: 16px; font-weight: 900; text-align: left; /* border: #37B3DA solid 2px; */ border-radius: 6pt; padding: 0 6pt; margin-bottom: 37px;">
               <p>
               <ul class="read-more" style="margin-bottom: 0;"> <b><u>Chris Muha, the Owner, and Lead Technician is the author of The
                           Fundamentals of Computer IT: Knowledge to Enhance Your IT Expertise.</u></b>
