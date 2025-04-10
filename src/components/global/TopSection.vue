@@ -90,9 +90,11 @@
   }
   .links-vertical {
     flex-direction: column;
-    align-items: start !important;
     margin: 0 1rem;
   }
+}
+.links-vertical a {
+  text-align: left;
 }
 </style>
 <script>
