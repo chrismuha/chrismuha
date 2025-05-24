@@ -78,37 +78,36 @@ export default {
         initializeTheme() {
             const btn = document.getElementById('theme-switch');
             let theme = localStorage.getItem("theme");
-    
+
+            // Apply initial theme
             if (theme === "dark" || (window.matchMedia('(prefers-color-scheme: dark)').matches && !theme)) {
             document.body.classList.add('dark-theme');
-            if (btn) btn.checked = true;
             } else {
-            if (btn) btn.checked = false;
+            document.body.classList.remove('dark-theme');
             }
-    
+
             if (btn) {
-            btn.addEventListener('input', ({ target }) => {
-                if (target.checked) {
-                document.body.classList.add('dark-theme');
-                localStorage.setItem("theme", "dark");
-                } else {
-                document.body.classList.remove('dark-theme');
-                localStorage.setItem("theme", "light");
-                }
+            btn.addEventListener('click', (event) => {
+                event.preventDefault();
+                const isDark = document.body.classList.toggle('dark-theme');
+                localStorage.setItem("theme", isDark ? "dark" : "light");
             });
             }
-    
+
             window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-            if (event.matches) {
+            const prefersDark = event.matches;
+            const userSetTheme = localStorage.getItem("theme");
+
+            if (!userSetTheme) {
+                if (prefersDark) {
                 document.body.classList.add('dark-theme');
-                if (btn) btn.checked = true;
-            } else {
-                if (btn) btn.checked = false;
+                } else {
                 document.body.classList.remove('dark-theme');
+                }
             }
             });
         },
-    
+
         handleScrollEvents() {
             const circleTopButton = document.getElementById("top");
             if (!circleTopButton) return;

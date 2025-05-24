@@ -54,7 +54,11 @@
 
             </div>
 
-            <input type="checkbox" id="theme-switch" class="theme-switcher">
+            <a id="theme-switch" class="theme-switcher">
+                <span id="toggler-circle"></span>
+                <i class="bi bi-moon"></i>
+                <i class="bi bi-sun"></i>
+            </a>
         </div>
     </nav>
 </template>
