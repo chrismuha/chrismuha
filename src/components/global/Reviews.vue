@@ -21,10 +21,10 @@
     </div>
   </div>
 
-  <div class="review-slider reviews-responses-slider">
+  <div class="review-slider google-reviews-responses-slider">
     <p>GOOGLE REVIEWS RESPONSES</p>
-    <div class="swiper mySwiper review-responses">
-      <div class="swiper-wrapper has-auto-number" data-type="responses">
+    <div class="swiper mySwiper google-review-responses">
+      <div class="swiper-wrapper has-auto-number" data-type="google-responses">
 
       </div>
 
